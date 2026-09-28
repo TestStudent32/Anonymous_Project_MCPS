@@ -1,0 +1,86 @@
+{
+ "cisa_curated": {
+  "cves": 341,
+  "with_module": 0,
+  "coverage_pct": 0.0,
+  "modules": 0,
+  "covered": {}
+ },
+ "medical_valid": {
+  "cves": 1281,
+  "with_module": 15,
+  "coverage_pct": 1.2,
+  "modules": 34,
+  "covered": {
+   "CVE-2013-10044": [
+    "exploit_unix/webapp/openemr_sqli_privesc_upload"
+   ],
+   "CVE-2017-0143": [
+    "auxiliary_admin/smb/ms17_010_command",
+    "auxiliary_scanner/smb/smb_ms17_010",
+    "exploit_windows/smb/ms17_010_eternalblue",
+    "exploit_windows/smb/ms17_010_psexec",
+    "exploit_windows/smb/smb_doublepulsar_rce"
+   ],
+   "CVE-2017-0144": [
+    "auxiliary_scanner/smb/smb_ms17_010",
+    "exploit_windows/smb/ms17_010_eternalblue",
+    "exploit_windows/smb/smb_doublepulsar_rce"
+   ],
+   "CVE-2017-0145": [
+    "auxiliary_scanner/smb/smb_ms17_010",
+    "exploit_windows/smb/ms17_010_eternalblue",
+    "exploit_windows/smb/smb_doublepulsar_rce"
+   ],
+   "CVE-2017-0146": [
+    "auxiliary_admin/smb/ms17_010_command",
+    "auxiliary_scanner/smb/smb_ms17_010",
+    "exploit_windows/smb/ms17_010_eternalblue",
+    "exploit_windows/smb/ms17_010_psexec",
+    "exploit_windows/smb/smb_doublepulsar_rce"
+   ],
+   "CVE-2017-0147": [
+    "auxiliary_admin/smb/ms17_010_command",
+    "auxiliary_scanner/smb/smb_ms17_010",
+    "exploit_windows/smb/ms17_010_eternalblue",
+    "exploit_windows/smb/ms17_010_psexec",
+    "exploit_windows/smb/smb_doublepulsar_rce"
+   ],
+   "CVE-2017-0148": [
+    "auxiliary_scanner/smb/smb_ms17_010",
+    "exploit_windows/smb/ms17_010_eternalblue",
+    "exploit_windows/smb/smb_doublepulsar_rce"
+   ],
+   "CVE-2018-17179": [
+    "auxiliary_sqli/openemr/openemr_sqli_dump"
+   ],
+   "CVE-2018-19276": [
+    "exploit_multi/http/openmrs_deserialization"
+   ],
+   "CVE-2018-25113": [
+    "auxiliary_scanner/http/dicoogle_traversal"
+   ],
+   "CVE-2019-0708": [
+    "auxiliary_scanner/rdp/cve_2019_0708_bluekeep",
+    "exploit_windows/rdp/cve_2019_0708_bluekeep_rce"
+   ],
+   "CVE-2023-32781": [
+    "exploit_windows/http/prtg_authenticated_rce_cve_2023_32781"
+   ],
+   "CVE-2024-7954": [
+    "exploit_multi/http/spip_porte_plume_previsu_rce"
+   ],
+   "CVE-2025-2011": [
+    "auxiliary_gather/wp_depicter_sqli_cve_2025_2011"
+   ],
+   "CVE-2025-2264": [
+    "auxiliary_gather/pacsserver_traversal"
+   ]
+  }
+ },
+ "consumer_iot": {
+  "cves": 208,
+  "with_module": 54,
+  "coverage_pct": 26.0
+ }
+}

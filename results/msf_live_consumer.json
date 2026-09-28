@@ -1,0 +1,594 @@
+{
+  "enrichment": {
+    "valid_cve_count": 208,
+    "cves_with_module_live": 54,
+    "cves_with_exploit_module": 41,
+    "cves_with_reliable_module": 31,
+    "coverage_pct_live": 26.0,
+    "reliable_pct": 14.9,
+    "best_rank_histogram": {
+      "Excellent": 28,
+      "Manual": 2,
+      "Normal": 21,
+      "Great": 2,
+      "Good": 1
+    },
+    "coverage_by_category": {
+      "hardware": {
+        "valid": 130,
+        "with_module": 44,
+        "reliable": 28,
+        "coverage_pct": 33.8
+      },
+      "other": {
+        "valid": 5,
+        "with_module": 1,
+        "reliable": 0,
+        "coverage_pct": 20.0
+      },
+      "firmware_os": {
+        "valid": 21,
+        "with_module": 5,
+        "reliable": 2,
+        "coverage_pct": 23.8
+      },
+      "software": {
+        "valid": 52,
+        "with_module": 4,
+        "reliable": 1,
+        "coverage_pct": 7.7
+      }
+    },
+    "per_cve_modules": {
+      "CVE-2013-10048": [
+        {
+          "fullname": "exploit/linux/http/dlink_command_php_exec_noauth",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2013-10050": [
+        {
+          "fullname": "exploit/linux/http/dlink_dir300_exec_telnet",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2013-10059": [
+        {
+          "fullname": "exploit/linux/http/dlink_dir615_up_exec",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2013-10060": [
+        {
+          "fullname": "exploit/linux/http/netgear_dgn2200b_pppoe_exec",
+          "type": "exploit",
+          "rank": 0,
+          "rank_name": "Manual",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2013-10061": [
+        {
+          "fullname": "exploit/linux/http/netgear_dgn1000b_setup_exec",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2013-10069": [
+        {
+          "fullname": "auxiliary/admin/http/dlink_dir_300_600_exec_noauth",
+          "type": "auxiliary",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2013-2751": [
+        {
+          "fullname": "exploit/linux/http/netgear_readynas_exec",
+          "type": "exploit",
+          "rank": 0,
+          "rank_name": "Manual",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2013-5019": [
+        {
+          "fullname": "exploit/windows/http/ultraminihttp_bof",
+          "type": "exploit",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2013-7389": [
+        {
+          "fullname": "exploit/linux/http/dlink_authentication_cgi_bof",
+          "type": "exploit",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        },
+        {
+          "fullname": "exploit/linux/http/dlink_hedwig_cgi_bof",
+          "type": "exploit",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2014-0659": [
+        {
+          "fullname": "auxiliary/scanner/misc/sercomm_backdoor_scanner",
+          "type": "auxiliary",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        },
+        {
+          "fullname": "exploit/linux/misc/sercomm_exec",
+          "type": "exploit",
+          "rank": 500,
+          "rank_name": "Great",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2014-125117": [
+        {
+          "fullname": "exploit/linux/http/dlink_dspw215_info_cgi_bof",
+          "type": "exploit",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2014-4880": [
+        {
+          "fullname": "exploit/linux/misc/hikvision_rtsp_bof",
+          "type": "exploit",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2014-8361": [
+        {
+          "fullname": "exploit/linux/http/dlink_upnp_exec_noauth",
+          "type": "exploit",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        },
+        {
+          "fullname": "exploit/linux/http/realtek_miniigd_upnp_exec_noauth",
+          "type": "exploit",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2014-9707": [
+        {
+          "fullname": "auxiliary/scanner/http/goahead_traversal",
+          "type": "auxiliary",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2016-10174": [
+        {
+          "fullname": "exploit/linux/http/netgear_wnr2000_rce",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2016-10175": [
+        {
+          "fullname": "auxiliary/admin/http/netgear_wnr2000_pass_recovery",
+          "type": "auxiliary",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2016-10176": [
+        {
+          "fullname": "auxiliary/admin/http/netgear_wnr2000_pass_recovery",
+          "type": "auxiliary",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2016-10372": [
+        {
+          "fullname": "exploit/linux/http/tr064_ntpserver_cmdinject",
+          "type": "exploit",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2016-11021": [
+        {
+          "fullname": "exploit/linux/http/dlink_dcs_930l_authenticated_remote_command_execution",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2016-1524": [
+        {
+          "fullname": "auxiliary/admin/http/netgear_auth_download",
+          "type": "auxiliary",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2016-1555": [
+        {
+          "fullname": "exploit/linux/http/netgear_unauth_exec",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2016-5674": [
+        {
+          "fullname": "exploit/linux/http/nuuo_nvrmini_unauth_rce",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2016-5675": [
+        {
+          "fullname": "exploit/linux/http/nuuo_nvrmini_auth_rce",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2016-5676": [
+        {
+          "fullname": "auxiliary/admin/http/nuuo_nvrmini_reset",
+          "type": "auxiliary",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2016-6277": [
+        {
+          "fullname": "exploit/linux/http/netgear_r7000_cgibin_exec",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2017-17105": [
+        {
+          "fullname": "exploit/unix/http/zivif_ipcheck_exec",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2017-17562": [
+        {
+          "fullname": "exploit/linux/http/goahead_ldpreload",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2017-18368": [
+        {
+          "fullname": "exploit/linux/http/trueonline_p660hn_v1_rce",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2017-18370": [
+        {
+          "fullname": "exploit/linux/http/trueonline_p660hn_v2_rce",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2017-18371": [
+        {
+          "fullname": "exploit/linux/http/trueonline_p660hn_v2_rce",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2017-5521": [
+        {
+          "fullname": "auxiliary/gather/netgear_password_disclosure",
+          "type": "auxiliary",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2017-6334": [
+        {
+          "fullname": "exploit/linux/http/netgear_dnslookup_cmd_exec",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2017-7921": [
+        {
+          "fullname": "auxiliary/admin/http/hikvision_unauth_pwd_reset_cve_2017_7921",
+          "type": "auxiliary",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        },
+        {
+          "fullname": "auxiliary/gather/hikvision_info_disclosure_cve_2017_7921",
+          "type": "auxiliary",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2019-12258": [
+        {
+          "fullname": "auxiliary/scanner/vxworks/urgent11_check",
+          "type": "auxiliary",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2019-13373": [
+        {
+          "fullname": "auxiliary/sqli/dlink/dlink_central_wifimanager_sqli",
+          "type": "auxiliary",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2019-17508": [
+        {
+          "fullname": "exploit/linux/http/dlink_dir850l_unauth_exec",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2019-17621": [
+        {
+          "fullname": "exploit/linux/upnp/dlink_dir859_subscribe_exec",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2019-20499": [
+        {
+          "fullname": "exploit/linux/http/dlink_dwl_2600_command_injection",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2019-7256": [
+        {
+          "fullname": "exploit/linux/http/linear_emerge_unauth_rce_cve_2019_7256",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2020-10882": [
+        {
+          "fullname": "exploit/linux/misc/tplink_archer_a7_c7_lan_rce",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2020-10884": [
+        {
+          "fullname": "exploit/linux/misc/tplink_archer_a7_c7_lan_rce",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2020-10923": [
+        {
+          "fullname": "auxiliary/admin/http/netgear_r6700_pass_reset",
+          "type": "auxiliary",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2020-10924": [
+        {
+          "fullname": "auxiliary/admin/http/netgear_r6700_pass_reset",
+          "type": "auxiliary",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2021-31802": [
+        {
+          "fullname": "auxiliary/admin/http/netgear_r7000_backup_cgi_heap_overflow_rce",
+          "type": "auxiliary",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2021-36260": [
+        {
+          "fullname": "exploit/linux/http/hikvision_cve_2021_36260_blind",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2021-44228": [
+        {
+          "fullname": "auxiliary/scanner/http/log4shell_scanner",
+          "type": "auxiliary",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        },
+        {
+          "fullname": "exploit/linux/http/mobileiron_core_log4shell",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        },
+        {
+          "fullname": "exploit/multi/http/log4shell_header_injection",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        },
+        {
+          "fullname": "exploit/multi/http/ubiquiti_unifi_log4shell",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        },
+        {
+          "fullname": "exploit/multi/http/vmware_vcenter_log4shell",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2022-30525": [
+        {
+          "fullname": "exploit/linux/http/zyxel_ztp_rce",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2022-30526": [
+        {
+          "fullname": "exploit/linux/local/zyxel_suid_cp_lpe",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2023-28769": [
+        {
+          "fullname": "exploit/linux/misc/zyxel_multiple_devices_zhttp_lan_rce",
+          "type": "exploit",
+          "rank": 400,
+          "rank_name": "Good",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2023-28770": [
+        {
+          "fullname": "exploit/linux/http/zyxel_lfi_unauth_ssh_rce",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2023-28771": [
+        {
+          "fullname": "exploit/linux/misc/zyxel_ike_decoder_rce_cve_2023_28771",
+          "type": "exploit",
+          "rank": 500,
+          "rank_name": "Great",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2023-33012": [
+        {
+          "fullname": "exploit/linux/http/zyxel_parse_config_rce",
+          "type": "exploit",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2024-12847": [
+        {
+          "fullname": "exploit/linux/http/netgear_dgn1000_setup_unauth_exec",
+          "type": "exploit",
+          "rank": 600,
+          "rank_name": "Excellent",
+          "disclosure_date": ""
+        }
+      ],
+      "CVE-2025-34125": [
+        {
+          "fullname": "exploit/linux/http/dlink_dspw110_cookie_noauth_exec",
+          "type": "exploit",
+          "rank": 300,
+          "rank_name": "Normal",
+          "disclosure_date": ""
+        }
+      ]
+    }
+  },
+  "offline_vs_live": {
+    "offline_covered": 54,
+    "live_covered": 54,
+    "both": 54,
+    "offline_only": [],
+    "live_only": []
+  }
+}

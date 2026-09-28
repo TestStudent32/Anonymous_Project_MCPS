@@ -1,0 +1,332 @@
+{
+  "iomt_valid": {
+    "enrichment": {
+      "valid_cve_count": 1281,
+      "cves_with_module_live": 15,
+      "cves_with_exploit_module": 11,
+      "cves_with_reliable_module": 9,
+      "coverage_pct_live": 1.2,
+      "reliable_pct": 0.7,
+      "best_rank_histogram": {
+        "Excellent": 3,
+        "Great": 6,
+        "Normal": 6
+      },
+      "coverage_by_category": {
+        "other": {
+          "valid": 1281,
+          "with_module": 15,
+          "reliable": 9,
+          "coverage_pct": 1.2
+        }
+      },
+      "per_cve_modules": {
+        "CVE-2013-10044": [
+          {
+            "fullname": "exploit/unix/webapp/openemr_sqli_privesc_upload",
+            "type": "exploit",
+            "rank": 600,
+            "rank_name": "Excellent",
+            "disclosure_date": ""
+          }
+        ],
+        "CVE-2017-0143": [
+          {
+            "fullname": "auxiliary/admin/smb/ms17_010_command",
+            "type": "auxiliary",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "auxiliary/scanner/smb/smb_ms17_010",
+            "type": "auxiliary",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "exploit/windows/smb/ms17_010_eternalblue",
+            "type": "exploit",
+            "rank": 200,
+            "rank_name": "Average",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "exploit/windows/smb/ms17_010_psexec",
+            "type": "exploit",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "exploit/windows/smb/smb_doublepulsar_rce",
+            "type": "exploit",
+            "rank": 500,
+            "rank_name": "Great",
+            "disclosure_date": ""
+          }
+        ],
+        "CVE-2017-0144": [
+          {
+            "fullname": "auxiliary/scanner/smb/smb_ms17_010",
+            "type": "auxiliary",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "exploit/windows/smb/ms17_010_eternalblue",
+            "type": "exploit",
+            "rank": 200,
+            "rank_name": "Average",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "exploit/windows/smb/smb_doublepulsar_rce",
+            "type": "exploit",
+            "rank": 500,
+            "rank_name": "Great",
+            "disclosure_date": ""
+          }
+        ],
+        "CVE-2017-0145": [
+          {
+            "fullname": "auxiliary/scanner/smb/smb_ms17_010",
+            "type": "auxiliary",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "exploit/windows/smb/ms17_010_eternalblue",
+            "type": "exploit",
+            "rank": 200,
+            "rank_name": "Average",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "exploit/windows/smb/smb_doublepulsar_rce",
+            "type": "exploit",
+            "rank": 500,
+            "rank_name": "Great",
+            "disclosure_date": ""
+          }
+        ],
+        "CVE-2017-0146": [
+          {
+            "fullname": "auxiliary/admin/smb/ms17_010_command",
+            "type": "auxiliary",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "auxiliary/scanner/smb/smb_ms17_010",
+            "type": "auxiliary",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "exploit/windows/smb/ms17_010_eternalblue",
+            "type": "exploit",
+            "rank": 200,
+            "rank_name": "Average",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "exploit/windows/smb/ms17_010_psexec",
+            "type": "exploit",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "exploit/windows/smb/smb_doublepulsar_rce",
+            "type": "exploit",
+            "rank": 500,
+            "rank_name": "Great",
+            "disclosure_date": ""
+          }
+        ],
+        "CVE-2017-0147": [
+          {
+            "fullname": "auxiliary/admin/smb/ms17_010_command",
+            "type": "auxiliary",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "auxiliary/scanner/smb/smb_ms17_010",
+            "type": "auxiliary",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "exploit/windows/smb/ms17_010_eternalblue",
+            "type": "exploit",
+            "rank": 200,
+            "rank_name": "Average",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "exploit/windows/smb/ms17_010_psexec",
+            "type": "exploit",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "exploit/windows/smb/smb_doublepulsar_rce",
+            "type": "exploit",
+            "rank": 500,
+            "rank_name": "Great",
+            "disclosure_date": ""
+          }
+        ],
+        "CVE-2017-0148": [
+          {
+            "fullname": "auxiliary/scanner/smb/smb_ms17_010",
+            "type": "auxiliary",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "exploit/windows/smb/ms17_010_eternalblue",
+            "type": "exploit",
+            "rank": 200,
+            "rank_name": "Average",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "exploit/windows/smb/smb_doublepulsar_rce",
+            "type": "exploit",
+            "rank": 500,
+            "rank_name": "Great",
+            "disclosure_date": ""
+          }
+        ],
+        "CVE-2018-17179": [
+          {
+            "fullname": "auxiliary/sqli/openemr/openemr_sqli_dump",
+            "type": "auxiliary",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          }
+        ],
+        "CVE-2018-19276": [
+          {
+            "fullname": "exploit/multi/http/openmrs_deserialization",
+            "type": "exploit",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          }
+        ],
+        "CVE-2018-25113": [
+          {
+            "fullname": "auxiliary/scanner/http/dicoogle_traversal",
+            "type": "auxiliary",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          }
+        ],
+        "CVE-2019-0708": [
+          {
+            "fullname": "auxiliary/scanner/rdp/cve_2019_0708_bluekeep",
+            "type": "auxiliary",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          },
+          {
+            "fullname": "exploit/windows/rdp/cve_2019_0708_bluekeep_rce",
+            "type": "exploit",
+            "rank": 0,
+            "rank_name": "Manual",
+            "disclosure_date": ""
+          }
+        ],
+        "CVE-2023-32781": [
+          {
+            "fullname": "exploit/windows/http/prtg_authenticated_rce_cve_2023_32781",
+            "type": "exploit",
+            "rank": 600,
+            "rank_name": "Excellent",
+            "disclosure_date": ""
+          }
+        ],
+        "CVE-2024-7954": [
+          {
+            "fullname": "exploit/multi/http/spip_porte_plume_previsu_rce",
+            "type": "exploit",
+            "rank": 600,
+            "rank_name": "Excellent",
+            "disclosure_date": ""
+          }
+        ],
+        "CVE-2025-2011": [
+          {
+            "fullname": "auxiliary/gather/wp_depicter_sqli_cve_2025_2011",
+            "type": "auxiliary",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          }
+        ],
+        "CVE-2025-2264": [
+          {
+            "fullname": "auxiliary/gather/pacsserver_traversal",
+            "type": "auxiliary",
+            "rank": 300,
+            "rank_name": "Normal",
+            "disclosure_date": ""
+          }
+        ]
+      },
+      "unverifiable_matches": []
+    },
+    "offline_vs_live": {
+      "offline_covered": 15,
+      "live_covered": 15,
+      "both": 15,
+      "offline_only": [],
+      "live_only": []
+    }
+  },
+  "cisa_ground_truth": {
+    "enrichment": {
+      "valid_cve_count": 341,
+      "cves_with_module_live": 0,
+      "cves_with_exploit_module": 0,
+      "cves_with_reliable_module": 0,
+      "coverage_pct_live": 0.0,
+      "reliable_pct": 0.0,
+      "best_rank_histogram": {},
+      "coverage_by_category": {
+        "other": {
+          "valid": 341,
+          "with_module": 0,
+          "reliable": 0,
+          "coverage_pct": 0.0
+        }
+      },
+      "per_cve_modules": {},
+      "unverifiable_matches": []
+    },
+    "offline_vs_live": {
+      "offline_covered": 0,
+      "live_covered": 0,
+      "both": 0,
+      "offline_only": [],
+      "live_only": []
+    }
+  },
+  "msf_version": "6.5.3-dev-"
+}

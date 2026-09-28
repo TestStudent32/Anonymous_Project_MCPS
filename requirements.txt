@@ -1,0 +1,6 @@
+# Verifying the paper offline needs only matplotlib (for the figures); the
+# checks themselves use the standard library.
+matplotlib>=3.7
+
+# Only for run/verify_live.py, which talks to a running Metasploit over msfrpcd.
+pymetasploit3>=1.0.3
