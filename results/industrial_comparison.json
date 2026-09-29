@@ -1,0 +1,219 @@
+{
+ "industrial": {
+  "cves": 3429,
+  "metasploit": 48,
+  "coverage_pct": 1.4,
+  "kev": 9,
+  "kev_cves": [
+   "CVE-2014-0780",
+   "CVE-2016-4523",
+   "CVE-2017-7921",
+   "CVE-2021-22681",
+   "CVE-2021-38406",
+   "CVE-2023-4346",
+   "CVE-2025-0994",
+   "CVE-2025-1316",
+   "CVE-2025-67038"
+  ],
+  "weakness": {
+   "cves_with_cwe": 3354,
+   "cves_without_cwe": 75,
+   "design": {
+    "n": 728,
+    "pct": 21.7
+   },
+   "implementation": {
+    "n": 1281,
+    "pct": 38.2
+   },
+   "other": {
+    "n": 1752,
+    "pct": 52.2
+   },
+   "top_cwes": [
+    [
+     "CWE-787",
+     261
+    ],
+    [
+     "CWE-121",
+     195
+    ],
+    [
+     "CWE-119",
+     182
+    ],
+    [
+     "CWE-79",
+     170
+    ],
+    [
+     "CWE-306",
+     160
+    ],
+    [
+     "CWE-22",
+     151
+    ],
+    [
+     "CWE-89",
+     126
+    ],
+    [
+     "CWE-200",
+     123
+    ],
+    [
+     "CWE-20",
+     117
+    ],
+    [
+     "CWE-798",
+     113
+    ]
+   ]
+  },
+  "mechanism": {
+   "total": 3429,
+   "attack_vector": {
+    "NETWORK": {
+     "n": 2421,
+     "pct": 71
+    },
+    "LOCAL": {
+     "n": 700,
+     "pct": 20
+    },
+    "ADJACENT_NETWORK": {
+     "n": 182,
+     "pct": 5
+    },
+    "UNKNOWN": {
+     "n": 87,
+     "pct": 3
+    },
+    "PHYSICAL": {
+     "n": 39,
+     "pct": 1
+    }
+   },
+   "design_flaws": {
+    "n": 728,
+    "pct": 21,
+    "pct_of_network_reachable": 24
+   },
+   "plausible_module_targets": {
+    "n": 1845,
+    "pct": 54,
+    "excluding_crypto": 1794
+   },
+   "high_or_critical": {
+    "n": 2418,
+    "pct": 71
+   }
+  }
+ },
+ "medical": {
+  "cves": 341,
+  "metasploit": 0,
+  "coverage_pct": 0.0,
+  "kev": 0,
+  "weakness": {
+   "cves_with_cwe": 340,
+   "cves_without_cwe": 1,
+   "design": {
+    "n": 132,
+    "pct": 38.8
+   },
+   "implementation": {
+    "n": 55,
+    "pct": 16.2
+   },
+   "other": {
+    "n": 196,
+    "pct": 57.6
+   },
+   "top_cwes": [
+    [
+     "CWE-798",
+     35
+    ],
+    [
+     "CWE-287",
+     30
+    ],
+    [
+     "CWE-319",
+     17
+    ],
+    [
+     "CWE-522",
+     17
+    ],
+    [
+     "CWE-787",
+     16
+    ],
+    [
+     "CWE-284",
+     14
+    ],
+    [
+     "CWE-306",
+     13
+    ],
+    [
+     "CWE-20",
+     11
+    ],
+    [
+     "CWE-79",
+     11
+    ],
+    [
+     "CWE-259",
+     10
+    ]
+   ]
+  },
+  "mechanism": {
+   "total": 341,
+   "attack_vector": {
+    "NETWORK": {
+     "n": 169,
+     "pct": 50
+    },
+    "ADJACENT_NETWORK": {
+     "n": 69,
+     "pct": 20
+    },
+    "LOCAL": {
+     "n": 54,
+     "pct": 16
+    },
+    "PHYSICAL": {
+     "n": 48,
+     "pct": 14
+    },
+    "UNKNOWN": {
+     "n": 1,
+     "pct": 0
+    }
+   },
+   "design_flaws": {
+    "n": 132,
+    "pct": 39,
+    "pct_of_network_reachable": 40
+   },
+   "plausible_module_targets": {
+    "n": 102,
+    "pct": 30,
+    "excluding_crypto": 92
+   },
+   "high_or_critical": {
+    "n": 170,
+    "pct": 50
+   }
+  }
+ }
+}

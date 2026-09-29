@@ -1,0 +1,73 @@
+{
+ "by_device_class": {
+  "IOMT-IMAGING-PACS": {
+   "cves": 627,
+   "with_module": 9,
+   "coverage_pct": 1.4,
+   "name": "Imaging / PACS"
+  },
+  "IOMT-EHR-GATEWAY": {
+   "cves": 377,
+   "with_module": 5,
+   "coverage_pct": 1.3,
+   "name": "EHR / HL7 gateway"
+  },
+  "IOMT-PROTO-DICOM": {
+   "cves": 162,
+   "with_module": 2,
+   "coverage_pct": 1.2,
+   "name": "DICOM (protocol)"
+  },
+  "IOMT-INFUSION-PUMP": {
+   "cves": 144,
+   "with_module": 2,
+   "coverage_pct": 1.4,
+   "name": "Infusion / insulin pump"
+  },
+  "IOMT-PATIENT-MONITOR": {
+   "cves": 136,
+   "with_module": 1,
+   "coverage_pct": 0.7,
+   "name": "Patient monitor"
+  },
+  "IOMT-GLUCOSE-CGM": {
+   "cves": 129,
+   "with_module": 0,
+   "coverage_pct": 0.0,
+   "name": "Glucose meter / CGM"
+  },
+  "IOMT-CARDIAC-IMPLANT": {
+   "cves": 62,
+   "with_module": 0,
+   "coverage_pct": 0.0,
+   "name": "Cardiac implant / programmer"
+  },
+  "IOMT-PROTO-HL7": {
+   "cves": 54,
+   "with_module": 2,
+   "coverage_pct": 3.7,
+   "name": "HL7 / FHIR (protocol)"
+  },
+  "IOMT-DIAGNOSTIC-LAB": {
+   "cves": 39,
+   "with_module": 0,
+   "coverage_pct": 0.0,
+   "name": "Diagnostic analyser"
+  },
+  "IOMT-VENTILATOR": {
+   "cves": 32,
+   "with_module": 0,
+   "coverage_pct": 0.0,
+   "name": "Ventilator / anaesthesia"
+  }
+ },
+ "curated_set_by_cpe_part": {
+  "application": 116,
+  "hardware + operating system": 144,
+  "application + hardware": 2,
+  "application + operating system": 3,
+  "application + hardware + operating system": 19,
+  "operating system": 1,
+  "(no CPE recorded)": 56
+ }
+}

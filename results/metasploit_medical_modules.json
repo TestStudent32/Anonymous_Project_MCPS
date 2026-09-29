@@ -1,0 +1,220 @@
+{
+ "summary": {
+  "modules_total": 7158,
+  "medical_modules": 8,
+  "medical_pct": 0.11,
+  "naming_a_device_vendor": 0,
+  "ambiguous_needing_review": 16,
+  "by_type": {
+   "auxiliary": 3,
+   "exploit": 5
+  },
+  "top_terms": [
+   [
+    "openemr",
+    3
+   ],
+   [
+    "pacs",
+    2
+   ],
+   [
+    "clinic",
+    2
+   ],
+   [
+    "patient",
+    2
+   ],
+   [
+    "dicoogle",
+    1
+   ],
+   [
+    "medical",
+    1
+   ],
+   [
+    "openmrs",
+    1
+   ]
+  ]
+ },
+ "medical": {
+  "auxiliary_gather/pacsserver_traversal": {
+   "terms": [
+    "pacs"
+   ],
+   "type": "auxiliary",
+   "rank": 300,
+   "disclosure_date": "2025-03-13",
+   "name": "Sante PACS Server Path Traversal (CVE-2025-2264)"
+  },
+  "auxiliary_scanner/http/dicoogle_traversal": {
+   "terms": [
+    "dicoogle",
+    "pacs"
+   ],
+   "type": "auxiliary",
+   "rank": 300,
+   "disclosure_date": "2018-07-11",
+   "name": "Dicoogle PACS Web Server Directory Traversal"
+  },
+  "auxiliary_sqli/openemr/openemr_sqli_dump": {
+   "terms": [
+    "openemr"
+   ],
+   "type": "auxiliary",
+   "rank": 300,
+   "disclosure_date": "2019-05-17",
+   "name": "OpenEMR 5.0.1 Patch 6 SQLi Dump"
+  },
+  "exploit_multi/http/clinic_pms_fileupload_rce": {
+   "terms": [
+    "clinic",
+    "patient"
+   ],
+   "type": "exploit",
+   "rank": 600,
+   "disclosure_date": "2022-10-31",
+   "name": "Clinic's Patient Management System 1.0 - Unauthenticated RCE"
+  },
+  "exploit_multi/http/clinic_pms_sqli_to_rce": {
+   "terms": [
+    "clinic",
+    "patient"
+   ],
+   "type": "exploit",
+   "rank": 600,
+   "disclosure_date": "2025-01-04",
+   "name": "Clinic's Patient Management System 1.0 - Unauthenticated RCE"
+  },
+  "exploit_multi/http/openmrs_deserialization": {
+   "terms": [
+    "medical",
+    "openmrs"
+   ],
+   "type": "exploit",
+   "rank": 300,
+   "disclosure_date": "2019-02-04",
+   "name": "OpenMRS Java Deserialization RCE"
+  },
+  "exploit_unix/webapp/openemr_sqli_privesc_upload": {
+   "terms": [
+    "openemr"
+   ],
+   "type": "exploit",
+   "rank": 600,
+   "disclosure_date": "2013-09-16",
+   "name": "OpenEMR 4.1.1 Patch 14 SQLi Privilege Escalation Remote Code Execution"
+  },
+  "exploit_unix/webapp/openemr_upload_exec": {
+   "terms": [
+    "openemr"
+   ],
+   "type": "exploit",
+   "rank": 600,
+   "disclosure_date": "2013-02-13",
+   "name": "OpenEMR PHP File Upload Vulnerability"
+  }
+ },
+ "vendor_named": {},
+ "ambiguous": {
+  "auxiliary_admin/http/tomcat_ghostcat": {
+   "terms": [
+    "care"
+   ],
+   "name": "Apache Tomcat AJP File Read"
+  },
+  "auxiliary_gather/saltstack_salt_root_key": {
+   "terms": [
+    "lab"
+   ],
+   "name": "SaltStack Salt Master Server Root Key Disclosure"
+  },
+  "auxiliary_gather/windows_secrets_dump": {
+   "terms": [
+    "care"
+   ],
+   "name": "Windows Secrets Dump"
+  },
+  "auxiliary_scanner/http/jupyter_login": {
+   "terms": [
+    "lab"
+   ],
+   "name": "Jupyter Login Utility"
+  },
+  "auxiliary_server/relay/http_to_ldap": {
+   "terms": [
+    "care"
+   ],
+   "name": "Microsoft Windows HTTP to LDAP Relay"
+  },
+  "auxiliary_server/relay/smb_to_ldap": {
+   "terms": [
+    "care"
+   ],
+   "name": "Microsoft Windows SMB to LDAP Relay"
+  },
+  "exploit_linux/http/cpi_tararchive_upload": {
+   "terms": [
+    "health"
+   ],
+   "name": "Cisco Prime Infrastructure Health Monitor TarArchive Directory Traversal Vulnerability"
+  },
+  "exploit_linux/http/vmware_vcenter_vsan_health_rce": {
+   "terms": [
+    "health"
+   ],
+   "name": "VMware vCenter Server Virtual SAN Health Check Plugin RCE"
+  },
+  "exploit_linux/misc/saltstack_salt_unauth_rce": {
+   "terms": [
+    "lab"
+   ],
+   "name": "SaltStack Salt Master/Minion Unauthenticated RCE"
+  },
+  "exploit_multi/http/mybb_rce_cve_2022_24734": {
+   "terms": [
+    "care"
+   ],
+   "name": "MyBB Admin Control Code Injection RCE"
+  },
+  "exploit_windows/browser/hp_easy_printer_care_xmlcachemgr": {
+   "terms": [
+    "care"
+   ],
+   "name": "HP Easy Printer Care XMLCacheMgr Class ActiveX Control Remote Code Execution"
+  },
+  "exploit_windows/browser/hp_easy_printer_care_xmlsimpleaccessor": {
+   "terms": [
+    "care"
+   ],
+   "name": "HP Easy Printer Care XMLSimpleAccessor Class ActiveX Control Remote Code Execution"
+  },
+  "exploit_windows/browser/systemrequirementslab_unsafe": {
+   "terms": [
+    "lab"
+   ],
+   "name": "Husdawg, LLC. System Requirements Lab ActiveX Unsafe Method"
+  },
+  "exploit_windows/local/bits_ntlm_token_impersonation": {
+   "terms": [
+    "lab"
+   ],
+   "name": "SYSTEM token impersonation through NTLM bits authentication on missing WinRM Service."
+  },
+  "exploit_windows/pop3/seattlelab_pass": {
+   "terms": [
+    "lab"
+   ],
+   "name": "Seattle Lab Mail 5.5 POP3 Buffer Overflow"
+  },
+  "post_windows/manage/vmdk_mount": {
+   "terms": [
+    "care"
+   ],
+   "name": "Windows Manage VMDK Mount Drive"
+  }
+ }
+}

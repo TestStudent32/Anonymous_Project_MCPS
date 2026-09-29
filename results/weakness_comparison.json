@@ -1,0 +1,122 @@
+{
+ "medical": {
+  "cves_with_cwe": 340,
+  "cves_without_cwe": 1,
+  "design": {
+   "n": 132,
+   "pct": 38.8
+  },
+  "implementation": {
+   "n": 55,
+   "pct": 16.2
+  },
+  "other": {
+   "n": 196,
+   "pct": 57.6
+  },
+  "top_cwes": [
+   [
+    "CWE-798",
+    35
+   ],
+   [
+    "CWE-287",
+    30
+   ],
+   [
+    "CWE-319",
+    17
+   ],
+   [
+    "CWE-522",
+    17
+   ],
+   [
+    "CWE-787",
+    16
+   ],
+   [
+    "CWE-284",
+    14
+   ],
+   [
+    "CWE-306",
+    13
+   ],
+   [
+    "CWE-20",
+    11
+   ],
+   [
+    "CWE-79",
+    11
+   ],
+   [
+    "CWE-259",
+    10
+   ]
+  ]
+ },
+ "consumer": {
+  "cves_with_cwe": 169,
+  "cves_without_cwe": 39,
+  "design": {
+   "n": 22,
+   "pct": 13.0
+  },
+  "implementation": {
+   "n": 87,
+   "pct": 51.5
+  },
+  "other": {
+   "n": 68,
+   "pct": 40.2
+  },
+  "top_cwes": [
+   [
+    "CWE-78",
+    56
+   ],
+   [
+    "CWE-400",
+    20
+   ],
+   [
+    "CWE-120",
+    18
+   ],
+   [
+    "CWE-20",
+    12
+   ],
+   [
+    "CWE-119",
+    12
+   ],
+   [
+    "CWE-77",
+    11
+   ],
+   [
+    "CWE-200",
+    8
+   ],
+   [
+    "CWE-287",
+    7
+   ],
+   [
+    "CWE-770",
+    6
+   ],
+   [
+    "CWE-787",
+    6
+   ]
+  ]
+ },
+ "ratios": {
+  "design_ratio_medical_over_consumer": 3.0,
+  "implementation_ratio_consumer_over_medical": 3.2
+ }
+}
