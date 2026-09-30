@@ -11,6 +11,7 @@
   "same_day": 55,
   "nvd_first": 0,
   "within_a_week_either_way": 193,
+  "within_30_days_either_way": 266,
   "advisory_first_pct": 83.9
  },
  "by_year": {

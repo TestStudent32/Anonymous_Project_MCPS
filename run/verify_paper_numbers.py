@@ -72,10 +72,19 @@ def main():
     check("physical pct", stats["attack_vector"]["PHYSICAL"]["pct"], 14, 0.5)
     check("credential/design flaw pct", stats["design_flaws"]["pct"], 39, 0.5)
     check("  as pct of network-reachable", stats["design_flaws"]["pct_of_network_reachable"], 40, 0.5)
-    check("plausible module targets", stats["plausible_module_targets"]["n"], 102)
-    check("  as pct", stats["plausible_module_targets"]["pct"], 30, 0.5)
-    check("  excluding certificate/crypto issues",
-          stats["plausible_module_targets"]["excluding_crypto"], 92)
+    # The residual (network vector, not design family) and the narrower,
+    # positively defined count. The paper reports both and labels which is which.
+    check("network vector, outside the design family (residual)",
+          stats["network_non_design"]["n"], 102)
+    check("  as pct", stats["network_non_design"]["pct"], 30, 0.5)
+    check("  of those, weakness in neither family",
+          stats["network_non_design"]["n"] - stats["network_implementation"]["n"], 69)
+    check("network vector AND implementation-family weakness",
+          stats["network_implementation"]["n"], 33)
+    check("  as pct", stats["network_implementation"]["pct"], 10, 0.5)
+    check("records with no CWE", stats["missing_data"]["no_cwe"], 1)
+    check("records with no CVSS score", stats["missing_data"]["no_cvss_score"], 1)
+    check("records with no attack vector", stats["missing_data"]["no_attack_vector"], 1)
     check("credential/design flaw count", stats["design_flaws"]["n"], 132)
     check("high or critical count", stats["high_or_critical"]["n"], 170)
     check("high or critical pct", stats["high_or_critical"]["pct"], 50, 0.5)
@@ -192,8 +201,11 @@ def main():
               ind["weakness"]["implementation"]["pct"], 38.2, 0.05)
         check("industrial network-reachable %",
               ind["mechanism"]["attack_vector"]["NETWORK"]["pct"], 71, 0.5)
-        check("industrial plausible module targets",
-              ind["mechanism"]["plausible_module_targets"]["n"], 1845)
+        check("industrial network vector, outside design family",
+              ind["mechanism"]["network_non_design"]["n"], 1845)
+        check("industrial network + implementation-family weakness",
+              ind["mechanism"]["network_implementation"]["n"], 907)
+        check("industrial records with no CWE", ind["mechanism"]["missing_data"]["no_cwe"], 75)
 
     print("\n=== HOW MEDICAL AND CONSUMER DEVICES FAIL ===")
     from iomt_exploit import weakness_profile as wp
@@ -204,6 +216,85 @@ def main():
     check("medical: implementation share %", med["implementation"]["pct"], 16.2, 0.05)
     check("consumer: credential/design share %", con["design"]["pct"], 13.0, 0.05)
     check("consumer: implementation share %", con["implementation"]["pct"], 51.5, 0.05)
+
+    print("\n=== RECONCILIATION WITH PRIOR WORK ===")
+    rec_path = R("results", "prior_work_reconciliation.json")
+    if os.path.exists(rec_path):
+        rec = json.load(open(rec_path, encoding="utf-8"))
+        check("their published set", rec["theirs"], 470)
+        check("shared with our ground truth", rec["shared"], 288)
+        check("only in theirs", rec["only_theirs"], 182)
+        check("only in ours", rec["only_ours"], 53)
+        check("  of which published 2025 or later", rec["only_ours_2025_or_later"], 51)
+        check("they class as attacked (their whole set)", rec["their_classes_all"]["A"], 11)
+        check("they class as having public exploit code", rec["their_classes_all"]["P"], 22)
+        check("shared CVEs they say have exploit material",
+              len(rec["shared_with_exploit_material"]), 3)
+        # The point of the cross-check: none of ours flags any of those three.
+        check("  of those, flagged by KEV or EPSS >= 0.5 in our data",
+              sum(1 for f in rec["shared_with_exploit_material"]
+                  if f["in_kev"] or (f["our_epss"] or 0) >= 0.5), 0)
+        cases = {f["cve"] for f in rec["shared_with_exploit_material"]}
+        check("  the three are the ones the paper names",
+              cases == {"CVE-2017-12718", "CVE-2020-27252", "CVE-2023-5059"}, True)
+
+    print("\n=== WHY PRIOR WORK'S CVEs ARE ABSENT FROM OUR EXTRACTION ===")
+    ex_path = R("results", "exclusion_audit.json")
+    if os.path.exists(ex_path):
+        ex = json.load(open(ex_path, encoding="utf-8"))
+        check("records absent from our extraction", ex["missing_total"], 182)
+        check("  excluded by source attribution", ex["reasons"]["source_not_cisa"], 181)
+        check("  CISA-sourced but no ICSMA reference",
+              ex["reasons"]["cisa_source_but_no_icsma_reference"], 1)
+        check("  of the non-CISA-sourced, citing an ICSMA advisory anyway",
+              ex["non_cisa_source_but_icsma_referenced"], 85)
+        check("  attributed to MITRE", ex["other_sources"]["cve@mitre.org"], 72)
+        check("  attributed to Microsoft", ex["other_sources"]["secure@microsoft.com"], 24)
+
+    # Recomputed, not read back: the archived NVD records are re-scanned here.
+    print("\n=== EXPLOIT MATERIAL IN THE RECORDS, TAG ASIDE ===")
+    records_path = R("data", "nvd", "ground_truth_records.json")
+    if os.path.exists(records_path):
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from audit_exploit_references import classify
+        records = json.load(open(records_path, encoding="utf-8"))
+        tagged, exploit_db = 0, []
+        for cve, rec in records.items():
+            refs = rec.get("references", [])
+            if any("Exploit" in r.get("tags", []) for r in refs):
+                tagged += 1
+            if any(classify(r.get("url", "")) == "exploit_db" for r in refs):
+                exploit_db.append(cve)
+        check("ground-truth records scanned", len(records), 341)
+        check("carrying a reference NVD tags Exploit", tagged, 0)
+        check("citing Exploit-DB", len(exploit_db), 1)
+        check("  and that record is the infusion pump", exploit_db, ["CVE-2017-12718"])
+
+    # Recomputed from the archived scorer inputs, by the same code the runner uses.
+    print("\n=== RELEVANCE SCORER SENSITIVITY (CONSUMER SET) ===")
+    if os.path.exists(R("data", "consumer", "nvd_details.json")):
+        from scorer_sensitivity import confidence, THRESHOLD
+        details = json.load(open(R("data", "consumer", "nvd_details.json"), encoding="utf-8"))
+        groundings = json.load(open(R("data", "consumer", "groundings.json"), encoding="utf-8"))
+
+        def kept(use_exploit):
+            return [c for c in sorted(details)
+                    if max((confidence(details[c], g, use_exploit)
+                            for g in groundings.values()), default=0.0) >= THRESHOLD]
+
+        with_f, without_f = kept(True), kept(False)
+        cov_with = [c for c in with_f if c.upper() in index]
+        cov_without = [c for c in without_f if c.upper() in index]
+        check("as published: CVEs", len(with_f), 208)
+        check("as published: with a module", len(cov_with), 54)
+        check("exploit feature removed: CVEs", len(without_f), 182)
+        check("exploit feature removed: with a module", len(cov_without), 51)
+        check("exploit feature removed: coverage %",
+              round(100 * len(cov_without) / len(without_f), 1), 28.0, 0.05)
+        dropped = set(with_f) - set(without_f)
+        check("admitted only by the exploit feature", len(dropped), 26)
+        check("  of those, with a module",
+              len([c for c in dropped if c.upper() in index]), 3)
 
     print("\n" + "=" * 60)
     print(f"PASS {len(OK)}   FAIL {len(BAD)}")

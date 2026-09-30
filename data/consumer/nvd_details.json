@@ -1,0 +1,5976 @@
+{
+ "CVE-2000-0141": {
+  "cve_id": "CVE-2000-0141",
+  "cvss_score": 10.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Infopop Ultimate Bulletin Board (UBB) allows remote attackers to execute commands via shell metacharacters in the topic hidden field.",
+  "exploit_available": false,
+  "published": "2000-02-11",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "ultimate_bulletin_board"
+  ]
+ },
+ "CVE-2000-0629": {
+  "cve_id": "CVE-2000-0629",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "The default configuration of the Sun Java web server 2.0 and earlier allows remote attackers to execute arbitrary commands by uploading Java code to the server via board.html, then directly calling the JSP compiler servlet.",
+  "exploit_available": true,
+  "published": "2000-07-12",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "java_system_web_server"
+  ]
+ },
+ "CVE-2000-0920": {
+  "cve_id": "CVE-2000-0920",
+  "cvss_score": 5.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Directory traversal vulnerability in BOA web server 0.94.8.2 and earlier allows remote attackers to read arbitrary files via a modified .. (dot dot) attack in the GET HTTP request that uses a \"%2E\" instead of a \".\"",
+  "exploit_available": true,
+  "published": "2000-12-19",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "boa_webserver"
+  ]
+ },
+ "CVE-2001-0385": {
+  "cve_id": "CVE-2001-0385",
+  "cvss_score": 5.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "GoAhead webserver 2.1 allows remote attackers to cause a denial of service via an HTTP request to the /aux directory.",
+  "exploit_available": true,
+  "published": "2001-07-02",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "goahead_webserver"
+  ]
+ },
+ "CVE-2001-0514": {
+  "cve_id": "CVE-2001-0514",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "SNMP service in Atmel 802.11b VNET-B Access Point 1.3 and earlier, as used in Netgear ME102 and Linksys WAP11, accepts arbitrary community strings with requested MIB modifications, which allows remote attackers to obtain sensitive information such as WEP keys, cause a denial of service, or gain acce",
+  "exploit_available": false,
+  "published": "2001-07-21",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "802.11b_vnet-b_access_point",
+   "me102",
+   "wap11"
+  ]
+ },
+ "CVE-2001-0647": {
+  "cve_id": "CVE-2001-0647",
+  "cvss_score": 5.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Orange Web Server 2.1, based on GoAhead, allows a remote attacker to perform a denial of service via an HTTP GET request that does not include the HTTP version.",
+  "exploit_available": true,
+  "published": "2001-08-06",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "orange_web_server"
+  ]
+ },
+ "CVE-2001-1135": {
+  "cve_id": "CVE-2001-1135",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "ZyXEL Prestige 642R and 642R-I routers do not filter the routers' Telnet and FTP ports on the external WAN interface from inside access, allowing someone on an internal computer to reconfigure the router, if the password is known.",
+  "exploit_available": false,
+  "published": "2001-08-14",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "prestige"
+  ]
+ },
+ "CVE-2002-0117": {
+  "cve_id": "CVE-2002-0117",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Cross-site scripting vulnerability in Yet Another Bulletin Board (YaBB) 1 Gold SP 1 and earlier allows remote attackers to execute arbitrary script and steal cookies via a message containing encoded Javascript in an IMG tag.",
+  "exploit_available": true,
+  "published": "2002-03-25",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "yabb"
+  ]
+ },
+ "CVE-2002-0118": {
+  "cve_id": "CVE-2002-0118",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Cross-site scripting vulnerability in Infopop Ultimate Bulletin Board (UBB) 6.2.0 Beta Release 1.0 allows remote attackers to execute arbitrary script and steal cookies via a message containing encoded Javascript in an IMG tag.",
+  "exploit_available": true,
+  "published": "2002-03-25",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "ultimate_bulletin_board"
+  ]
+ },
+ "CVE-2002-0238": {
+  "cve_id": "CVE-2002-0238",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Cross-site scripting vulnerability in web administration interface for NetGear RT314 and RT311 Gateway Routers allows remote attackers to execute arbitrary script on another client via a URL that contains the script.",
+  "exploit_available": false,
+  "published": "2002-05-29",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "rt314"
+  ]
+ },
+ "CVE-2002-0316": {
+  "cve_id": "CVE-2002-0316",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Cross-site scripting vulnerability in eXtreme message board (XMB) 1.6x and earlier allows remote attackers to execute script as other XMB users by inserting the script into an IMG tag.",
+  "exploit_available": true,
+  "published": "2002-06-25",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "xmb_forum"
+  ]
+ },
+ "CVE-2002-0330": {
+  "cve_id": "CVE-2002-0330",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Cross-site scripting vulnerability in codeparse.php of Open Bulletin Board (OpenBB) 1.0.0 allows remote attackers to execute arbitrary script and steal cookies via Javascript in the IMG tag.",
+  "exploit_available": true,
+  "published": "2002-06-25",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "openbb"
+  ]
+ },
+ "CVE-2002-0459": {
+  "cve_id": "CVE-2002-0459",
+  "cvss_score": 7.6,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Cross-site scripting vulnerability in Board-TNK 1.3.1 and earlier allows remote attackers to execute arbitrary Javascript via the WEB parameter.",
+  "exploit_available": false,
+  "published": "2002-08-12",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "board-tnk",
+   "news-tnk"
+  ]
+ },
+ "CVE-2002-0681": {
+  "cve_id": "CVE-2002-0681",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Cross-site scripting vulnerability in GoAhead Web Server 2.1 allows remote attackers to execute script as other web users via script in a URL that generates a \"404 not found\" message, which does not quote the script.",
+  "exploit_available": true,
+  "published": "2002-07-23",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "goahead_webserver"
+  ]
+ },
+ "CVE-2002-0903": {
+  "cve_id": "CVE-2002-0903",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "register.php for WoltLab Burning Board (wbboard) 1.1.1 uses a small number of random values for the \"code\" parameter that is provided to action.php to approve a new registration, along with predictable new user ID's, which allows remote attackers to hijack new user accounts via a brute force attack ",
+  "exploit_available": true,
+  "published": "2002-10-04",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "burning_board"
+  ]
+ },
+ "CVE-2002-0955": {
+  "cve_id": "CVE-2002-0955",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Cross-site scripting vulnerability in YaBB.cgi for Yet Another Bulletin Board (YaBB) 1 Gold SP1 and earlier allows remote attackers to execute arbitrary script as other web site visitors via script in the num parameter, which is not filtered in the resulting error message.",
+  "exploit_available": true,
+  "published": "2002-10-04",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "yabb"
+  ]
+ },
+ "CVE-2002-1558": {
+  "cve_id": "CVE-2002-1558",
+  "cvss_score": 10.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Cisco ONS15454 and ONS15327 running ONS before 3.4 have an account for the VxWorks Operating System in the TCC, TCC+ and XTC that cannot be changed or disabled, which allows remote attackers to gain privileges by connecting to the account via Telnet.",
+  "exploit_available": false,
+  "published": "2003-03-31",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "optical_networking_systems_software"
+  ]
+ },
+ "CVE-2002-1820": {
+  "cve_id": "CVE-2002-1820",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-178"
+  ],
+  "description": "register.php in Ultimate PHP Board (UPB) 1.0 and 1.0b uses an administrative account Admin with a capital \"A,\" but allows a remote attacker to impersonate the administrator by registering an account name of admin with a lower case \"a.\"",
+  "exploit_available": false,
+  "published": "2002-12-31",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "ultimate_php_board"
+  ]
+ },
+ "CVE-2002-1877": {
+  "cve_id": "CVE-2002-1877",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-264"
+  ],
+  "description": "NETGEAR FM114P allows remote attackers to bypass access restrictions for web sites via a URL that uses the IP address instead of the hostname.",
+  "exploit_available": false,
+  "published": "2002-12-31",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "fm114p"
+  ]
+ },
+ "CVE-2002-1951": {
+  "cve_id": "CVE-2002-1951",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Buffer overflow in GoAhead WebServer 2.1 allows remote attackers to execute arbitrary code via a long HTTP GET request with a large number of subdirectories.",
+  "exploit_available": true,
+  "published": "2002-12-31",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "goahead_webserver"
+  ]
+ },
+ "CVE-2002-2020": {
+  "cve_id": "CVE-2002-2020",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Netgear RP114 Cable/DSL Web Safe Router Firmware 3.26 uses a default administrator password and accepts admin logins on the external interface, which allows remote attackers to gain privileges if the password is not changed.",
+  "exploit_available": false,
+  "published": "2002-12-31",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "rp114"
+  ]
+ },
+ "CVE-2002-2354": {
+  "cve_id": "CVE-2002-2354",
+  "cvss_score": 7.8,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-20"
+  ],
+  "description": "Netgear FM114P firmware 1.3 wireless firewall allows remote attackers to cause a denial of service (crash or hang) via a large number of TCP connection requests.",
+  "exploit_available": false,
+  "published": "2002-12-31",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "fm114p"
+  ]
+ },
+ "CVE-2002-2355": {
+  "cve_id": "CVE-2002-2355",
+  "cvss_score": 7.1,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-255"
+  ],
+  "description": "Netgear FM114P firmware 1.3 wireless firewall, when configured to backup configuration information, stores DDNS (DynDNS) user name and password, MAC address filtering table and possibly other information in cleartext, which could allow local users to obtain sensitive information.",
+  "exploit_available": false,
+  "published": "2002-12-31",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "fm114p"
+  ]
+ },
+ "CVE-2002-2431": {
+  "cve_id": "CVE-2002-2431",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Unspecified vulnerability in GoAhead WebServer before 2.1.4 allows remote attackers to cause \"incorrect behavior\" via unknown \"malicious code,\" related to incorrect use of the socketInputBuffered function by sockGen.c.",
+  "exploit_available": false,
+  "published": "2009-02-06",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "goahead_webserver"
+  ]
+ },
+ "CVE-2004-0308": {
+  "cve_id": "CVE-2004-0308",
+  "cvss_score": 10.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Unknown vulnerability in Cisco ONS 15327 before 4.1(3), ONS 15454 before 4.6(1), ONS 15454 SD before 4.1(3), and Cisco ONS15600 before 1.3(0) allows a superuser whose account is locked out, disabled, or suspended to gain unauthorized access via a Telnet connection to the VxWorks shell.",
+  "exploit_available": false,
+  "published": "2004-11-24",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "optical_networking_systems_software"
+  ]
+ },
+ "CVE-2004-2032": {
+  "cve_id": "CVE-2004-2032",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Netgear RP114 allows remote attackers to bypass the keyword based URL filtering by requesting a long URL, as demonstrated using a large number of %20 (hex-encoded space) sequences.",
+  "exploit_available": true,
+  "published": "2004-05-24",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "rp114"
+  ]
+ },
+ "CVE-2005-0290": {
+  "cve_id": "CVE-2005-0290",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "NETGEAR FVS318 running firmware 2.4, and possibly other versions, allows remote attackers to bypass the filters using hex encoded URLs, as demonstrated using a hex encoded file extension.",
+  "exploit_available": true,
+  "published": "2005-01-17",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "fvs318"
+  ]
+ },
+ "CVE-2005-3715": {
+  "cve_id": "CVE-2005-3715",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Senao SI-680H Wireless VoIP Phone Firmware 0.03.0839 leaves the VxWorks debugger UDP port 17185 available without authentication, which allows attackers to access the phone OS, obtain sensitive information, and cause a denial of service.",
+  "exploit_available": false,
+  "published": "2005-11-21",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "si-680h_wireless_voip_phone"
+  ]
+ },
+ "CVE-2005-3716": {
+  "cve_id": "CVE-2005-3716",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-798"
+  ],
+  "description": "The SNMP daemon in UTStarcom F1000 VOIP WIFI Phone s2.0 running VxWorks 5.5.1 with kernel WIND 2.6 has hard-coded public credentials that cannot be changed, which allows attackers to obtain sensitive information.",
+  "exploit_available": false,
+  "published": "2005-11-21",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "f1000_wi-fi",
+   "f1000_wi-fi_firmware"
+  ]
+ },
+ "CVE-2005-3717": {
+  "cve_id": "CVE-2005-3717",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "The telnet daemon in UTStarcom F1000 VOIP WIFI Phone s2.0 running VxWorks 5.5.1 with kernel WIND 2.6 has a default username \"target\" and password \"password\", which allows remote attackers to gain full access to the system.",
+  "exploit_available": false,
+  "published": "2005-11-21",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "f1000_voip_wifi_phone"
+  ]
+ },
+ "CVE-2005-3718": {
+  "cve_id": "CVE-2005-3718",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "UTStarcom F1000 VOIP WIFI Phone s2.0 running VxWorks 5.5.1 with kernel WIND 2.6 does not allow users to disable access to (1) SNMP or (2) the rlogin port TCP 513, which allows remote attackers to exploit other vulnerabilities such as CVE-2005-3716, or execute arbitrary shell commands via rlogin, whi",
+  "exploit_available": false,
+  "published": "2005-11-21",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "f1000_voip_wifi_phone"
+  ]
+ },
+ "CVE-2005-4220": {
+  "cve_id": "CVE-2005-4220",
+  "cvss_score": 7.8,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-119"
+  ],
+  "description": "Netgear RP114, and possibly other versions and devices, allows remote attackers to cause a denial of service via a SYN flood attack between one system on the internal interface and another on the external interface, which temporarily stops routing between the interfaces, as demonstrated using nmap.",
+  "exploit_available": false,
+  "published": "2005-12-14",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "rp114"
+  ]
+ },
+ "CVE-2006-0374": {
+  "cve_id": "CVE-2006-0374",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-287"
+  ],
+  "description": "Advantage Century Telecommunication (ACT) P202S IP Phone 1.01.21 running firmware 1.1.21 has multiple undocumented ports available, which (1) might allow remote attackers to obtain sensitive information, such as memory contents and internal operating-system data, by directly accessing the VxWorks WD",
+  "exploit_available": false,
+  "published": "2006-01-22",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "p202s"
+  ]
+ },
+ "CVE-2006-1002": {
+  "cve_id": "CVE-2006-1002",
+  "cvss_score": 10.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-255"
+  ],
+  "description": "NETGEAR WGT624 Wireless DSL router has a default account of super_username \"Gearguy\" and super_passwd \"Geardog\", which allows remote attackers to modify the configuration.  NOTE: followup posts have suggested that this might not occur with all WGT624 routers.",
+  "exploit_available": false,
+  "published": "2006-03-06",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "wgt624"
+  ]
+ },
+ "CVE-2006-2562": {
+  "cve_id": "CVE-2006-2562",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-264"
+  ],
+  "description": "ZyXEL P-335WT router allows remote attackers to bypass access restrictions and conduct unauthorized operations via a UPnP request with a modified InternalClient parameter, which is not validated, as demonstrated by using AddPortMapping to forward arbitrary traffic.",
+  "exploit_available": false,
+  "published": "2006-05-24",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "p-335wt_router"
+  ]
+ },
+ "CVE-2007-1870": {
+  "cve_id": "CVE-2007-1870",
+  "cvss_score": 7.8,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "lighttpd before 1.4.14 allows attackers to cause a denial of service (crash) via a request to a file whose mtime is 0, which results in a NULL pointer dereference.",
+  "exploit_available": false,
+  "published": "2007-04-18",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "lighttpd"
+  ]
+ },
+ "CVE-2007-3949": {
+  "cve_id": "CVE-2007-3949",
+  "cvss_score": 8.3,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "mod_access.c in lighttpd 1.4.15 ignores trailing / (slash) characters in the URL, which allows remote attackers to bypass url.access-deny settings.",
+  "exploit_available": false,
+  "published": "2007-07-24",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "lighttpd"
+  ]
+ },
+ "CVE-2008-1255": {
+  "cve_id": "CVE-2008-1255",
+  "cvss_score": 10.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-264"
+  ],
+  "description": "The ZyXEL P-660HW series router maintains authentication state by IP address, which allows remote attackers to bypass authentication by establishing a session from a source IP address of a previously authenticated user.",
+  "exploit_available": false,
+  "published": "2008-03-10",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "p-660hw"
+  ]
+ },
+ "CVE-2008-1270": {
+  "cve_id": "CVE-2008-1270",
+  "cvss_score": 5.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-200"
+  ],
+  "description": "mod_userdir in lighttpd 1.4.18 and earlier, when userdir.path is not set, uses a default of $HOME, which might allow remote attackers to read arbitrary files, as demonstrated by accessing the ~nobody directory.",
+  "exploit_available": true,
+  "published": "2008-03-10",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "lighttpd"
+  ]
+ },
+ "CVE-2008-2476": {
+  "cve_id": "CVE-2008-2476",
+  "cvss_score": 9.3,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-20"
+  ],
+  "description": "The IPv6 Neighbor Discovery Protocol (NDP) implementation in (1) FreeBSD 6.3 through 7.1, (2) OpenBSD 4.2 and 4.3, (3) NetBSD, (4) Force10 FTOS before E7.7.1.1, (5) Juniper JUNOS, and (6) Wind River VxWorks 5.x through 6.4 does not validate the origin of Neighbor Discovery messages, which allows rem",
+  "exploit_available": false,
+  "published": "2008-10-03",
+  "cpe_parts": [
+   "o"
+  ],
+  "cpe_products": [
+   "freebsd",
+   "ftos",
+   "jnos",
+   "netbsd",
+   "openbsd",
+   "vxworks"
+  ]
+ },
+ "CVE-2008-4359": {
+  "cve_id": "CVE-2008-4359",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-200"
+  ],
+  "description": "lighttpd before 1.4.20 compares URIs to patterns in the (1) url.redirect and (2) url.rewrite configuration settings before performing URL decoding, which might allow remote attackers to bypass intended access restrictions, and obtain sensitive information or possibly modify data.",
+  "exploit_available": false,
+  "published": "2008-10-03",
+  "cpe_parts": [
+   "a",
+   "o"
+  ],
+  "cpe_products": [
+   "debian_linux",
+   "lighttpd"
+  ]
+ },
+ "CVE-2008-4360": {
+  "cve_id": "CVE-2008-4360",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-200"
+  ],
+  "description": "mod_userdir in lighttpd before 1.4.20, when a case-insensitive operating system or filesystem is used, performs case-sensitive comparisons on filename components in configuration options, which might allow remote attackers to bypass intended access restrictions, as demonstrated by a request for a .P",
+  "exploit_available": false,
+  "published": "2008-10-03",
+  "cpe_parts": [
+   "a",
+   "o"
+  ],
+  "cpe_products": [
+   "debian_linux",
+   "lighttpd"
+  ]
+ },
+ "CVE-2009-4496": {
+  "cve_id": "CVE-2009-4496",
+  "cvss_score": 5.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-20"
+  ],
+  "description": "Boa 0.94.14rc21 writes data to a log file without sanitizing non-printable characters, which might allow remote attackers to modify a window's title, or possibly execute arbitrary commands or overwrite files, via an HTTP request containing an escape sequence for a terminal emulator.",
+  "exploit_available": true,
+  "published": "2010-01-13",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "boa"
+  ]
+ },
+ "CVE-2010-0295": {
+  "cve_id": "CVE-2010-0295",
+  "cvss_score": 5.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-399"
+  ],
+  "description": "lighttpd before 1.4.26, and 1.5.x, allocates a buffer for each read operation that occurs for a request, which allows remote attackers to cause a denial of service (memory consumption) by breaking a request into small pieces that are sent at a slow rate.",
+  "exploit_available": true,
+  "published": "2010-02-03",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "lighttpd"
+  ]
+ },
+ "CVE-2010-2965": {
+  "cve_id": "CVE-2010-2965",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-863",
+   "CWE-863"
+  ],
+  "description": "The WDB target agent debug service in Wind River VxWorks 6.x, 5.x, and earlier, as used on the Rockwell Automation 1756-ENBT series A with firmware 3.2.6 and 3.6.1 and other products, allows remote attackers to read or modify arbitrary memory locations, perform function calls, or manage tasks via re",
+  "exploit_available": false,
+  "published": "2010-08-05",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "1756-enbt\\/a",
+   "1756-enbt\\/a_firmware",
+   "vxworks"
+  ]
+ },
+ "CVE-2010-2966": {
+  "cve_id": "CVE-2010-2966",
+  "cvss_score": 7.8,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-255"
+  ],
+  "description": "The INCLUDE_SECURITY functionality in Wind River VxWorks 6.x, 5.x, and earlier uses the LOGIN_USER_NAME and LOGIN_USER_PASSWORD (aka LOGIN_PASSWORD) parameters to create hardcoded credentials, which makes it easier for remote attackers to obtain access via a (1) telnet, (2) rlogin, or (3) FTP sessio",
+  "exploit_available": true,
+  "published": "2010-08-05",
+  "cpe_parts": [
+   "o"
+  ],
+  "cpe_products": [
+   "vxworks"
+  ]
+ },
+ "CVE-2010-2967": {
+  "cve_id": "CVE-2010-2967",
+  "cvss_score": 7.8,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-310"
+  ],
+  "description": "The loginDefaultEncrypt algorithm in loginLib in Wind River VxWorks before 6.9 does not properly support a large set of distinct possible passwords, which makes it easier for remote attackers to obtain access via a (1) telnet, (2) rlogin, or (3) FTP session.",
+  "exploit_available": false,
+  "published": "2010-08-05",
+  "cpe_parts": [
+   "o"
+  ],
+  "cpe_products": [
+   "vxworks"
+  ]
+ },
+ "CVE-2010-2968": {
+  "cve_id": "CVE-2010-2968",
+  "cvss_score": 7.8,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-264"
+  ],
+  "description": "The FTP daemon in Wind River VxWorks does not close the TCP connection after a number of failed login attempts, which makes it easier for remote attackers to obtain access via a brute-force attack.",
+  "exploit_available": true,
+  "published": "2010-08-05",
+  "cpe_parts": [
+   "o"
+  ],
+  "cpe_products": [
+   "vxworks"
+  ]
+ },
+ "CVE-2011-4362": {
+  "cve_id": "CVE-2011-4362",
+  "cvss_score": 5.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [],
+  "description": "Integer signedness error in the base64_decode function in the HTTP authentication functionality (http_auth.c) in lighttpd 1.4 before 1.4.30 and 1.5 before SVN revision 2806 allows remote attackers to cause a denial of service (segmentation fault) via crafted base64 input that triggers an out-of-boun",
+  "exploit_available": true,
+  "published": "2011-12-24",
+  "cpe_parts": [
+   "a",
+   "o"
+  ],
+  "cpe_products": [
+   "debian_linux",
+   "lighttpd"
+  ]
+ },
+ "CVE-2013-0711": {
+  "cve_id": "CVE-2013-0711",
+  "cvss_score": 7.8,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-20"
+  ],
+  "description": "IPSSH (aka the SSH server) in Wind River VxWorks 6.5 through 6.9 allows remote attackers to cause a denial of service (daemon outage) via a crafted authentication request.",
+  "exploit_available": false,
+  "published": "2013-03-20",
+  "cpe_parts": [
+   "o"
+  ],
+  "cpe_products": [
+   "vxworks"
+  ]
+ },
+ "CVE-2013-0714": {
+  "cve_id": "CVE-2013-0714",
+  "cvss_score": 10.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-20"
+  ],
+  "description": "IPSSH (aka the SSH server) in Wind River VxWorks 6.5 through 6.9 allows remote attackers to execute arbitrary code or cause a denial of service (daemon hang) via a crafted public-key authentication request.",
+  "exploit_available": false,
+  "published": "2013-03-20",
+  "cpe_parts": [
+   "o"
+  ],
+  "cpe_products": [
+   "vxworks"
+  ]
+ },
+ "CVE-2013-10048": {
+  "cve_id": "CVE-2013-10048",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "An OS command injection vulnerability exists in various legacy D-Link routers\u2014including DIR-300 rev B and DIR-600 (firmware \u2264 2.13 and \u2264 2.14b01, respectively)\u2014due to improper input handling in the unauthenticated command.php endpoint. By sending specially crafted POST requests, a remote attacker ca",
+  "exploit_available": true,
+  "published": "2025-08-01",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dir-300",
+   "dir-300_firmware",
+   "dir-600",
+   "dir-600_firmware"
+  ]
+ },
+ "CVE-2013-10050": {
+  "cve_id": "CVE-2013-10050",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "An OS command injection vulnerability exists in multiple D-Link routers (confirmed on DIR-300 rev A v1.05 and DIR-615 rev D v4.13) via the authenticated tools_vct.xgi CGI endpoint. The web interface fails to properly sanitize user-supplied input in the pingIp parameter, allowing attackers with valid",
+  "exploit_available": true,
+  "published": "2025-08-01",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dir-300",
+   "dir-300_firmware",
+   "dir-615",
+   "dir-615_firmware"
+  ]
+ },
+ "CVE-2013-10059": {
+  "cve_id": "CVE-2013-10059",
+  "cvss_score": 7.2,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "An authenticated OS command injection vulnerability exists in various D-Link routers (tested on DIR-615H1\u00a0running firmware version 8.04) via the tools_vct.htm endpoint. The web interface fails to sanitize input passed from the ping_ipaddr parameter to the tools_vct.htm diagnostic interface, allowing",
+  "exploit_available": true,
+  "published": "2025-08-01",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dir-615h",
+   "dir-615h_firmware"
+  ]
+ },
+ "CVE-2013-10060": {
+  "cve_id": "CVE-2013-10060",
+  "cvss_score": 7.2,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "An authenticated OS command injection vulnerability exists in\u00a0Netgear routers (tested on the DGN2200B model) firmware versions 1.0.0.36 and prior via the pppoe.cgi endpoint. A remote attacker with valid credentials can execute arbitrary commands via crafted input to the pppoe_username parameter. Thi",
+  "exploit_available": true,
+  "published": "2025-08-01",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dgn2200b",
+   "dgn2200b_firmware"
+  ]
+ },
+ "CVE-2013-10061": {
+  "cve_id": "CVE-2013-10061",
+  "cvss_score": 7.2,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "An authenticated OS command injection vulnerability exists in Netgear routers (tested on the DGN1000B model firmware versions 1.1.00.24 and 1.1.00.45) via the TimeToLive parameter in the setup.cgi endpoint. The vulnerability arises from improper input neutralization, enabling command injection throu",
+  "exploit_available": true,
+  "published": "2025-08-01",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dgn1000b",
+   "dgn1000b_firmware"
+  ]
+ },
+ "CVE-2013-10069": {
+  "cve_id": "CVE-2013-10069",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "The web interface of multiple D-Link routers, including DIR-600 rev B (\u22642.14b01) and DIR-300 rev B (\u22642.13), contains an unauthenticated OS command injection vulnerability in command.php, which improperly handles the cmd POST parameter. A remote attacker can exploit this flaw without authentication t",
+  "exploit_available": true,
+  "published": "2025-08-05",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dir-300",
+   "dir-300_firmware",
+   "dir-600",
+   "dir-600_firmware"
+  ]
+ },
+ "CVE-2013-2751": {
+  "cve_id": "CVE-2013-2751",
+  "cvss_score": 10.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-94"
+  ],
+  "description": "Eval injection vulnerability in frontview/lib/np_handler.pl in the FrontView web interface in NETGEAR ReadyNAS RAIDiator before 4.1.12 and 4.2.x before 4.2.24 allows remote attackers to execute arbitrary Perl code via a crafted request, related to the \"forgot password workflow.\"",
+  "exploit_available": true,
+  "published": "2013-12-12",
+  "cpe_parts": [
+   "o"
+  ],
+  "cpe_products": [
+   "raidiator"
+  ]
+ },
+ "CVE-2013-4975": {
+  "cve_id": "CVE-2013-4975",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-269"
+  ],
+  "description": "Hikvision DS-2CD7153-E IP Camera has Privilege Escalation",
+  "exploit_available": true,
+  "published": "2019-12-27",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ds-2cd7153-e",
+   "ds-2cd7153-e_firmware"
+  ]
+ },
+ "CVE-2013-4976": {
+  "cve_id": "CVE-2013-4976",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-287"
+  ],
+  "description": "Hikvision DS-2CD7153-E IP Camera has security bypass via hardcoded credentials",
+  "exploit_available": true,
+  "published": "2019-12-27",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ds-2cd7153-e",
+   "ds-2cd7153-e_firmware"
+  ]
+ },
+ "CVE-2013-4977": {
+  "cve_id": "CVE-2013-4977",
+  "cvss_score": 10.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-119"
+  ],
+  "description": "Buffer overflow in the RTSP Packet Handler in Hikvision DS-2CD7153-E IP camera with firmware 4.1.0 b130111 (Jan 2013), and possibly other devices, allows remote attackers to cause a denial of service (device crash and reboot) and possibly execute arbitrary code via a long string in the Range header ",
+  "exploit_available": true,
+  "published": "2014-03-03",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ds-2cd7153-e",
+   "ds-2cd7153-e_firmware"
+  ]
+ },
+ "CVE-2013-5019": {
+  "cve_id": "CVE-2013-5019",
+  "cvss_score": 10.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-119"
+  ],
+  "description": "Stack-based buffer overflow in Ultra Mini HTTPD 1.21 allows remote attackers to execute arbitrary code via a long resource name in an HTTP request.",
+  "exploit_available": true,
+  "published": "2013-07-31",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "ultra_mini_httpd"
+  ]
+ },
+ "CVE-2013-7389": {
+  "cve_id": "CVE-2013-7389",
+  "cvss_score": 4.3,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-79"
+  ],
+  "description": "Multiple cross-site scripting (XSS) vulnerabilities in D-Link DIR-645 Router (Rev. A1) with firmware before 1.04B11 allow remote attackers to inject arbitrary web script or HTML via the (1) deviceid parameter to parentalcontrols/bind.php, (2) RESULT parameter to info.php, or (3) receiver parameter t",
+  "exploit_available": true,
+  "published": "2014-07-07",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dir-645",
+   "dir-645_firmware"
+  ]
+ },
+ "CVE-2014-0659": {
+  "cve_id": "CVE-2014-0659",
+  "cvss_score": 10.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "The Cisco WAP4410N access point with firmware through 2.0.6.1, WRVS4400N router with firmware 1.x through 1.1.13 and 2.x through 2.0.2.1, and RVS4000 router with firmware through 2.0.3.2 allow remote attackers to read credential and configuration data, and execute arbitrary commands, via requests to",
+  "exploit_available": false,
+  "published": "2014-01-12",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "rvs4000",
+   "rvs4000_firmware",
+   "wap4410n",
+   "wap4410n_firmware",
+   "wrvs4400n",
+   "wrvs4400n_firmware"
+  ]
+ },
+ "CVE-2014-125117": {
+  "cve_id": "CVE-2014-125117",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-20",
+   "CWE-121"
+  ],
+  "description": "A stack-based buffer overflow vulnerability in the my_cgi.cgi component of certain D-Link devices, including the DSP-W215 version 1.02, can be exploited via a specially crafted HTTP POST request to the /common/info.cgi endpoint. This flaw enables an unauthenticated attacker to achieve remote code ex",
+  "exploit_available": true,
+  "published": "2025-07-25",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dsp-w215",
+   "dsp-w215_firmware"
+  ]
+ },
+ "CVE-2014-4880": {
+  "cve_id": "CVE-2014-4880",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-119"
+  ],
+  "description": "Buffer overflow in Hikvision DVR DS-7204 Firmware 2.2.10 build 131009, and other models and versions, allows remote attackers to execute arbitrary code via an RTSP PLAY request with a long Authorization header.",
+  "exploit_available": true,
+  "published": "2014-12-08",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dvr_ds-7204",
+   "dvr_ds-7204_firmware"
+  ]
+ },
+ "CVE-2014-8361": {
+  "cve_id": "CVE-2014-8361",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [],
+  "description": "The miniigd SOAP service in Realtek SDK allows remote attackers to execute arbitrary code via a crafted NewInternalClient request, as exploited in the wild through 2023.",
+  "exploit_available": true,
+  "published": "2015-05-01",
+  "cpe_parts": [
+   "a",
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dir-501",
+   "dir-501_firmware",
+   "dir-515",
+   "dir-515_firmware",
+   "dir-600l",
+   "dir-600l_firmware",
+   "dir-605l",
+   "dir-605l_firmware",
+   "dir-615",
+   "dir-615_firmware",
+   "dir-619l",
+   "dir-619l_firmware",
+   "dir-809",
+   "dir-809_firmware",
+   "dir-900l",
+   "dir-900l_firmware",
+   "dir-905l",
+   "dir-905l_firmware",
+   "realtek_sdk",
+   "w1200ex",
+   "w1200ex-ms",
+   "w1200ex-ms_firmware",
+   "w1200ex_firmware",
+   "w300p",
+   "w300p_firmware",
+   "w500p",
+   "w500p_firmware",
+   "wf300hp2",
+   "wf300hp2_firmware",
+   "wf800hp",
+   "wf800hp_firmware",
+   "wg1200hp",
+   "wg1200hp2",
+   "wg1200hp2_firmware",
+   "wg1200hp3",
+   "wg1200hp3_firmware",
+   "wg1200hp_firmware",
+   "wg1200hs",
+   "wg1200hs2",
+   "wg1200hs2_firmware",
+   "wg1200hs_firmware",
+   "wg1800hp3",
+   "wg1800hp3_firmware",
+   "wg1800hp4",
+   "wg1800hp4_firmware",
+   "wg1900hp",
+   "wg1900hp2",
+   "wg1900hp2_firmware",
+   "wg1900hp_firmware",
+   "wr8165n",
+   "wr8165n_firmware"
+  ]
+ },
+ "CVE-2014-9707": {
+  "cve_id": "CVE-2014-9707",
+  "cvss_score": 7.5,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-17"
+  ],
+  "description": "EmbedThis GoAhead 3.0.0 through 3.4.1 does not properly handle path segments starting with a . (dot), which allows remote attackers to conduct directory traversal attacks, cause a denial of service (heap-based buffer overflow and crash), or possibly execute arbitrary code via a crafted URI.",
+  "exploit_available": true,
+  "published": "2015-03-31",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "goahead"
+  ]
+ },
+ "CVE-2016-1000009": {
+  "cve_id": "CVE-2016-1000009",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-254"
+  ],
+  "description": "TP-LINK lost control of two domains, www.tplinklogin.net and tplinkextender.net. Please note that these domains are physically printed on many of the devices.",
+  "exploit_available": false,
+  "published": "2016-10-06",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "tp-link"
+  ]
+ },
+ "CVE-2016-10174": {
+  "cve_id": "CVE-2016-10174",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-120",
+   "CWE-120"
+  ],
+  "description": "The NETGEAR WNR2000v5 router contains a buffer overflow in the hidden_lang_avi parameter when invoking the URL /apply.cgi?/lang_check.html. This buffer overflow can be exploited by an unauthenticated attacker to achieve remote code execution.",
+  "exploit_available": true,
+  "published": "2017-01-30",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "d6100",
+   "d6100_firmware",
+   "d7000",
+   "d7000_firmware",
+   "d7800",
+   "d7800_firmware",
+   "jnr1010v2",
+   "jnr1010v2_firmware",
+   "jnr3300",
+   "jnr3300_firmware",
+   "jwnr2010v5",
+   "jwnr2010v5_firmware",
+   "r2000",
+   "r2000_firmware",
+   "r6100",
+   "r6100_firmware",
+   "r6220",
+   "r6220_firmware",
+   "r7500",
+   "r7500_firmware",
+   "r7500v2",
+   "r7500v2_firmware",
+   "wndr3700v4",
+   "wndr3700v4_firmware",
+   "wndr3800",
+   "wndr3800_firmware",
+   "wndr4300",
+   "wndr4300_firmware",
+   "wndr4300v2",
+   "wndr4300v2_firmware",
+   "wndr4500v3",
+   "wndr4500v3_firmware",
+   "wndr4700",
+   "wndr4700_firmware",
+   "wnr1000v2",
+   "wnr1000v2_firmware",
+   "wnr1000v4",
+   "wnr1000v4_firmware",
+   "wnr2000v3",
+   "wnr2000v3_firmware",
+   "wnr2000v4",
+   "wnr2000v4_firmware",
+   "wnr2000v5",
+   "wnr2000v5_firmware",
+   "wnr2020",
+   "wnr2020_firmware",
+   "wnr2050",
+   "wnr2050_firmware",
+   "wnr2200",
+   "wnr2200_firmware",
+   "wnr2500",
+   "wnr2500_firmware",
+   "wnr614",
+   "wnr614_firmware",
+   "wnr618",
+   "wnr618_firmware"
+  ]
+ },
+ "CVE-2016-10175": {
+  "cve_id": "CVE-2016-10175",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-200"
+  ],
+  "description": "The NETGEAR WNR2000v5 router leaks its serial number when performing a request to the /BRS_netgear_success.html URI. This serial number allows a user to obtain the administrator username and password, when used in combination with the CVE-2016-10176 vulnerability that allows resetting the answers to",
+  "exploit_available": true,
+  "published": "2017-01-30",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "wnr2000v5",
+   "wnr2000v5_firmware"
+  ]
+ },
+ "CVE-2016-10176": {
+  "cve_id": "CVE-2016-10176",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-20"
+  ],
+  "description": "The NETGEAR WNR2000v5 router allows an administrator to perform sensitive actions by invoking the apply.cgi URL on the web server of the device. This special URL is handled by the embedded web server (uhttpd) and processed accordingly. The web server also contains another URL, apply_noauth.cgi, that",
+  "exploit_available": true,
+  "published": "2017-01-30",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "wnr2000v5",
+   "wnr2000v5_firmware"
+  ]
+ },
+ "CVE-2016-10372": {
+  "cve_id": "CVE-2016-10372",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-264"
+  ],
+  "description": "The Eir D1000 modem does not properly restrict the TR-064 protocol, which allows remote attackers to execute arbitrary commands via TCP port 7547, as demonstrated by opening WAN access to TCP port 80, retrieving the login password (which defaults to the Wi-Fi password), and using the NewNTPServer fe",
+  "exploit_available": true,
+  "published": "2017-05-16",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "d1000_modem",
+   "d1000_modem_firmware"
+  ]
+ },
+ "CVE-2016-11021": {
+  "cve_id": "CVE-2016-11021",
+  "cvss_score": 7.2,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-78",
+   "CWE-78"
+  ],
+  "description": "setSystemCommand on D-Link DCS-930L devices before 2.12 allows a remote attacker to execute code via an OS command in the SystemCommand parameter.",
+  "exploit_available": true,
+  "published": "2020-03-09",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dcs-930l",
+   "dcs-930l_firmware"
+  ]
+ },
+ "CVE-2016-1524": {
+  "cve_id": "CVE-2016-1524",
+  "cvss_score": 9.6,
+  "cvss_severity": "CRITICAL",
+  "cwes": [],
+  "description": "Multiple unrestricted file upload vulnerabilities in NETGEAR Management System NMS300 1.5.0.11 and earlier allow remote attackers to execute arbitrary Java code by using (1) fileUpload.do or (2) lib-1.0/external/flash/fileUpload.do to upload a JSP file, and then accessing it via a direct request for",
+  "exploit_available": true,
+  "published": "2016-02-13",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "prosafe_network_management_software_300"
+  ]
+ },
+ "CVE-2016-1555": {
+  "cve_id": "CVE-2016-1555",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-77",
+   "CWE-77"
+  ],
+  "description": "(1) boardData102.php, (2) boardData103.php, (3) boardDataJP.php, (4) boardDataNA.php, and (5) boardDataWW.php in Netgear WN604 before 3.3.3 and WN802Tv2, WNAP210v2, WNAP320, WNDAP350, WNDAP360, and WNDAP660 before 3.5.5.0 allow remote attackers to execute arbitrary commands.",
+  "exploit_available": true,
+  "published": "2017-04-21",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "wn604",
+   "wn604_firmware",
+   "wn802tv2",
+   "wn802tv2_firmware",
+   "wnap320",
+   "wnap320_firmware",
+   "wndap210v2",
+   "wndap210v2_firmware",
+   "wndap350",
+   "wndap350_firmware",
+   "wndap360",
+   "wndap360_firmware",
+   "wndap660",
+   "wndap660_firmware"
+  ]
+ },
+ "CVE-2016-5674": {
+  "cve_id": "CVE-2016-5674",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-20"
+  ],
+  "description": "__debugging_center_utils___.php in NUUO NVRmini 2 1.7.5 through 3.0.0, NUUO NVRsolo 1.7.5 through 3.0.0, and NETGEAR ReadyNAS Surveillance 1.1.1 through 1.4.1 allows remote attackers to execute arbitrary PHP code via the log parameter.",
+  "exploit_available": true,
+  "published": "2016-08-31",
+  "cpe_parts": [
+   "a",
+   "o"
+  ],
+  "cpe_products": [
+   "nvrmini_2",
+   "nvrsolo",
+   "readynas_surveillance"
+  ]
+ },
+ "CVE-2016-5675": {
+  "cve_id": "CVE-2016-5675",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-20"
+  ],
+  "description": "handle_daylightsaving.php in NUUO NVRmini 2 1.7.5 through 3.0.0, NUUO NVRsolo 1.0.0 through 3.0.0, NUUO Crystal 2.2.1 through 3.2.0, and NETGEAR ReadyNAS Surveillance 1.1.1 through 1.4.1 allows remote attackers to execute arbitrary PHP code via the NTPServer parameter.",
+  "exploit_available": true,
+  "published": "2016-08-31",
+  "cpe_parts": [
+   "a",
+   "o"
+  ],
+  "cpe_products": [
+   "crystal",
+   "nvrmini_2",
+   "nvrsolo",
+   "readynas_surveillance"
+  ]
+ },
+ "CVE-2016-5676": {
+  "cve_id": "CVE-2016-5676",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-285"
+  ],
+  "description": "cgi-bin/cgi_system in NUUO NVRmini 2 1.7.5 through 2.x, NUUO NVRsolo 1.7.5 through 2.x, and NETGEAR ReadyNAS Surveillance 1.1.1 through 1.4.1 allows remote attackers to reset the administrator password via a cmd=loaddefconfig action.",
+  "exploit_available": true,
+  "published": "2016-08-31",
+  "cpe_parts": [
+   "a",
+   "o"
+  ],
+  "cpe_products": [
+   "nvrmini_2",
+   "nvrsolo",
+   "readynas_surveillance"
+  ]
+ },
+ "CVE-2016-6277": {
+  "cve_id": "CVE-2016-6277",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-352",
+   "CWE-352"
+  ],
+  "description": "NETGEAR R6250 before 1.0.4.6.Beta, R6400 before 1.0.1.18.Beta, R6700 before 1.0.1.14.Beta, R6900, R7000 before 1.0.7.6.Beta, R7100LG before 1.0.0.28.Beta, R7300DST before 1.0.0.46.Beta, R7900 before 1.0.1.8.Beta, R8000 before 1.0.3.26.Beta, D6220, D6400, D7000, and possibly other routers allow remot",
+  "exploit_available": true,
+  "published": "2016-12-14",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "d6220",
+   "d6220_firmware",
+   "d6400",
+   "d6400_firmware",
+   "r6250",
+   "r6250_firmware",
+   "r6400",
+   "r6400_firmware",
+   "r6700",
+   "r6700_firmware",
+   "r6900",
+   "r6900_firmware",
+   "r7000",
+   "r7000_firmware",
+   "r7100lg",
+   "r7100lg_firmware",
+   "r7300dst",
+   "r7300dst_firmware",
+   "r7900",
+   "r7900_firmware",
+   "r8000",
+   "r8000_firmware"
+  ]
+ },
+ "CVE-2017-0938": {
+  "cve_id": "CVE-2017-0938",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-400",
+   "CWE-20"
+  ],
+  "description": "Denial of Service attack in airMAX < 8.3.2 , airMAX < 6.0.7 and EdgeMAX < 1.9.7 allow attackers to use the Discovery Protocol in amplification attacks.",
+  "exploit_available": false,
+  "published": "2019-02-12",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "airmax_ac",
+   "airos",
+   "edgemax",
+   "edgemax_firmware"
+  ]
+ },
+ "CVE-2017-1000470": {
+  "cve_id": "CVE-2017-1000470",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-190"
+  ],
+  "description": "EmbedThis GoAhead Webserver versions 4.0.0 and earlier is vulnerable to an integer overflow in the HTTP listener resulting in denial of service.",
+  "exploit_available": false,
+  "published": "2018-01-03",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "goahead_web_server"
+  ]
+ },
+ "CVE-2017-1000471": {
+  "cve_id": "CVE-2017-1000471",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-476"
+  ],
+  "description": "EmbedThis GoAhead Webserver version 4.0.0 is vulnerable to a NULL pointer dereference in the CGI handler resulting in memory corruption or denial of service.",
+  "exploit_available": false,
+  "published": "2018-01-03",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "goahead"
+  ]
+ },
+ "CVE-2017-13774": {
+  "cve_id": "CVE-2017-13774",
+  "cvss_score": 7.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-200"
+  ],
+  "description": "Hikvision iVMS-4200 devices before v2.6.2.7 allow local users to generate password-recovery codes via unspecified vectors.",
+  "exploit_available": false,
+  "published": "2017-08-30",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "ivms-4200"
+  ]
+ },
+ "CVE-2017-17105": {
+  "cve_id": "CVE-2017-17105",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "Zivif PR115-204-P-RS V2.3.4.2103 and V4.7.4.2121 (and possibly in-between versions) web cameras are vulnerable to unauthenticated, blind remote command injection via CGI scripts used as part of the web interface, as demonstrated by a cgi-bin/iptest.cgi?cmd=iptest.cgi&-time=\"1504225666237\"&-url=$(reb",
+  "exploit_available": true,
+  "published": "2017-12-19",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "pr115-204-p-rs",
+   "pr115-204-p-rs_firmware"
+  ]
+ },
+ "CVE-2017-17106": {
+  "cve_id": "CVE-2017-17106",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-522"
+  ],
+  "description": "Credentials for Zivif PR115-204-P-RS V2.3.4.2103 Webcams can be obtained by an unauthenticated remote attacker using a standard web /cgi-bin/hi3510/param.cgi?cmd=getuser HTTP request. This vulnerability exists because of a lack of authentication checks in requests to CGI pages.",
+  "exploit_available": true,
+  "published": "2017-12-19",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "pr115-204-p-rs",
+   "pr115-204-p-rs_firmware"
+  ]
+ },
+ "CVE-2017-17107": {
+  "cve_id": "CVE-2017-17107",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-798"
+  ],
+  "description": "Zivif PR115-204-P-RS V2.3.4.2103 web cameras contain a hard-coded cat1029 password for the root user. The SONIX operating system's setup renders this password unchangeable and it can be used to access the device via a TELNET session.",
+  "exploit_available": true,
+  "published": "2017-12-19",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "pr115-204-p-rs",
+   "pr115-204-p-rs_firmware"
+  ]
+ },
+ "CVE-2017-17215": {
+  "cve_id": "CVE-2017-17215",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-20"
+  ],
+  "description": "Huawei HG532 with some customized versions has a remote code execution vulnerability. An authenticated attacker could send malicious packets to port 37215 to launch attacks. Successful exploit could lead to the remote execution of arbitrary code.",
+  "exploit_available": false,
+  "published": "2018-03-20",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "hg532",
+   "hg532_firmware"
+  ]
+ },
+ "CVE-2017-17562": {
+  "cve_id": "CVE-2017-17562",
+  "cvss_score": 8.1,
+  "cvss_severity": "HIGH",
+  "cwes": [],
+  "description": "Embedthis GoAhead before 3.6.5 allows remote code execution if CGI is enabled and a CGI program is dynamically linked. This is a result of initializing the environment of forked CGI scripts using untrusted HTTP request parameters in the cgiHandler function in cgi.c. When combined with the glibc dyna",
+  "exploit_available": true,
+  "published": "2017-12-12",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "goahead",
+   "integrated_lights_out_manager"
+  ]
+ },
+ "CVE-2017-18368": {
+  "cve_id": "CVE-2017-18368",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78",
+   "CWE-78"
+  ],
+  "description": "The ZyXEL P660HN-T1A v1 TCLinux Fw $7.3.15.0 v001 / 3.40(ULM.0)b31 router distributed by TrueOnline has a command injection vulnerability in the Remote System Log forwarding function, which is accessible by an unauthenticated user. The vulnerability is in the ViewLog.asp page and can be exploited th",
+  "exploit_available": true,
+  "published": "2019-05-02",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "5200w-t",
+   "5200w-t_firmware",
+   "p660hn-t1a_v1",
+   "p660hn-t1a_v1_firmware",
+   "p660hn-t1a_v2",
+   "p660hn-t1a_v2_firmware"
+  ]
+ },
+ "CVE-2017-18370": {
+  "cve_id": "CVE-2017-18370",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "The ZyXEL P660HN-T1A v2 TCLinux Fw #7.3.37.6 router distributed by TrueOnline has a command injection vulnerability in the Remote System Log forwarding function, which is only accessible by an authenticated user. The vulnerability is in the logSet.asp page and can be exploited through the ServerIP p",
+  "exploit_available": true,
+  "published": "2019-05-02",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "5200w-t",
+   "5200w-t_firmware",
+   "p660hn-t1a_v1",
+   "p660hn-t1a_v1_firmware",
+   "p660hn-t1a_v2",
+   "p660hn-t1a_v2_firmware"
+  ]
+ },
+ "CVE-2017-18371": {
+  "cve_id": "CVE-2017-18371",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-798"
+  ],
+  "description": "The ZyXEL P660HN-T1A v2 TCLinux Fw #7.3.37.6 router distributed by TrueOnline has three user accounts with default passwords, including two hardcoded service accounts: one with the username true and password true, and another with the username supervisor and password zyad1234. These accounts can be ",
+  "exploit_available": true,
+  "published": "2019-05-02",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "5200w-t",
+   "5200w-t_firmware",
+   "p660hn-t1a_v1",
+   "p660hn-t1a_v1_firmware",
+   "p660hn-t1a_v2",
+   "p660hn-t1a_v2_firmware"
+  ]
+ },
+ "CVE-2017-5521": {
+  "cve_id": "CVE-2017-5521",
+  "cvss_score": 8.1,
+  "cvss_severity": "HIGH",
+  "cwes": [],
+  "description": "An issue was discovered on NETGEAR R8500, R8300, R7000, R6400, R7300, R7100LG, R6300v2, WNDR3400v3, WNR3500Lv2, R6250, R6700, R6900, and R8000 devices. They are prone to password disclosure via simple crafted requests to the web management server. The bug is exploitable remotely if the remote manage",
+  "exploit_available": true,
+  "published": "2017-01-17",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ac1450",
+   "ac1450_firmware",
+   "d6220",
+   "d6220_firmware",
+   "d6300",
+   "d6300_firmware",
+   "d6300b",
+   "d6300b_firmware",
+   "d6400",
+   "d6400_firmware",
+   "dgn2200bv4",
+   "dgn2200bv4_firmware",
+   "r6200",
+   "r6200_firmware",
+   "r6300",
+   "r6300_firmware",
+   "vegn2610",
+   "vegn2610_firmware",
+   "wndr3700v3",
+   "wndr3700v3_firmware",
+   "wndr4000",
+   "wndr4000_firmware",
+   "wndr4500",
+   "wndr4500_firmware",
+   "wnr1000v3",
+   "wnr1000v3_firmware"
+  ]
+ },
+ "CVE-2017-6334": {
+  "cve_id": "CVE-2017-6334",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-78",
+   "CWE-78"
+  ],
+  "description": "dnslookup.cgi on NETGEAR DGN2200 devices with firmware through 10.0.0.50 allows remote authenticated users to execute arbitrary OS commands via shell metacharacters in the host_name field of an HTTP POST request, a different vulnerability than CVE-2017-6077.",
+  "exploit_available": true,
+  "published": "2017-03-06",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dgn2200_series_firmware",
+   "dgn2200v1",
+   "dgn2200v2",
+   "dgn2200v3",
+   "dgn2200v4"
+  ]
+ },
+ "CVE-2017-6884": {
+  "cve_id": "CVE-2017-6884",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-78",
+   "CWE-78"
+  ],
+  "description": "A command injection vulnerability was discovered on the Zyxel EMG2926 home router with firmware V1.00(AAQT.4)b8. The vulnerability is located in the diagnostic tools, specifically the nslookup function. A malicious user may exploit numerous vectors to execute arbitrary commands on the router, such a",
+  "exploit_available": true,
+  "published": "2017-04-06",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "emg2926",
+   "emg2926_firmware"
+  ]
+ },
+ "CVE-2017-7921": {
+  "cve_id": "CVE-2017-7921",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-287",
+   "CWE-287"
+  ],
+  "description": "An Improper Authentication issue was discovered in Hikvision DS-2CD2xx2F-I Series V5.2.0 build 140721 to V5.4.0 build 160530, DS-2CD2xx0F-I Series V5.2.0 build 140721 to V5.4.0 Build 160401, DS-2CD2xx2FWD Series V5.3.1 build 150410 to V5.4.4 Build 161125, DS-2CD4x2xFWD Series V5.2.0 build 140721 to ",
+  "exploit_available": false,
+  "published": "2017-05-06",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ds-2cd2032-i",
+   "ds-2cd2032-i_firmware",
+   "ds-2cd2112-i",
+   "ds-2cd2112-i_firmware",
+   "ds-2cd2132-i",
+   "ds-2cd2132-i_firmware",
+   "ds-2cd2212-i5",
+   "ds-2cd2212-i5_firmware",
+   "ds-2cd2232-i5",
+   "ds-2cd2232-i5_firmware",
+   "ds-2cd2312-i",
+   "ds-2cd2312-i_firmware",
+   "ds-2cd2332-i",
+   "ds-2cd2332-i_firmware",
+   "ds-2cd2412f-i\\(w\\)",
+   "ds-2cd2412f-i\\(w\\)_firmware",
+   "ds-2cd2432f-i\\(w\\)",
+   "ds-2cd2432f-i\\(w\\)_firmware",
+   "ds-2cd2512f-i\\(s\\)",
+   "ds-2cd2512f-i\\(s\\)_firmware",
+   "ds-2cd2532f-i\\(s\\)",
+   "ds-2cd2532f-i\\(s\\)_firmware",
+   "ds-2cd2612f-i\\(s\\)",
+   "ds-2cd2612f-i\\(s\\)_firmware",
+   "ds-2cd2632f-i\\(s\\)",
+   "ds-2cd2632f-i\\(s\\)_firmware",
+   "ds-2cd2712f-i\\(s\\)",
+   "ds-2cd2712f-i\\(s\\)_firmware",
+   "ds-2cd2732f-i\\(s\\)",
+   "ds-2cd2732f-i\\(s\\)_firmware",
+   "ds-2cd2t32-i3",
+   "ds-2cd2t32-i3_firmware",
+   "ds-2cd2t32-i5",
+   "ds-2cd2t32-i5_firmware",
+   "ds-2cd2t32-i8",
+   "ds-2cd2t32-i8_firmware",
+   "ds-2cd4012f-\\(a\\)",
+   "ds-2cd4012f-\\(a\\)_firmware",
+   "ds-2cd4012f-\\(p\\)",
+   "ds-2cd4012f-\\(p\\)_firmware",
+   "ds-2cd4012f-\\(w\\)",
+   "ds-2cd4012f-\\(w\\)_firmware",
+   "ds-2cd4012fwd-\\(a\\)",
+   "ds-2cd4012fwd-\\(a\\)_firmware",
+   "ds-2cd4012fwd-\\(p\\)",
+   "ds-2cd4012fwd-\\(p\\)_firmware",
+   "ds-2cd4012fwd-\\(w\\)",
+   "ds-2cd4012fwd-\\(w\\)_firmware",
+   "ds-2cd4024f-\\(a\\)",
+   "ds-2cd4024f-\\(a\\)_firmware",
+   "ds-2cd4024f-\\(p\\)",
+   "ds-2cd4024f-\\(p\\)_firmware",
+   "ds-2cd4024f-\\(w\\)",
+   "ds-2cd4024f-\\(w\\)_firmware",
+   "ds-2cd4032fwd-\\(a\\)",
+   "ds-2cd4032fwd-\\(a\\)_firmware",
+   "ds-2cd4032fwd-\\(p\\)",
+   "ds-2cd4032fwd-\\(p\\)_firmware",
+   "ds-2cd4032fwd-\\(w\\)",
+   "ds-2cd4032fwd-\\(w\\)_firmware",
+   "ds-2cd4112f-i\\(z\\)",
+   "ds-2cd4112f-i\\(z\\)_firmware",
+   "ds-2cd4112fwd-i\\(z\\)",
+   "ds-2cd4112fwd-i\\(z\\)_firmware",
+   "ds-2cd4124f-i\\(z\\)",
+   "ds-2cd4124f-i\\(z\\)_firmware",
+   "ds-2cd4132fwd-i\\(z\\)",
+   "ds-2cd4132fwd-i\\(z\\)_firmware",
+   "ds-2cd4212f-i\\(h\\)",
+   "ds-2cd4212f-i\\(h\\)_firmware",
+   "ds-2cd4212f-i\\(s\\)",
+   "ds-2cd4212f-i\\(s\\)_firmware",
+   "ds-2cd4212f-i\\(z\\)",
+   "ds-2cd4212f-i\\(z\\)_firmware",
+   "ds-2cd4212fwd-i\\(h\\)",
+   "ds-2cd4212fwd-i\\(h\\)_firmware",
+   "ds-2cd4212fwd-i\\(s\\)",
+   "ds-2cd4212fwd-i\\(s\\)_firmware",
+   "ds-2cd4212fwd-i\\(z\\)",
+   "ds-2cd4212fwd-i\\(z\\)_firmware",
+   "ds-2cd4224f-i\\(h\\)",
+   "ds-2cd4224f-i\\(h\\)_firmware",
+   "ds-2cd4224f-i\\(s\\)",
+   "ds-2cd4224f-i\\(s\\)_firmware",
+   "ds-2cd4224f-i\\(z\\)",
+   "ds-2cd4224f-i\\(z\\)_firmware",
+   "ds-2cd4232fwd-i\\(h\\)",
+   "ds-2cd4232fwd-i\\(h\\)_firmware",
+   "ds-2cd4232fwd-i\\(s\\)",
+   "ds-2cd4232fwd-i\\(s\\)_firmware",
+   "ds-2cd4232fwd-i\\(z\\)",
+   "ds-2cd4232fwd-i\\(z\\)_firmware",
+   "ds-2cd4312f-i\\(h\\)",
+   "ds-2cd4312f-i\\(h\\)_firmware",
+   "ds-2cd4312f-i\\(s\\)",
+   "ds-2cd4312f-i\\(s\\)_firmware",
+   "ds-2cd4312f-i\\(z\\)",
+   "ds-2cd4312f-i\\(z\\)_firmware",
+   "ds-2cd4324f-i\\(h\\)",
+   "ds-2cd4324f-i\\(h\\)_firmware",
+   "ds-2cd4324f-i\\(s\\)",
+   "ds-2cd4324f-i\\(s\\)_firmware",
+   "ds-2cd4324f-i\\(z\\)",
+   "ds-2cd4324f-i\\(z\\)_firmware",
+   "ds-2cd4332fwd-i\\(h\\)",
+   "ds-2cd4332fwd-i\\(h\\)_firmware",
+   "ds-2cd4332fwd-i\\(s\\)",
+   "ds-2cd4332fwd-i\\(s\\)_firmware",
+   "ds-2cd4332fwd-i\\(z\\)",
+   "ds-2cd4332fwd-i\\(z\\)_firmware",
+   "ds-2cd63xx_series",
+   "ds-2cd63xx_series_firmware",
+   "ds-2cd6412fwd",
+   "ds-2cd6412fwd_firmware",
+   "ds-2dfx_series",
+   "ds-2dfx_series_firmware"
+  ]
+ },
+ "CVE-2017-7923": {
+  "cve_id": "CVE-2017-7923",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-260",
+   "CWE-200"
+  ],
+  "description": "A Password in Configuration File issue was discovered in Hikvision DS-2CD2xx2F-I Series V5.2.0 build 140721 to V5.4.0 build 160530, DS-2CD2xx0F-I Series V5.2.0 build 140721 to V5.4.0 Build 160401, DS-2CD2xx2FWD Series V5.3.1 build 150410 to V5.4.4 Build 161125, DS-2CD4x2xFWD Series V5.2.0 build 1407",
+  "exploit_available": false,
+  "published": "2017-05-06",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ds-2cd2032-i",
+   "ds-2cd2032-i_firmware",
+   "ds-2cd2112-i",
+   "ds-2cd2112-i_firmware",
+   "ds-2cd2132-i",
+   "ds-2cd2132-i_firmware",
+   "ds-2cd2212-i5",
+   "ds-2cd2212-i5_firmware",
+   "ds-2cd2232-i5",
+   "ds-2cd2232-i5_firmware",
+   "ds-2cd2312-i",
+   "ds-2cd2312-i_firmware",
+   "ds-2cd2332-i",
+   "ds-2cd2332-i_firmware",
+   "ds-2cd2412f-i\\(w\\)",
+   "ds-2cd2412f-i\\(w\\)_firmware",
+   "ds-2cd2432f-i\\(w\\)",
+   "ds-2cd2432f-i\\(w\\)_firmware",
+   "ds-2cd2512f-i\\(s\\)",
+   "ds-2cd2512f-i\\(s\\)_firmware",
+   "ds-2cd2532f-i\\(s\\)",
+   "ds-2cd2532f-i\\(s\\)_firmware",
+   "ds-2cd2612f-i\\(s\\)",
+   "ds-2cd2612f-i\\(s\\)_firmware",
+   "ds-2cd2632f-i\\(s\\)",
+   "ds-2cd2632f-i\\(s\\)_firmware",
+   "ds-2cd2712f-i\\(s\\)",
+   "ds-2cd2712f-i\\(s\\)_firmware",
+   "ds-2cd2732f-i\\(s\\)",
+   "ds-2cd2732f-i\\(s\\)_firmware",
+   "ds-2cd2t32-i3",
+   "ds-2cd2t32-i3_firmware",
+   "ds-2cd2t32-i5",
+   "ds-2cd2t32-i5_firmware",
+   "ds-2cd2t32-i8",
+   "ds-2cd2t32-i8_firmware",
+   "ds-2cd4012f-\\(a\\)",
+   "ds-2cd4012f-\\(a\\)_firmware",
+   "ds-2cd4012f-\\(p\\)",
+   "ds-2cd4012f-\\(p\\)_firmware",
+   "ds-2cd4012f-\\(w\\)",
+   "ds-2cd4012f-\\(w\\)_firmware",
+   "ds-2cd4012fwd-\\(a\\)",
+   "ds-2cd4012fwd-\\(a\\)_firmware",
+   "ds-2cd4012fwd-\\(p\\)",
+   "ds-2cd4012fwd-\\(p\\)_firmware",
+   "ds-2cd4012fwd-\\(w\\)",
+   "ds-2cd4012fwd-\\(w\\)_firmware",
+   "ds-2cd4024f-\\(a\\)",
+   "ds-2cd4024f-\\(a\\)_firmware",
+   "ds-2cd4024f-\\(p\\)",
+   "ds-2cd4024f-\\(p\\)_firmware",
+   "ds-2cd4024f-\\(w\\)",
+   "ds-2cd4024f-\\(w\\)_firmware",
+   "ds-2cd4032fwd-\\(a\\)",
+   "ds-2cd4032fwd-\\(a\\)_firmware",
+   "ds-2cd4032fwd-\\(p\\)",
+   "ds-2cd4032fwd-\\(p\\)_firmware",
+   "ds-2cd4032fwd-\\(w\\)",
+   "ds-2cd4032fwd-\\(w\\)_firmware",
+   "ds-2cd4112f-i\\(z\\)",
+   "ds-2cd4112f-i\\(z\\)_firmware",
+   "ds-2cd4112fwd-i\\(z\\)",
+   "ds-2cd4112fwd-i\\(z\\)_firmware",
+   "ds-2cd4124f-i\\(z\\)",
+   "ds-2cd4124f-i\\(z\\)_firmware",
+   "ds-2cd4132fwd-i\\(z\\)",
+   "ds-2cd4132fwd-i\\(z\\)_firmware",
+   "ds-2cd4212f-i\\(h\\)",
+   "ds-2cd4212f-i\\(h\\)_firmware",
+   "ds-2cd4212f-i\\(s\\)",
+   "ds-2cd4212f-i\\(s\\)_firmware",
+   "ds-2cd4212f-i\\(z\\)",
+   "ds-2cd4212f-i\\(z\\)_firmware",
+   "ds-2cd4212fwd-i\\(h\\)",
+   "ds-2cd4212fwd-i\\(h\\)_firmware",
+   "ds-2cd4212fwd-i\\(s\\)",
+   "ds-2cd4212fwd-i\\(s\\)_firmware",
+   "ds-2cd4212fwd-i\\(z\\)",
+   "ds-2cd4212fwd-i\\(z\\)_firmware",
+   "ds-2cd4224f-i\\(h\\)",
+   "ds-2cd4224f-i\\(h\\)_firmware",
+   "ds-2cd4224f-i\\(s\\)",
+   "ds-2cd4224f-i\\(s\\)_firmware",
+   "ds-2cd4224f-i\\(z\\)",
+   "ds-2cd4224f-i\\(z\\)_firmware",
+   "ds-2cd4232fwd-i\\(h\\)",
+   "ds-2cd4232fwd-i\\(h\\)_firmware",
+   "ds-2cd4232fwd-i\\(s\\)",
+   "ds-2cd4232fwd-i\\(s\\)_firmware",
+   "ds-2cd4232fwd-i\\(z\\)",
+   "ds-2cd4232fwd-i\\(z\\)_firmware",
+   "ds-2cd4312f-i\\(h\\)",
+   "ds-2cd4312f-i\\(h\\)_firmware",
+   "ds-2cd4312f-i\\(s\\)",
+   "ds-2cd4312f-i\\(s\\)_firmware",
+   "ds-2cd4312f-i\\(z\\)",
+   "ds-2cd4312f-i\\(z\\)_firmware",
+   "ds-2cd4324f-i\\(h\\)",
+   "ds-2cd4324f-i\\(h\\)_firmware",
+   "ds-2cd4324f-i\\(s\\)",
+   "ds-2cd4324f-i\\(s\\)_firmware",
+   "ds-2cd4324f-i\\(z\\)",
+   "ds-2cd4324f-i\\(z\\)_firmware",
+   "ds-2cd4332fwd-i\\(h\\)",
+   "ds-2cd4332fwd-i\\(h\\)_firmware",
+   "ds-2cd4332fwd-i\\(s\\)",
+   "ds-2cd4332fwd-i\\(s\\)_firmware",
+   "ds-2cd4332fwd-i\\(z\\)",
+   "ds-2cd4332fwd-i\\(z\\)_firmware",
+   "ds-2cd63xx_series",
+   "ds-2cd63xx_series_firmware",
+   "ds-2cd6412fwd",
+   "ds-2cd6412fwd_firmware",
+   "ds-2dfx_series",
+   "ds-2dfx_series_firmware"
+  ]
+ },
+ "CVE-2017-9833": {
+  "cve_id": "CVE-2017-9833",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-22"
+  ],
+  "description": "/cgi-bin/wapopen in Boa 0.94.14rc21 allows the injection of \"../..\" using the FILECAMERA variable (sent by GET) to read files with root privileges. NOTE: multiple third parties report that this is a system-integrator issue (e.g., a vulnerability on one type of camera) because Boa does not include an",
+  "exploit_available": true,
+  "published": "2017-06-24",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "boa"
+  ]
+ },
+ "CVE-2018-10088": {
+  "cve_id": "CVE-2018-10088",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-119"
+  ],
+  "description": "Buffer overflow in XiongMai uc-httpd 1.0.0 has unspecified impact and attack vectors, a different vulnerability than CVE-2017-16725.",
+  "exploit_available": true,
+  "published": "2018-06-08",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "uc-httpd"
+  ]
+ },
+ "CVE-2018-10562": {
+  "cve_id": "CVE-2018-10562",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78",
+   "CWE-78"
+  ],
+  "description": "An issue was discovered on Dasan GPON home routers. Command Injection can occur via the dest_host parameter in a diag_action=ping request to a GponForm/diag_Form URI. Because the router saves ping results in /tmp and transmits them to the user when the user revisits /diag.html, it's quite simple to ",
+  "exploit_available": true,
+  "published": "2018-05-04",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "gpon_router",
+   "gpon_router_firmware"
+  ]
+ },
+ "CVE-2018-10823": {
+  "cve_id": "CVE-2018-10823",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "An issue was discovered on D-Link DWR-116 through 1.06, DWR-512 through 2.02, DWR-712 through 2.02, DWR-912 through 2.02, DWR-921 through 2.02, and DWR-111 through 1.01 devices. An authenticated attacker may execute arbitrary code by injecting the shell command into the chkisg.htm page Sip parameter",
+  "exploit_available": true,
+  "published": "2018-10-17",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dwr-111",
+   "dwr-111_firmware",
+   "dwr-116",
+   "dwr-116_firmware",
+   "dwr-512",
+   "dwr-512_firmware",
+   "dwr-912_firmware",
+   "dwr-921"
+  ]
+ },
+ "CVE-2018-11511": {
+  "cve_id": "CVE-2018-11511",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-89"
+  ],
+  "description": "The tree list functionality in the photo gallery application in ASUSTOR ADM 3.1.0.RFQ3 has a SQL injection vulnerability that affects the 'album_id' or 'scope' parameter via a photo-gallery/api/album/tree_lists/ URI.",
+  "exploit_available": true,
+  "published": "2018-08-16",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "asustor_data_master"
+  ]
+ },
+ "CVE-2018-12122": {
+  "cve_id": "CVE-2018-12122",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-400",
+   "CWE-400"
+  ],
+  "description": "Node.js: All versions prior to Node.js 6.15.0, 8.14.0, 10.14.0 and 11.3.0: Slowloris HTTP Denial of Service: An attacker can cause a Denial of Service (DoS) by sending headers very slowly keeping HTTP or HTTPS connections and associated resources alive for a long period of time.",
+  "exploit_available": false,
+  "published": "2018-11-28",
+  "cpe_parts": [
+   "a",
+   "o"
+  ],
+  "cpe_products": [
+   "node.js",
+   "suse_enterprise_storage",
+   "suse_linux_enterprise_server",
+   "suse_openstack_cloud"
+  ]
+ },
+ "CVE-2018-14559": {
+  "cve_id": "CVE-2018-14559",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-119"
+  ],
+  "description": "An issue was discovered on Tenda AC7 devices with firmware through V15.03.06.44_CN(AC7), AC9 devices with firmware through V15.03.05.19(6318)_CN(AC9), and AC10 devices with firmware through V15.03.06.23_CN(AC10). A buffer overflow vulnerability exists in the router's web server (httpd). When process",
+  "exploit_available": true,
+  "published": "2019-04-25",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ac10",
+   "ac10_firmware",
+   "ac7",
+   "ac7_firmware",
+   "ac9",
+   "ac9_firmware"
+  ]
+ },
+ "CVE-2018-14782": {
+  "cve_id": "CVE-2018-14782",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-200",
+   "CWE-287"
+  ],
+  "description": "NetComm Wireless G LTE Light Industrial M2M Router (NWL-25) with firmware 2.0.29.11 and prior. The device allows access to configuration files and profiles without authenticating the user.",
+  "exploit_available": false,
+  "published": "2018-08-10",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "nwl-25",
+   "nwl-25_firmware"
+  ]
+ },
+ "CVE-2018-16523": {
+  "cve_id": "CVE-2018-16523",
+  "cvss_score": 7.4,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-369"
+  ],
+  "description": "Amazon Web Services (AWS) FreeRTOS through 1.3.1, FreeRTOS up to V10.0.1 (with FreeRTOS+TCP), and WITTENSTEIN WHIS Connect middleware TCP/IP component allow division by zero in prvCheckOptions.",
+  "exploit_available": true,
+  "published": "2018-12-06",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "amazon_web_services_freertos",
+   "freertos"
+  ]
+ },
+ "CVE-2018-16525": {
+  "cve_id": "CVE-2018-16525",
+  "cvss_score": 8.1,
+  "cvss_severity": "HIGH",
+  "cwes": [],
+  "description": "Amazon Web Services (AWS) FreeRTOS through 1.3.1, FreeRTOS up to V10.0.1 (with FreeRTOS+TCP), and WITTENSTEIN WHIS Connect middleware TCP/IP component allow remote attackers to execute arbitrary code or leak information because of a Buffer Overflow during parsing of DNS\\LLMNR packets in prvParseDNSR",
+  "exploit_available": true,
+  "published": "2018-12-06",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "amazon_web_services_freertos",
+   "freertos"
+  ]
+ },
+ "CVE-2018-16526": {
+  "cve_id": "CVE-2018-16526",
+  "cvss_score": 8.1,
+  "cvss_severity": "HIGH",
+  "cwes": [],
+  "description": "Amazon Web Services (AWS) FreeRTOS through 1.3.1, FreeRTOS up to V10.0.1 (with FreeRTOS+TCP), and WITTENSTEIN WHIS Connect middleware TCP/IP component allow remote attackers to leak information or execute arbitrary code because of a Buffer Overflow during generation of a protocol checksum in usGener",
+  "exploit_available": true,
+  "published": "2018-12-06",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "amazon_web_services_freertos",
+   "freertos"
+  ]
+ },
+ "CVE-2018-16601": {
+  "cve_id": "CVE-2018-16601",
+  "cvss_score": 8.1,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-191"
+  ],
+  "description": "An issue was discovered in Amazon Web Services (AWS) FreeRTOS through 1.3.1, FreeRTOS up to V10.0.1 (with FreeRTOS+TCP), and WITTENSTEIN WHIS Connect middleware TCP/IP component. A crafted IP header triggers a full memory space copy in prvProcessIPPacket, leading to denial of service and possibly re",
+  "exploit_available": true,
+  "published": "2018-12-06",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "amazon_web_services_freertos",
+   "freertos"
+  ]
+ },
+ "CVE-2018-16844": {
+  "cve_id": "CVE-2018-16844",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-400",
+   "CWE-400"
+  ],
+  "description": "nginx before versions 1.15.6 and 1.14.1 has a vulnerability in the implementation of HTTP/2 that can allow for excessive CPU usage. This issue affects nginx compiled with the ngx_http_v2_module (not compiled by default) if the 'http2' option of the 'listen' directive is used in a configuration file.",
+  "exploit_available": false,
+  "published": "2018-11-07",
+  "cpe_parts": [
+   "a",
+   "o"
+  ],
+  "cpe_products": [
+   "debian_linux",
+   "nginx",
+   "ubuntu_linux",
+   "xcode"
+  ]
+ },
+ "CVE-2018-18708": {
+  "cve_id": "CVE-2018-18708",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-119"
+  ],
+  "description": "An issue was discovered on Tenda AC7 V15.03.06.44_CN, AC9 V15.03.05.19(6318)_CN, AC10 V15.03.06.23_CN, AC15 V15.03.05.19_CN, and AC18 V15.03.05.19(6318)_CN devices. It is a buffer overflow vulnerability in the router's web server -- httpd. When processing the \"page\" parameter of the function \"fromAd",
+  "exploit_available": true,
+  "published": "2018-10-29",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ac10",
+   "ac10_firmware",
+   "ac15",
+   "ac15_firmware",
+   "ac18",
+   "ac18_firmware",
+   "ac7",
+   "ac7_firmware",
+   "ac9",
+   "ac9_firmware"
+  ]
+ },
+ "CVE-2018-19052": {
+  "cve_id": "CVE-2018-19052",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-22"
+  ],
+  "description": "An issue was discovered in mod_alias_physical_handler in mod_alias.c in lighttpd before 1.4.50. There is potential ../ path traversal of a single directory above an alias target, with a specific mod_alias configuration where the matched alias lacks a trailing '/' character, but the alias target file",
+  "exploit_available": true,
+  "published": "2018-11-07",
+  "cpe_parts": [
+   "a",
+   "o"
+  ],
+  "cpe_products": [
+   "backports_sle",
+   "debian_linux",
+   "leap",
+   "lighttpd",
+   "suse_linux_enterprise_server"
+  ]
+ },
+ "CVE-2018-19986": {
+  "cve_id": "CVE-2018-19986",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "In the /HNAP1/SetRouterSettings message, the RemotePort parameter is vulnerable, and the vulnerability affects D-Link DIR-818LW Rev.A 2.05.B03 and DIR-822 B1 202KRb06 devices. In the SetRouterSettings.php source code, the RemotePort parameter is saved in the $path_inf_wan1.\"/web\" internal configurat",
+  "exploit_available": true,
+  "published": "2019-05-13",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dir-818lw",
+   "dir-818lw_firmware",
+   "dir-822",
+   "dir-822_firmware"
+  ]
+ },
+ "CVE-2018-20114": {
+  "cve_id": "CVE-2018-20114",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "On D-Link DIR-818LW Rev.A 2.05.B03 and DIR-860L Rev.B 2.03.B03 devices, unauthenticated remote OS command execution can occur in the soap.cgi service of the cgibin binary via an \"&&\" substring in the service parameter.  NOTE: this issue exists because of an incomplete fix for CVE-2018-6530.",
+  "exploit_available": true,
+  "published": "2019-01-02",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dir-818lw",
+   "dir-818lw_firmware",
+   "dir-860l",
+   "dir-860l_firmware"
+  ]
+ },
+ "CVE-2018-5390": {
+  "cve_id": "CVE-2018-5390",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-400",
+   "CWE-400"
+  ],
+  "description": "Linux kernel versions 4.9+ can be forced to make very expensive calls to tcp_collapse_ofo_queue() and tcp_prune_ofo_queue() for every incoming packet which can lead to a denial of service.",
+  "exploit_available": false,
+  "published": "2018-08-06",
+  "cpe_parts": [
+   "a",
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "advanced_core_operating_system",
+   "aruba_airwave_amp",
+   "aruba_clearpass_policy_manager",
+   "big-ip_access_policy_manager",
+   "big-ip_advanced_firewall_manager",
+   "big-ip_analytics",
+   "big-ip_application_acceleration_manager",
+   "big-ip_application_security_manager",
+   "big-ip_domain_name_system",
+   "big-ip_edge_gateway",
+   "big-ip_fraud_protection_service",
+   "big-ip_global_traffic_manager",
+   "big-ip_link_controller",
+   "big-ip_local_traffic_manager",
+   "big-ip_policy_enforcement_manager",
+   "big-ip_webaccelerator",
+   "collaboration_meeting_rooms",
+   "debian_linux",
+   "digital_network_architecture_center",
+   "enterprise_linux_desktop",
+   "enterprise_linux_server",
+   "enterprise_linux_server_aus",
+   "enterprise_linux_server_eus",
+   "enterprise_linux_server_tus",
+   "enterprise_linux_workstation",
+   "expressway",
+   "expressway_series",
+   "linux_kernel",
+   "meeting_management",
+   "network_assurance_engine",
+   "telepresence_conductor",
+   "telepresence_conductor_firmware",
+   "telepresence_video_communication_server",
+   "telepresence_video_communication_server_firmware",
+   "threat_grid-cloud",
+   "traffix_systems_signaling_delivery_controller",
+   "ubuntu_linux",
+   "virtualization",
+   "webex_hybrid_data_security",
+   "webex_video_mesh"
+  ]
+ },
+ "CVE-2018-6413": {
+  "cve_id": "CVE-2018-6413",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-119"
+  ],
+  "description": "There is a buffer overflow in the Hikvision Camera DS-2CD9111-S of V4.1.2 build 160203 and before, and this vulnerability allows remote attackers to launch a denial of service attack (service interruption) via a crafted network setting interface request.",
+  "exploit_available": false,
+  "published": "2018-04-18",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ds-2cd9111-s",
+   "ds-2cd9111-s_firmware"
+  ]
+ },
+ "CVE-2018-6414": {
+  "cve_id": "CVE-2018-6414",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-119"
+  ],
+  "description": "A buffer overflow vulnerability in the web server of some Hikvision IP Cameras allows an attacker to send a specially crafted message to affected devices. Due to the insufficient input validation, successful exploit can corrupt memory and lead to arbitrary code execution or crash the process.",
+  "exploit_available": false,
+  "published": "2018-08-13",
+  "cpe_parts": [
+   "h"
+  ],
+  "cpe_products": [
+   "ip_cameras"
+  ]
+ },
+ "CVE-2018-6530": {
+  "cve_id": "CVE-2018-6530",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78",
+   "CWE-78"
+  ],
+  "description": "OS command injection vulnerability in soap.cgi (soapcgi_main in cgibin) in D-Link DIR-880L DIR-880L_REVA_FIRMWARE_PATCH_1.08B04 and previous versions, DIR-868L DIR868LA1_FW112b04 and previous versions, DIR-65L DIR-865L_REVA_FIRMWARE_PATCH_1.08.B01 and previous versions, and DIR-860L DIR860LA1_FW110b",
+  "exploit_available": true,
+  "published": "2018-03-06",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dir-860l",
+   "dir-860l_firmware",
+   "dir-865l",
+   "dir-865l_firmware",
+   "dir-868l",
+   "dir-868l_firmware",
+   "dir-880l",
+   "dir-880l_firmware"
+  ]
+ },
+ "CVE-2019-11060": {
+  "cve_id": "CVE-2019-11060",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-400",
+   "CWE-770"
+  ],
+  "description": "The web api server on Port 8080 of ASUS HG100 firmware up to 1.05.12, which is vulnerable to Slowloris HTTP Denial of Service: an attacker can cause a Denial of Service (DoS) by sending headers very slowly to keep HTTP or HTTPS connections and associated resources alive for a long period of time. CV",
+  "exploit_available": true,
+  "published": "2019-08-29",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "hg100",
+   "hg100_firmware"
+  ]
+ },
+ "CVE-2019-11072": {
+  "cve_id": "CVE-2019-11072",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-190"
+  ],
+  "description": "lighttpd before 1.4.54 has a signed integer overflow, which might allow remote attackers to cause a denial of service (application crash) or possibly have unspecified other impact via a malicious HTTP GET request, as demonstrated by mishandling of /%2F? in burl_normalize_2F_to_slash_fix in burl.c. N",
+  "exploit_available": true,
+  "published": "2019-04-10",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "lighttpd"
+  ]
+ },
+ "CVE-2019-11478": {
+  "cve_id": "CVE-2019-11478",
+  "cvss_score": 5.3,
+  "cvss_severity": "MEDIUM",
+  "cwes": [
+   "CWE-770",
+   "CWE-400"
+  ],
+  "description": "Jonathan Looney discovered that the TCP retransmission queue implementation in tcp_fragment in the Linux kernel could be fragmented when handling certain TCP Selective Acknowledgment (SACK) sequences. A remote attacker could use this to cause a denial of service. This has been fixed in stable kernel",
+  "exploit_available": false,
+  "published": "2019-06-19",
+  "cpe_parts": [
+   "a",
+   "o"
+  ],
+  "cpe_products": [
+   "big-ip_access_policy_manager",
+   "big-ip_advanced_firewall_manager",
+   "big-ip_analytics",
+   "big-ip_application_acceleration_manager",
+   "big-ip_application_security_manager",
+   "big-ip_domain_name_system",
+   "big-ip_edge_gateway",
+   "big-ip_fraud_protection_service",
+   "big-ip_global_traffic_manager",
+   "big-ip_link_controller",
+   "big-ip_local_traffic_manager",
+   "big-ip_policy_enforcement_manager",
+   "big-ip_webaccelerator",
+   "connect_secure",
+   "enterprise_linux",
+   "enterprise_linux_atomic_host",
+   "enterprise_linux_aus",
+   "enterprise_linux_eus",
+   "enterprise_mrg",
+   "linux_kernel",
+   "pulse_policy_secure",
+   "pulse_secure_virtual_application_delivery_controller",
+   "traffix_signaling_delivery_controller",
+   "ubuntu_linux"
+  ]
+ },
+ "CVE-2019-12255": {
+  "cve_id": "CVE-2019-12255",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-120"
+  ],
+  "description": "Wind River VxWorks has a Buffer Overflow in the TCP component (issue 1 of 4). This is a IPNET security vulnerability: TCP Urgent Pointer = 0 that leads to an integer underflow.",
+  "exploit_available": true,
+  "published": "2019-08-09",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "e-series_santricity_os_controller",
+   "garrettcom_magnum_dx940e",
+   "garrettcom_magnum_dx940e_firmware",
+   "hirschmann_dragon_mach4000",
+   "hirschmann_dragon_mach4500",
+   "hirschmann_eagle20",
+   "hirschmann_eagle30",
+   "hirschmann_eagle_one",
+   "hirschmann_ees20",
+   "hirschmann_ees25",
+   "hirschmann_eesx20",
+   "hirschmann_eesx30",
+   "hirschmann_grs1020",
+   "hirschmann_grs1030",
+   "hirschmann_grs1042",
+   "hirschmann_grs1120",
+   "hirschmann_grs1130",
+   "hirschmann_grs1142",
+   "hirschmann_hios",
+   "hirschmann_msp30",
+   "hirschmann_msp32",
+   "hirschmann_msp40",
+   "hirschmann_octopus_os3",
+   "hirschmann_rail_switch_power_lite",
+   "hirschmann_rail_switch_power_smart",
+   "hirschmann_red25",
+   "hirschmann_rsp20",
+   "hirschmann_rsp25",
+   "hirschmann_rsp30",
+   "hirschmann_rsp35",
+   "hirschmann_rspe30",
+   "hirschmann_rspe32",
+   "hirschmann_rspe35",
+   "hirschmann_rspe37",
+   "power_meter_9410",
+   "power_meter_9410_firmware",
+   "power_meter_9810",
+   "power_meter_9810_firmware",
+   "ruggedcom_win7000",
+   "ruggedcom_win7000_firmware",
+   "ruggedcom_win7018",
+   "ruggedcom_win7018_firmware",
+   "ruggedcom_win7025",
+   "ruggedcom_win7025_firmware",
+   "ruggedcom_win7200",
+   "ruggedcom_win7200_firmware",
+   "siprotec_5",
+   "siprotec_5_firmware",
+   "sonicos",
+   "vxworks"
+  ]
+ },
+ "CVE-2019-12256": {
+  "cve_id": "CVE-2019-12256",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-120"
+  ],
+  "description": "Wind River VxWorks 6.9 and vx7 has a Buffer Overflow in the IPv4 component. There is an IPNET security vulnerability: Stack overflow in the parsing of IPv4 packets\u2019 IP options.",
+  "exploit_available": false,
+  "published": "2019-08-09",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "e-series_santricity_os_controller",
+   "garrettcom_magnum_dx940e",
+   "garrettcom_magnum_dx940e_firmware",
+   "hirschmann_dragon_mach4000",
+   "hirschmann_dragon_mach4500",
+   "hirschmann_eagle20",
+   "hirschmann_eagle30",
+   "hirschmann_eagle_one",
+   "hirschmann_ees20",
+   "hirschmann_ees25",
+   "hirschmann_eesx20",
+   "hirschmann_eesx30",
+   "hirschmann_grs1020",
+   "hirschmann_grs1030",
+   "hirschmann_grs1042",
+   "hirschmann_grs1120",
+   "hirschmann_grs1130",
+   "hirschmann_grs1142",
+   "hirschmann_hios",
+   "hirschmann_msp30",
+   "hirschmann_msp32",
+   "hirschmann_msp40",
+   "hirschmann_octopus_os3",
+   "hirschmann_rail_switch_power_lite",
+   "hirschmann_rail_switch_power_smart",
+   "hirschmann_red25",
+   "hirschmann_rsp20",
+   "hirschmann_rsp25",
+   "hirschmann_rsp30",
+   "hirschmann_rsp35",
+   "hirschmann_rspe30",
+   "hirschmann_rspe32",
+   "hirschmann_rspe35",
+   "hirschmann_rspe37",
+   "power_meter_9410",
+   "power_meter_9410_firmware",
+   "power_meter_9810",
+   "power_meter_9810_firmware",
+   "ruggedcom_win7000",
+   "ruggedcom_win7000_firmware",
+   "ruggedcom_win7018",
+   "ruggedcom_win7018_firmware",
+   "ruggedcom_win7025",
+   "ruggedcom_win7025_firmware",
+   "ruggedcom_win7200",
+   "ruggedcom_win7200_firmware",
+   "siprotec_5",
+   "siprotec_5_firmware",
+   "sonicos",
+   "vxworks"
+  ]
+ },
+ "CVE-2019-12257": {
+  "cve_id": "CVE-2019-12257",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-120"
+  ],
+  "description": "Wind River VxWorks 6.6 through 6.9 has a Buffer Overflow in the DHCP client component. There is an IPNET security vulnerability: Heap overflow in DHCP Offer/ACK parsing inside ipdhcpc.",
+  "exploit_available": false,
+  "published": "2019-08-09",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "e-series_santricity_os_controller",
+   "garrettcom_magnum_dx940e",
+   "garrettcom_magnum_dx940e_firmware",
+   "hirschmann_dragon_mach4000",
+   "hirschmann_dragon_mach4500",
+   "hirschmann_eagle20",
+   "hirschmann_eagle30",
+   "hirschmann_eagle_one",
+   "hirschmann_ees20",
+   "hirschmann_ees25",
+   "hirschmann_eesx20",
+   "hirschmann_eesx30",
+   "hirschmann_grs1020",
+   "hirschmann_grs1030",
+   "hirschmann_grs1042",
+   "hirschmann_grs1120",
+   "hirschmann_grs1130",
+   "hirschmann_grs1142",
+   "hirschmann_hios",
+   "hirschmann_msp30",
+   "hirschmann_msp32",
+   "hirschmann_msp40",
+   "hirschmann_octopus_os3",
+   "hirschmann_rail_switch_power_lite",
+   "hirschmann_rail_switch_power_smart",
+   "hirschmann_red25",
+   "hirschmann_rsp20",
+   "hirschmann_rsp25",
+   "hirschmann_rsp30",
+   "hirschmann_rsp35",
+   "hirschmann_rspe30",
+   "hirschmann_rspe32",
+   "hirschmann_rspe35",
+   "hirschmann_rspe37",
+   "ruggedcom_win7000",
+   "ruggedcom_win7000_firmware",
+   "ruggedcom_win7018",
+   "ruggedcom_win7018_firmware",
+   "ruggedcom_win7025",
+   "ruggedcom_win7025_firmware",
+   "ruggedcom_win7200",
+   "ruggedcom_win7200_firmware",
+   "siprotec_5",
+   "siprotec_5_firmware",
+   "sonicos",
+   "vxworks"
+  ]
+ },
+ "CVE-2019-12258": {
+  "cve_id": "CVE-2019-12258",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-384"
+  ],
+  "description": "Wind River VxWorks 6.6 through vx7 has Session Fixation in the TCP component. This is a IPNET security vulnerability: DoS of TCP connection via malformed TCP options.",
+  "exploit_available": false,
+  "published": "2019-08-09",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "e-series_santricity_os_controller",
+   "garrettcom_magnum_dx940e",
+   "garrettcom_magnum_dx940e_firmware",
+   "hirschmann_dragon_mach4000",
+   "hirschmann_dragon_mach4500",
+   "hirschmann_eagle20",
+   "hirschmann_eagle30",
+   "hirschmann_eagle_one",
+   "hirschmann_ees20",
+   "hirschmann_ees25",
+   "hirschmann_eesx20",
+   "hirschmann_eesx30",
+   "hirschmann_grs1020",
+   "hirschmann_grs1030",
+   "hirschmann_grs1042",
+   "hirschmann_grs1120",
+   "hirschmann_grs1130",
+   "hirschmann_grs1142",
+   "hirschmann_hios",
+   "hirschmann_msp30",
+   "hirschmann_msp32",
+   "hirschmann_msp40",
+   "hirschmann_octopus_os3",
+   "hirschmann_rail_switch_power_lite",
+   "hirschmann_rail_switch_power_smart",
+   "hirschmann_red25",
+   "hirschmann_rsp20",
+   "hirschmann_rsp25",
+   "hirschmann_rsp30",
+   "hirschmann_rsp35",
+   "hirschmann_rspe30",
+   "hirschmann_rspe32",
+   "hirschmann_rspe35",
+   "hirschmann_rspe37",
+   "power_meter_9410",
+   "power_meter_9410_firmware",
+   "power_meter_9810",
+   "power_meter_9810_firmware",
+   "ruggedcom_win7000",
+   "ruggedcom_win7000_firmware",
+   "ruggedcom_win7018",
+   "ruggedcom_win7018_firmware",
+   "ruggedcom_win7025",
+   "ruggedcom_win7025_firmware",
+   "ruggedcom_win7200",
+   "ruggedcom_win7200_firmware",
+   "siprotec_5",
+   "siprotec_5_firmware",
+   "sonicos",
+   "vxworks"
+  ]
+ },
+ "CVE-2019-12259": {
+  "cve_id": "CVE-2019-12259",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-476"
+  ],
+  "description": "Wind River VxWorks 6.6, 6.7, 6.8, 6.9 and vx7 has an array index error in the IGMPv3 client component. There is an IPNET security vulnerability: DoS via NULL dereference in IGMP parsing.",
+  "exploit_available": false,
+  "published": "2019-08-09",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "9410_power_meter",
+   "9410_power_meter_firmware",
+   "9810_power_meter",
+   "9810_power_meter_firmware",
+   "garrettcom_magnum_dx940e",
+   "garrettcom_magnum_dx940e_firmware",
+   "hirschmann_dragon_mach4000",
+   "hirschmann_dragon_mach4500",
+   "hirschmann_eagle20",
+   "hirschmann_eagle30",
+   "hirschmann_eagle_one",
+   "hirschmann_ees20",
+   "hirschmann_ees25",
+   "hirschmann_eesx20",
+   "hirschmann_eesx30",
+   "hirschmann_grs1020",
+   "hirschmann_grs1030",
+   "hirschmann_grs1042",
+   "hirschmann_grs1120",
+   "hirschmann_grs1130",
+   "hirschmann_grs1142",
+   "hirschmann_hios",
+   "hirschmann_msp30",
+   "hirschmann_msp32",
+   "hirschmann_msp40",
+   "hirschmann_octopus_os3",
+   "hirschmann_rail_switch_power_lite",
+   "hirschmann_rail_switch_power_smart",
+   "hirschmann_red25",
+   "hirschmann_rsp20",
+   "hirschmann_rsp25",
+   "hirschmann_rsp30",
+   "hirschmann_rsp35",
+   "hirschmann_rspe30",
+   "hirschmann_rspe32",
+   "hirschmann_rspe35",
+   "hirschmann_rspe37",
+   "ruggedcom_win7000",
+   "ruggedcom_win7000_firmware",
+   "ruggedcom_win7018",
+   "ruggedcom_win7018_firmware",
+   "ruggedcom_win7025",
+   "ruggedcom_win7025_firmware",
+   "ruggedcom_win7200",
+   "ruggedcom_win7200_firmware",
+   "siprotec_5",
+   "siprotec_5_firmware",
+   "sonicos",
+   "vxworks"
+  ]
+ },
+ "CVE-2019-12260": {
+  "cve_id": "CVE-2019-12260",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-120"
+  ],
+  "description": "Wind River VxWorks 6.9 and vx7 has a Buffer Overflow in the TCP component (issue 2 of 4). This is an IPNET security vulnerability: TCP Urgent Pointer state confusion caused by a malformed TCP AO option.",
+  "exploit_available": false,
+  "published": "2019-08-09",
+  "cpe_parts": [
+   "a",
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "communications_eagle",
+   "e-series_santricity_os_controller",
+   "garrettcom_magnum_dx940e",
+   "garrettcom_magnum_dx940e_firmware",
+   "hirschmann_dragon_mach4000",
+   "hirschmann_dragon_mach4500",
+   "hirschmann_eagle20",
+   "hirschmann_eagle30",
+   "hirschmann_eagle_one",
+   "hirschmann_ees20",
+   "hirschmann_ees25",
+   "hirschmann_eesx20",
+   "hirschmann_eesx30",
+   "hirschmann_grs1020",
+   "hirschmann_grs1030",
+   "hirschmann_grs1042",
+   "hirschmann_grs1120",
+   "hirschmann_grs1130",
+   "hirschmann_grs1142",
+   "hirschmann_hios",
+   "hirschmann_msp30",
+   "hirschmann_msp32",
+   "hirschmann_msp40",
+   "hirschmann_octopus_os3",
+   "hirschmann_rail_switch_power_lite",
+   "hirschmann_rail_switch_power_smart",
+   "hirschmann_red25",
+   "hirschmann_rsp20",
+   "hirschmann_rsp25",
+   "hirschmann_rsp30",
+   "hirschmann_rsp35",
+   "hirschmann_rspe30",
+   "hirschmann_rspe32",
+   "hirschmann_rspe35",
+   "hirschmann_rspe37",
+   "power_meter_9410",
+   "power_meter_9410_firmware",
+   "power_meter_9810",
+   "power_meter_9810_firmware",
+   "ruggedcom_win7000",
+   "ruggedcom_win7000_firmware",
+   "ruggedcom_win7018",
+   "ruggedcom_win7018_firmware",
+   "ruggedcom_win7025",
+   "ruggedcom_win7025_firmware",
+   "ruggedcom_win7200",
+   "ruggedcom_win7200_firmware",
+   "siprotec_5",
+   "siprotec_5_firmware",
+   "sonicos",
+   "vxworks"
+  ]
+ },
+ "CVE-2019-12261": {
+  "cve_id": "CVE-2019-12261",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-120"
+  ],
+  "description": "Wind River VxWorks 6.7 though 6.9 and vx7 has a Buffer Overflow in the TCP component (issue 3 of 4). This is an IPNET security vulnerability: TCP Urgent Pointer state confusion during connect() to a remote host.",
+  "exploit_available": false,
+  "published": "2019-08-09",
+  "cpe_parts": [
+   "a",
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "communications_eagle",
+   "e-series_santricity_os_controller",
+   "garrettcom_magnum_dx940e",
+   "garrettcom_magnum_dx940e_firmware",
+   "hirschmann_dragon_mach4000",
+   "hirschmann_dragon_mach4500",
+   "hirschmann_eagle20",
+   "hirschmann_eagle30",
+   "hirschmann_eagle_one",
+   "hirschmann_ees20",
+   "hirschmann_ees25",
+   "hirschmann_eesx20",
+   "hirschmann_eesx30",
+   "hirschmann_grs1020",
+   "hirschmann_grs1030",
+   "hirschmann_grs1042",
+   "hirschmann_grs1120",
+   "hirschmann_grs1130",
+   "hirschmann_grs1142",
+   "hirschmann_hios",
+   "hirschmann_msp30",
+   "hirschmann_msp32",
+   "hirschmann_msp40",
+   "hirschmann_octopus_os3",
+   "hirschmann_rail_switch_power_lite",
+   "hirschmann_rail_switch_power_smart",
+   "hirschmann_red25",
+   "hirschmann_rsp20",
+   "hirschmann_rsp25",
+   "hirschmann_rsp30",
+   "hirschmann_rsp35",
+   "hirschmann_rspe30",
+   "hirschmann_rspe32",
+   "hirschmann_rspe35",
+   "hirschmann_rspe37",
+   "power_meter_9410",
+   "power_meter_9410_firmware",
+   "power_meter_9810",
+   "power_meter_9810_firmware",
+   "ruggedcom_win7000",
+   "ruggedcom_win7000_firmware",
+   "ruggedcom_win7018",
+   "ruggedcom_win7018_firmware",
+   "ruggedcom_win7025",
+   "ruggedcom_win7025_firmware",
+   "ruggedcom_win7200",
+   "ruggedcom_win7200_firmware",
+   "siprotec_5",
+   "siprotec_5_firmware",
+   "sonicos",
+   "vxworks"
+  ]
+ },
+ "CVE-2019-12262": {
+  "cve_id": "CVE-2019-12262",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [],
+  "description": "Wind River VxWorks 6.6, 6.7, 6.8, 6.9 and 7 has Incorrect Access Control in the RARP client component. IPNET security vulnerability: Handling of unsolicited Reverse ARP replies (Logical Flaw).",
+  "exploit_available": false,
+  "published": "2019-08-14",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "garrettcom_magnum_dx940e",
+   "garrettcom_magnum_dx940e_firmware",
+   "hirschmann_dragon_mach4000",
+   "hirschmann_dragon_mach4500",
+   "hirschmann_eagle20",
+   "hirschmann_eagle30",
+   "hirschmann_eagle_one",
+   "hirschmann_ees20",
+   "hirschmann_ees25",
+   "hirschmann_eesx20",
+   "hirschmann_eesx30",
+   "hirschmann_grs1020",
+   "hirschmann_grs1030",
+   "hirschmann_grs1042",
+   "hirschmann_grs1120",
+   "hirschmann_grs1130",
+   "hirschmann_grs1142",
+   "hirschmann_hios",
+   "hirschmann_msp30",
+   "hirschmann_msp32",
+   "hirschmann_msp40",
+   "hirschmann_octopus_os3",
+   "hirschmann_rail_switch_power_lite",
+   "hirschmann_rail_switch_power_smart",
+   "hirschmann_red25",
+   "hirschmann_rsp20",
+   "hirschmann_rsp25",
+   "hirschmann_rsp30",
+   "hirschmann_rsp35",
+   "hirschmann_rspe30",
+   "hirschmann_rspe32",
+   "hirschmann_rspe35",
+   "hirschmann_rspe37",
+   "ruggedcom_win7000",
+   "ruggedcom_win7000_firmware",
+   "ruggedcom_win7018",
+   "ruggedcom_win7018_firmware",
+   "ruggedcom_win7025",
+   "ruggedcom_win7025_firmware",
+   "ruggedcom_win7200",
+   "ruggedcom_win7200_firmware",
+   "vxworks"
+  ]
+ },
+ "CVE-2019-12263": {
+  "cve_id": "CVE-2019-12263",
+  "cvss_score": 8.1,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-362",
+   "CWE-787"
+  ],
+  "description": "Wind River VxWorks 6.9.4 and vx7 has a Buffer Overflow in the TCP component (issue 4 of 4). There is an IPNET security vulnerability: TCP Urgent Pointer state confusion due to race condition.",
+  "exploit_available": false,
+  "published": "2019-08-09",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "e-series_santricity_os_controller",
+   "garrettcom_magnum_dx940e",
+   "garrettcom_magnum_dx940e_firmware",
+   "hirschmann_dragon_mach4000",
+   "hirschmann_dragon_mach4500",
+   "hirschmann_eagle20",
+   "hirschmann_eagle30",
+   "hirschmann_eagle_one",
+   "hirschmann_ees20",
+   "hirschmann_ees25",
+   "hirschmann_eesx20",
+   "hirschmann_eesx30",
+   "hirschmann_grs1020",
+   "hirschmann_grs1030",
+   "hirschmann_grs1042",
+   "hirschmann_grs1120",
+   "hirschmann_grs1130",
+   "hirschmann_grs1142",
+   "hirschmann_hios",
+   "hirschmann_msp30",
+   "hirschmann_msp32",
+   "hirschmann_msp40",
+   "hirschmann_octopus_os3",
+   "hirschmann_rail_switch_power_lite",
+   "hirschmann_rail_switch_power_smart",
+   "hirschmann_red25",
+   "hirschmann_rsp20",
+   "hirschmann_rsp25",
+   "hirschmann_rsp30",
+   "hirschmann_rsp35",
+   "hirschmann_rspe30",
+   "hirschmann_rspe32",
+   "hirschmann_rspe35",
+   "hirschmann_rspe37",
+   "power_meter_9410",
+   "power_meter_9410_firmware",
+   "power_meter_9810",
+   "power_meter_9810_firmware",
+   "ruggedcom_win7000",
+   "ruggedcom_win7000_firmware",
+   "ruggedcom_win7018",
+   "ruggedcom_win7018_firmware",
+   "ruggedcom_win7025",
+   "ruggedcom_win7025_firmware",
+   "ruggedcom_win7200",
+   "ruggedcom_win7200_firmware",
+   "siprotec_5",
+   "siprotec_5_firmware",
+   "sonicos",
+   "vxworks"
+  ]
+ },
+ "CVE-2019-12264": {
+  "cve_id": "CVE-2019-12264",
+  "cvss_score": 7.1,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-88"
+  ],
+  "description": "Wind River VxWorks 6.6, 6.7, 6.8, 6.9.3, 6.9.4, and Vx7 has Incorrect Access Control in IPv4 assignment by the ipdhcpc DHCP client component.",
+  "exploit_available": false,
+  "published": "2019-08-05",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "garrettcom_magnum_dx940e",
+   "garrettcom_magnum_dx940e_firmware",
+   "hirschmann_dragon_mach4000",
+   "hirschmann_dragon_mach4500",
+   "hirschmann_eagle20",
+   "hirschmann_eagle30",
+   "hirschmann_eagle_one",
+   "hirschmann_ees20",
+   "hirschmann_ees25",
+   "hirschmann_eesx20",
+   "hirschmann_eesx30",
+   "hirschmann_grs1020",
+   "hirschmann_grs1030",
+   "hirschmann_grs1042",
+   "hirschmann_grs1120",
+   "hirschmann_grs1130",
+   "hirschmann_grs1142",
+   "hirschmann_hios",
+   "hirschmann_msp30",
+   "hirschmann_msp32",
+   "hirschmann_msp40",
+   "hirschmann_octopus_os3",
+   "hirschmann_rail_switch_power_lite",
+   "hirschmann_rail_switch_power_smart",
+   "hirschmann_red25",
+   "hirschmann_rsp20",
+   "hirschmann_rsp25",
+   "hirschmann_rsp30",
+   "hirschmann_rsp35",
+   "hirschmann_rspe30",
+   "hirschmann_rspe32",
+   "hirschmann_rspe35",
+   "hirschmann_rspe37",
+   "ruggedcom_win7000",
+   "ruggedcom_win7000_firmware",
+   "ruggedcom_win7018",
+   "ruggedcom_win7018_firmware",
+   "ruggedcom_win7025",
+   "ruggedcom_win7025_firmware",
+   "ruggedcom_win7200",
+   "ruggedcom_win7200_firmware",
+   "vxworks"
+  ]
+ },
+ "CVE-2019-13373": {
+  "cve_id": "CVE-2019-13373",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-89"
+  ],
+  "description": "An issue was discovered in the D-Link Central WiFi Manager CWM(100) before v1.03R0100_BETA6. Input does not get validated and arbitrary SQL statements can be executed in the database via the /web/Public/Conn.php parameter dbSQL.",
+  "exploit_available": false,
+  "published": "2019-07-06",
+  "cpe_parts": [
+   "a",
+   "o"
+  ],
+  "cpe_products": [
+   "central_wifimanager",
+   "windows"
+  ]
+ },
+ "CVE-2019-16920": {
+  "cve_id": "CVE-2019-16920",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78",
+   "CWE-78"
+  ],
+  "description": "Unauthenticated remote code execution occurs in D-Link products such as DIR-655C, DIR-866L, DIR-652, and DHP-1565. The issue occurs when the attacker sends an arbitrary input to a \"PingTest\" device common gateway interface that could lead to common injection. An attacker who successfully triggers th",
+  "exploit_available": true,
+  "published": "2019-09-27",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dap-1533",
+   "dap-1533_firmware",
+   "dhp-1565",
+   "dhp-1565_firmware",
+   "dir-615",
+   "dir-615_firmware",
+   "dir-652",
+   "dir-652_firmware",
+   "dir-655",
+   "dir-655_firmware",
+   "dir-825",
+   "dir-825_firmware",
+   "dir-835",
+   "dir-835_firmware",
+   "dir-855l",
+   "dir-855l_firmware",
+   "dir-862l",
+   "dir-862l_firmware",
+   "dir-866l",
+   "dir-866l_firmware"
+  ]
+ },
+ "CVE-2019-17508": {
+  "cve_id": "CVE-2019-17508",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "On D-Link DIR-859 A3-1.06 and DIR-850 A1.13 devices, /etc/services/DEVICE.TIME.php allows command injection via the $SERVER variable.",
+  "exploit_available": true,
+  "published": "2019-10-11",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dir-850l_a",
+   "dir-850l_a_firmware",
+   "dir-859_a3",
+   "dir-859_a3_firmware"
+  ]
+ },
+ "CVE-2019-17621": {
+  "cve_id": "CVE-2019-17621",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78",
+   "CWE-78"
+  ],
+  "description": "The UPnP endpoint URL /gena.cgi in the D-Link DIR-859 Wi-Fi router 1.05 and 1.06B01 Beta01 allows an Unauthenticated remote attacker to execute system commands as root, by sending a specially crafted HTTP SUBSCRIBE request to the UPnP service when connecting to the local network.",
+  "exploit_available": true,
+  "published": "2019-12-30",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dir-818lx",
+   "dir-818lx_firmware",
+   "dir-822",
+   "dir-822_firmware",
+   "dir-823",
+   "dir-823_firmware",
+   "dir-859",
+   "dir-859_firmware",
+   "dir-865l",
+   "dir-865l_firmware",
+   "dir-868l",
+   "dir-868l_firmware",
+   "dir-869",
+   "dir-869_firmware",
+   "dir-880l",
+   "dir-880l_firmware",
+   "dir-885l",
+   "dir-885l_firmware",
+   "dir-885r",
+   "dir-885r_firmware",
+   "dir-890l",
+   "dir-890l_firmware",
+   "dir-890r",
+   "dir-890r_firmware",
+   "dir-895l",
+   "dir-895l_firmware",
+   "dir-895r",
+   "dir-895r_firmware"
+  ]
+ },
+ "CVE-2019-19824": {
+  "cve_id": "CVE-2019-19824",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "On certain TOTOLINK Realtek SDK based routers, an authenticated attacker may execute arbitrary OS commands via the sysCmd parameter to the boafrm/formSysCmd URI, even if the GUI (syscmd.htm) is not available. This allows for full control over the device's internals. This affects A3002RU through 2.0.",
+  "exploit_available": true,
+  "published": "2020-01-27",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "a3002ru",
+   "a3002ru_firmware",
+   "a702r",
+   "a702r_firmware",
+   "n100re",
+   "n100re_firmware",
+   "n150rt",
+   "n150rt_firmware",
+   "n200re",
+   "n200re_firmware",
+   "n300rt",
+   "n300rt_firmware",
+   "n301rt",
+   "n301rt_firmware",
+   "n302r",
+   "n302r_firmware"
+  ]
+ },
+ "CVE-2019-19825": {
+  "cve_id": "CVE-2019-19825",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-287"
+  ],
+  "description": "On certain TOTOLINK Realtek SDK based routers, the CAPTCHA text can be retrieved via an {\"topicurl\":\"setting/getSanvas\"} POST to the boafrm/formLogin URI, leading to a CAPTCHA bypass. (Also, the CAPTCHA text is not needed once the attacker has determined valid credentials. The attacker can perform r",
+  "exploit_available": true,
+  "published": "2020-01-27",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "a3002ru",
+   "a3002ru_firmware",
+   "a702r",
+   "a702r_firmware",
+   "n100re",
+   "n100re_firmware",
+   "n150rt",
+   "n150rt_firmware",
+   "n200re",
+   "n200re_firmware",
+   "n300rt",
+   "n300rt_firmware",
+   "n301rt",
+   "n301rt_firmware",
+   "n302r",
+   "n302r_firmware"
+  ]
+ },
+ "CVE-2019-20499": {
+  "cve_id": "CVE-2019-20499",
+  "cvss_score": 7.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "D-Link DWL-2600AP 4.2.0.15 Rev A devices have an authenticated OS command injection vulnerability via the Restore Configuration functionality in the Web interface, using shell metacharacters in the admin.cgi?action=config_restore configRestore or configServerip parameter.",
+  "exploit_available": true,
+  "published": "2020-03-05",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dwl-2600ap",
+   "dwl-2600ap_firmware"
+  ]
+ },
+ "CVE-2019-20500": {
+  "cve_id": "CVE-2019-20500",
+  "cvss_score": 7.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-78",
+   "CWE-78"
+  ],
+  "description": "D-Link DWL-2600AP 4.2.0.15 Rev A devices have an authenticated OS command injection vulnerability via the Save Configuration functionality in the Web interface, using shell metacharacters in the admin.cgi?action=config_save configBackup or downloadServerip parameter.",
+  "exploit_available": true,
+  "published": "2020-03-05",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dwl-2600ap",
+   "dwl-2600ap_firmware"
+  ]
+ },
+ "CVE-2019-5096": {
+  "cve_id": "CVE-2019-5096",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-416",
+   "CWE-416"
+  ],
+  "description": "An exploitable code execution vulnerability exists in the processing of multi-part/form-data requests within the base GoAhead web server application in versions v5.0.1, v.4.1.1 and v3.6.5. A specially crafted HTTP request can lead to a use-after-free condition during the processing of this request t",
+  "exploit_available": true,
+  "published": "2019-12-03",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "goahead"
+  ]
+ },
+ "CVE-2019-5737": {
+  "cve_id": "CVE-2019-5737",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-400",
+   "CWE-770"
+  ],
+  "description": "In Node.js including 6.x before 6.17.0, 8.x before 8.15.1, 10.x before 10.15.2, and 11.x before 11.10.1, an attacker can cause a Denial of Service (DoS) by establishing an HTTP or HTTPS connection in keep-alive mode and by sending headers very slowly. This keeps the connection and associated resourc",
+  "exploit_available": false,
+  "published": "2019-03-28",
+  "cpe_parts": [
+   "a",
+   "o"
+  ],
+  "cpe_products": [
+   "leap",
+   "node.js"
+  ]
+ },
+ "CVE-2019-6971": {
+  "cve_id": "CVE-2019-6971",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [],
+  "description": "An issue was discovered on TP-Link TL-WR1043ND V2 devices. An attacker can send a cookie in an HTTP authentication packet to the router management web interface, and fully control the router without knowledge of the credentials.",
+  "exploit_available": true,
+  "published": "2019-06-19",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "tl-wr1043nd",
+   "tl-wr1043nd_firmware"
+  ]
+ },
+ "CVE-2019-7256": {
+  "cve_id": "CVE-2019-7256",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78",
+   "CWE-78"
+  ],
+  "description": "Linear eMerge E3-Series devices allow Command Injections.",
+  "exploit_available": true,
+  "published": "2019-07-02",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "linear_emerge_elite",
+   "linear_emerge_elite_firmware",
+   "linear_emerge_essential",
+   "linear_emerge_essential_firmware"
+  ]
+ },
+ "CVE-2019-9511": {
+  "cve_id": "CVE-2019-9511",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-400",
+   "CWE-770"
+  ],
+  "description": "Some HTTP/2 implementations are vulnerable to window size manipulation and stream prioritization manipulation, potentially leading to a denial of service. The attacker requests a large amount of data from a specified resource over multiple streams. They manipulate window size and stream priority to ",
+  "exploit_available": false,
+  "published": "2019-08-13",
+  "cpe_parts": [
+   "a",
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "debian_linux",
+   "diskstation_manager",
+   "enterprise_communications_broker",
+   "enterprise_linux",
+   "fedora",
+   "graalvm",
+   "jboss_core_services",
+   "jboss_enterprise_application_platform",
+   "leap",
+   "mac_os_x",
+   "nginx",
+   "node.js",
+   "openshift_service_mesh",
+   "quay",
+   "skynas",
+   "software_collections",
+   "swiftnio",
+   "traffic_server",
+   "ubuntu_linux",
+   "vs960hd",
+   "vs960hd_firmware",
+   "web_gateway"
+  ]
+ },
+ "CVE-2020-10882": {
+  "cve_id": "CVE-2020-10882",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-78",
+   "CWE-78"
+  ],
+  "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of TP-Link Archer A7 Firmware Ver: 190726 AC1750 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the tdpServer service, which listens on UDP",
+  "exploit_available": true,
+  "published": "2020-03-25",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ac1750",
+   "ac1750_firmware"
+  ]
+ },
+ "CVE-2020-10884": {
+  "cve_id": "CVE-2020-10884",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-321",
+   "CWE-798"
+  ],
+  "description": "This vulnerability allows network-adjacent attackers execute arbitrary code on affected installations of TP-Link Archer A7 Firmware Ver: 190726 AC1750 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the tdpServer service, which listens on UDP po",
+  "exploit_available": true,
+  "published": "2020-03-25",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ac1750",
+   "ac1750_firmware"
+  ]
+ },
+ "CVE-2020-10923": {
+  "cve_id": "CVE-2020-10923",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-305"
+  ],
+  "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of NETGEAR R6700 V1.0.4.84_10.0.58 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the UPnP service, which listens on TCP port 5000. A crafte",
+  "exploit_available": false,
+  "published": "2020-07-28",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "r6700",
+   "r6700_firmware"
+  ]
+ },
+ "CVE-2020-10924": {
+  "cve_id": "CVE-2020-10924",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-121"
+  ],
+  "description": "This vulnerability allows network-adjacent attackers to bypass authentication on affected installations of NETGEAR R6700 V1.0.4.84_10.0.58 routers. Although authentication is required to exploit this vulnerability, the existing authentication mechanism can be bypassed. The specific flaw exists withi",
+  "exploit_available": false,
+  "published": "2020-07-28",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "r6700",
+   "r6700_firmware"
+  ]
+ },
+ "CVE-2020-11896": {
+  "cve_id": "CVE-2020-11896",
+  "cvss_score": 10.0,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-119",
+   "CWE-787"
+  ],
+  "description": "The Treck TCP/IP stack before 6.0.1.66 allows Remote Code Execution, related to IPv4 tunneling.",
+  "exploit_available": true,
+  "published": "2020-06-17",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "tcp\\/ip"
+  ]
+ },
+ "CVE-2020-11898": {
+  "cve_id": "CVE-2020-11898",
+  "cvss_score": 9.1,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-119"
+  ],
+  "description": "The Treck TCP/IP stack before 6.0.1.66 improperly handles an IPv4/ICMPv4 Length Parameter Inconsistency, which might allow remote attackers to trigger an information leak.",
+  "exploit_available": true,
+  "published": "2020-06-17",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "tcp\\/ip"
+  ]
+ },
+ "CVE-2020-11900": {
+  "cve_id": "CVE-2020-11900",
+  "cvss_score": 8.2,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-415"
+  ],
+  "description": "The Treck TCP/IP stack before 6.0.1.41 has an IPv4 tunneling Double Free.",
+  "exploit_available": true,
+  "published": "2020-06-17",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "tcp\\/ip"
+  ]
+ },
+ "CVE-2020-11901": {
+  "cve_id": "CVE-2020-11901",
+  "cvss_score": 9.0,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-125",
+   "CWE-131",
+   "CWE-330",
+   "CWE-787"
+  ],
+  "description": "The Treck TCP/IP stack before 6.0.1.66 allows Remote Code execution via a single invalid DNS response.",
+  "exploit_available": true,
+  "published": "2020-06-17",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "tcp\\/ip"
+  ]
+ },
+ "CVE-2020-19319": {
+  "cve_id": "CVE-2020-19319",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-120"
+  ],
+  "description": "Buffer overflow vulnerability in DLINK 619L version B 2.06beta via the FILECODE parameter on login.",
+  "exploit_available": true,
+  "published": "2023-09-11",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dir-619l",
+   "dir-619l_firmware"
+  ]
+ },
+ "CVE-2020-19320": {
+  "cve_id": "CVE-2020-19320",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-120"
+  ],
+  "description": "Buffer overflow vulnerability in DLINK 619L version B 2.06beta via the curTime parameter on login.",
+  "exploit_available": true,
+  "published": "2023-09-11",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dir-619l",
+   "dir-619l_firmware"
+  ]
+ },
+ "CVE-2020-22283": {
+  "cve_id": "CVE-2020-22283",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-120"
+  ],
+  "description": "A buffer overflow vulnerability in the icmp6_send_response_with_addrs_and_netif() function of Free Software Foundation lwIP version git head allows attackers to access sensitive information via a crafted ICMPv6 packet.",
+  "exploit_available": false,
+  "published": "2021-07-22",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "lwip"
+  ]
+ },
+ "CVE-2020-22284": {
+  "cve_id": "CVE-2020-22284",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-120"
+  ],
+  "description": "A buffer overflow vulnerability in the zepif_linkoutput() function of Free Software Foundation lwIP git head version and version 2.1.2 allows attackers to access sensitive information via a crafted 6LoWPAN packet.",
+  "exploit_available": false,
+  "published": "2021-07-22",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "lwip"
+  ]
+ },
+ "CVE-2020-29324": {
+  "cve_id": "CVE-2020-29324",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-312"
+  ],
+  "description": "The DLink Router DIR-895L MFC v1.21b05 is vulnerable to credentials disclosure in telnet service through decompilation of firmware, that allows an unauthenticated attacker to gain access to the firmware and to extract sensitive data.",
+  "exploit_available": true,
+  "published": "2021-06-04",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dir-895l_mfc",
+   "dir-895l_mfc_firmware"
+  ]
+ },
+ "CVE-2020-35576": {
+  "cve_id": "CVE-2020-35576",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "A Command Injection issue in the traceroute feature on TP-Link TL-WR841N V13 (JP) with firmware versions prior to 201216 allows authenticated users to execute arbitrary code as root via shell metacharacters, a different vulnerability than CVE-2018-12577.",
+  "exploit_available": false,
+  "published": "2021-01-26",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "tl-wr841n",
+   "tl-wr841n_firmware"
+  ]
+ },
+ "CVE-2020-35585": {
+  "cve_id": "CVE-2020-35585",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-307"
+  ],
+  "description": "In Solstice Pod before 3.3.0 (or Open4.3), the screen key can be enumerated using brute-force attacks via the /lookin/info Solstice Open Control API because there are only 1.7 million possibilities.",
+  "exploit_available": true,
+  "published": "2020-12-23",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "solstice_pod",
+   "solstice_pod_firmware"
+  ]
+ },
+ "CVE-2020-7057": {
+  "cve_id": "CVE-2020-7057",
+  "cvss_score": 5.3,
+  "cvss_severity": "MEDIUM",
+  "cwes": [
+   "CWE-307"
+  ],
+  "description": "Hikvision DVR DS-7204HGHI-F1 V4.0.1 build 180903 Web Version sends a different response for failed ISAPI/Security/sessionLogin/capabilities login attempts depending on whether the user account exists, which might make it easier to enumerate users. However, only about 4 or 5 failed logins are allowed",
+  "exploit_available": true,
+  "published": "2020-01-14",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ds-7204hghi-f1",
+   "ds-7204hghi-f1_firmware"
+  ]
+ },
+ "CVE-2020-8423": {
+  "cve_id": "CVE-2020-8423",
+  "cvss_score": 7.2,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-120"
+  ],
+  "description": "A buffer overflow in the httpd daemon on TP-Link TL-WR841N V10 (firmware version 3.16.9) devices allows an authenticated remote attacker to execute arbitrary code via a GET request to the page for the configuration of the Wi-Fi network.",
+  "exploit_available": true,
+  "published": "2020-04-02",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "tl-wr841n",
+   "tl-wr841n_firmware"
+  ]
+ },
+ "CVE-2020-9054": {
+  "cve_id": "CVE-2020-9054",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78",
+   "CWE-78",
+   "CWE-78"
+  ],
+  "description": "Multiple ZyXEL network-attached storage (NAS) devices running firmware version 5.21 contain a pre-authentication command injection vulnerability, which may allow a remote, unauthenticated attacker to execute arbitrary code on a vulnerable device. ZyXEL NAS devices achieve authentication by using the",
+  "exploit_available": true,
+  "published": "2020-03-04",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "atp100",
+   "atp100_firmware",
+   "atp200",
+   "atp200_firmware",
+   "atp500",
+   "atp500_firmware",
+   "atp800",
+   "atp800_firmware",
+   "nas326",
+   "nas326_firmware",
+   "nas520",
+   "nas520_firmware",
+   "nas540",
+   "nas540_firmware",
+   "nas542",
+   "nas542_firmware",
+   "usg110",
+   "usg1100",
+   "usg1100_firmware",
+   "usg110_firmware",
+   "usg1900",
+   "usg1900_firmware",
+   "usg20-vpn",
+   "usg20-vpn_firmware",
+   "usg20w-vpn",
+   "usg20w-vpn_firmware",
+   "usg210",
+   "usg210_firmware",
+   "usg2200",
+   "usg2200_firmware",
+   "usg310",
+   "usg310_firmware",
+   "usg40",
+   "usg40_firmware",
+   "usg40w",
+   "usg40w_firmware",
+   "usg60",
+   "usg60_firmware",
+   "usg60w",
+   "usg60w_firmware",
+   "vpn100",
+   "vpn1000",
+   "vpn1000_firmware",
+   "vpn100_firmware",
+   "vpn300",
+   "vpn300_firmware",
+   "vpn50",
+   "vpn50_firmware",
+   "zywall110",
+   "zywall1100",
+   "zywall1100_firmware",
+   "zywall110_firmware",
+   "zywall310",
+   "zywall310_firmware"
+  ]
+ },
+ "CVE-2021-29509": {
+  "cve_id": "CVE-2021-29509",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-400",
+   "CWE-667"
+  ],
+  "description": "Puma is a concurrent HTTP 1.1 server for Ruby/Rack applications. The fix for CVE-2019-16770 was incomplete. The original fix only protected existing connections that had already been accepted from having their requests starved by greedy persistent-connections saturating all threads in the same proce",
+  "exploit_available": false,
+  "published": "2021-05-11",
+  "cpe_parts": [
+   "a",
+   "o"
+  ],
+  "cpe_products": [
+   "debian_linux",
+   "puma"
+  ]
+ },
+ "CVE-2021-31251": {
+  "cve_id": "CVE-2021-31251",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-287"
+  ],
+  "description": "An authentication bypass in telnet server in BF-430 and BF431 232/422 TCP/IP Converter, BF-450M and SEMAC from CHIYU Technology Inc allows obtaining a privileged connection with the target device by supplying a specially malformed request and an attacker may force the remote telnet server to believe",
+  "exploit_available": true,
+  "published": "2021-06-04",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "bf-430",
+   "bf-430_firmware",
+   "bf-431",
+   "bf-431_firmware",
+   "bf-450m",
+   "bf-450m_firmware",
+   "semac_d1",
+   "semac_d1_firmware",
+   "semac_d2",
+   "semac_d2_firmware",
+   "semac_d2_n300",
+   "semac_d2_n300_firmware",
+   "semac_d4",
+   "semac_d4_firmware",
+   "semac_s1_osdp",
+   "semac_s1_osdp_firmware",
+   "semac_s2",
+   "semac_s2_firmware",
+   "semac_s3v3",
+   "semac_s3v3_firmware"
+  ]
+ },
+ "CVE-2021-31802": {
+  "cve_id": "CVE-2021-31802",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-787"
+  ],
+  "description": "NETGEAR R7000 1.0.11.116 devices have a heap-based Buffer Overflow that is exploitable from the local network without authentication. The vulnerability exists within the handling of an HTTP request. An attacker can leverage this to execute code as root. The problem is that a user-provided length val",
+  "exploit_available": true,
+  "published": "2021-04-26",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "r7000",
+   "r7000_firmware"
+  ]
+ },
+ "CVE-2021-33818": {
+  "cve_id": "CVE-2021-33818",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-400"
+  ],
+  "description": "An issue was discovered in UniFi Protect G3 FLEX Camera Version UVC.v4.30.0.67. Attackers can use slowhttptest tool to send incomplete HTTP request, which could make server keep waiting for the packet to finish the connection, until its resource exhausted. Then the web server is denial-of-service.",
+  "exploit_available": true,
+  "published": "2021-06-18",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "camera_g3_flex",
+   "camera_g3_flex_firmware"
+  ]
+ },
+ "CVE-2021-33822": {
+  "cve_id": "CVE-2021-33822",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-400"
+  ],
+  "description": "An issue was discovered on 4GEE ROUTER HH70VB Version HH70_E1_02.00_22. Attackers can use slowhttptest tool to send incomplete HTTP request, which could make server keep waiting for the packet to finish the connection, until its resource exhausted. Then the web server is denial-of-service.",
+  "exploit_available": true,
+  "published": "2021-06-18",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "4gee_router_hh70vb",
+   "4gee_router_hh70vb_firmware"
+  ]
+ },
+ "CVE-2021-33824": {
+  "cve_id": "CVE-2021-33824",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-400"
+  ],
+  "description": "An issue was discovered on MOXA Mgate MB3180 Version 2.1 Build 18113012. Attackers can use slowhttptest tool to send incomplete HTTP request, which could make server keep waiting for the packet to finish the connection, until its resource exhausted. Then the web server is denial-of-service.",
+  "exploit_available": true,
+  "published": "2021-06-18",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "mgate_mb3180",
+   "mgate_mb3180_firmware"
+  ]
+ },
+ "CVE-2021-34991": {
+  "cve_id": "CVE-2021-34991",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-121",
+   "CWE-787"
+  ],
+  "description": "This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of NETGEAR R6400v2 1.0.4.106_10.0.80 routers. Authentication is not required to exploit this vulnerability. The specific flaw exists within the UPnP service, which listens on TCP port 5000 by def",
+  "exploit_available": false,
+  "published": "2021-11-15",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "cax80",
+   "cax80_firmware",
+   "d6220",
+   "d6220_firmware",
+   "d6400",
+   "d6400_firmware",
+   "d7000v2",
+   "d7000v2_firmware",
+   "dc112a",
+   "dc112a_firmware",
+   "dgn2200v4",
+   "dgn2200v4_firmware",
+   "ex3700",
+   "ex3700_firmware",
+   "ex3800",
+   "ex3800_firmware",
+   "ex6120",
+   "ex6120_firmware",
+   "ex6130",
+   "ex6130_firmware",
+   "r6400",
+   "r6400_firmware",
+   "r6400v2",
+   "r6400v2_firmware",
+   "r6700v3",
+   "r6700v3_firmware",
+   "r6900p",
+   "r6900p_firmware",
+   "r7000",
+   "r7000_firmware",
+   "r7000p",
+   "r7000p_firmware",
+   "r7100lg",
+   "r7100lg_firmware",
+   "r7850",
+   "r7850_firmware",
+   "r7900p",
+   "r7900p_firmware",
+   "r7960p",
+   "r7960p_firmware",
+   "r8000",
+   "r8000_firmware",
+   "r8000p",
+   "r8000p_firmware",
+   "r8300",
+   "r8300_firmware",
+   "r8500",
+   "r8500_firmware",
+   "rax15",
+   "rax15_firmware",
+   "rax20",
+   "rax200",
+   "rax200_firmware",
+   "rax20_firmware",
+   "rax35v2",
+   "rax35v2_firmware",
+   "rax38v2",
+   "rax38v2_firmware",
+   "rax40v2",
+   "rax40v2_firmware",
+   "rax42",
+   "rax42_firmware",
+   "rax43",
+   "rax43_firmware",
+   "rax45",
+   "rax45_firmware",
+   "rax48",
+   "rax48_firmware",
+   "rax50",
+   "rax50_firmware",
+   "rax50s",
+   "rax50s_firmware",
+   "rax75",
+   "rax75_firmware",
+   "rax80",
+   "rax80_firmware",
+   "raxe450",
+   "raxe450_firmware",
+   "raxe500",
+   "raxe500_firmware",
+   "rs400",
+   "rs400_firmware",
+   "wndr3400v3",
+   "wndr3400v3_firmware",
+   "wnr3500lv2",
+   "wnr3500lv2_firmware",
+   "xr300",
+   "xr300_firmware"
+  ]
+ },
+ "CVE-2021-36260": {
+  "cve_id": "CVE-2021-36260",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78",
+   "CWE-78"
+  ],
+  "description": "A command injection vulnerability in the web server of some Hikvision product. Due to the insufficient input validation, attacker can exploit the vulnerability to launch a command injection attack by sending some messages with malicious commands.",
+  "exploit_available": true,
+  "published": "2021-09-22",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ds-2cd2021g1-i\\(w\\)",
+   "ds-2cd2021g1-i\\(w\\)_firmware",
+   "ds-2cd2023g2-i\\(u\\)",
+   "ds-2cd2023g2-i\\(u\\)_firmware",
+   "ds-2cd2026g2-iu\\/sl",
+   "ds-2cd2026g2-iu\\/sl_firmware",
+   "ds-2cd2027g2-l\\(u\\)",
+   "ds-2cd2027g2-l\\(u\\)_firmware",
+   "ds-2cd2027g2-lu\\/sl",
+   "ds-2cd2027g2-lu\\/sl_firmware",
+   "ds-2cd2043g2-i\\(u\\)",
+   "ds-2cd2043g2-i\\(u\\)_firmware",
+   "ds-2cd2046g2-iu\\/sl",
+   "ds-2cd2046g2-iu\\/sl_firmware",
+   "ds-2cd2047g2-l\\(u\\)",
+   "ds-2cd2047g2-l\\(u\\)_firmware",
+   "ds-2cd2063g2-i\\(u\\)",
+   "ds-2cd2063g2-i\\(u\\)_firmware",
+   "ds-2cd2066g2-i\\(u\\)",
+   "ds-2cd2066g2-i\\(u\\)_firmware",
+   "ds-2cd2066g2-iu\\/sl",
+   "ds-2cd2066g2-iu\\/sl_firmware",
+   "ds-2cd2083g2-i\\(u\\)",
+   "ds-2cd2083g2-i\\(u\\)_firmware",
+   "ds-2cd2086g2-i\\(u\\)",
+   "ds-2cd2086g2-i\\(u\\)_firmware",
+   "ds-2cd2086g2-iu\\/sl",
+   "ds-2cd2086g2-iu\\/sl_firmware",
+   "ds-2cd2087g2-l\\(u\\)",
+   "ds-2cd2087g2-l\\(u\\)_firmware",
+   "ds-2cd2121g0-i\\(w\\)\\(s\\)",
+   "ds-2cd2121g0-i\\(w\\)\\(s\\)_firmware",
+   "ds-2cd2121g1",
+   "ds-2cd2121g1-i\\(w\\)",
+   "ds-2cd2121g1-i\\(w\\)_firmware",
+   "ds-2cd2121g1-idw",
+   "ds-2cd2121g1-idw_firmware",
+   "ds-2cd2121g1_firmware",
+   "ds-2cd2123g2-i\\(s\\)",
+   "ds-2cd2123g2-i\\(s\\)_firmware",
+   "ds-2cd2123g2-iu",
+   "ds-2cd2123g2-iu_firmware",
+   "ds-2cd2127g2-\\(-su\\)",
+   "ds-2cd2127g2-\\(-su\\)_firmware",
+   "ds-2cd2143g2-i\\(s\\)",
+   "ds-2cd2143g2-i\\(s\\)_firmware",
+   "ds-2cd2143g2-iu",
+   "ds-2cd2143g2-iu_firmware",
+   "ds-2cd2147g2-l\\(su\\)",
+   "ds-2cd2147g2-l\\(su\\)_firmware",
+   "ds-2cd2163g2-i\\(s\\)",
+   "ds-2cd2163g2-i\\(s\\)_firmware",
+   "ds-2cd2163g2-iu",
+   "ds-2cd2163g2-iu_firmware",
+   "ds-2cd2166g2-i\\(su\\)",
+   "ds-2cd2166g2-i\\(su\\)_firmware",
+   "ds-2cd2183g2-i\\(s\\)",
+   "ds-2cd2183g2-i\\(s\\)_firmware",
+   "ds-2cd2183g2-i\\(u\\)",
+   "ds-2cd2183g2-i\\(u\\)_firmware",
+   "ds-2cd2183g2-iu",
+   "ds-2cd2183g2-iu_firmware",
+   "ds-2cd2186g2-i\\(su\\)",
+   "ds-2cd2186g2-i\\(su\\)_firmware",
+   "ds-2cd2186g2-isu",
+   "ds-2cd2186g2-isu_firmware",
+   "ds-2cd2321g0-i\\/nf",
+   "ds-2cd2321g0-i\\/nf_firmware",
+   "ds-2cd2323g2-i\\(u\\)",
+   "ds-2cd2323g2-i\\(u\\)_firmware",
+   "ds-2cd2326g2-isu\\/sl",
+   "ds-2cd2326g2-isu\\/sl_firmware",
+   "ds-2cd2327g2-l\\(u\\)",
+   "ds-2cd2327g2-l\\(u\\)_firmware",
+   "ds-2cd2343g2-i\\(u\\)",
+   "ds-2cd2343g2-i\\(u\\)_firmware",
+   "ds-2cd2346g2-isu\\/sl",
+   "ds-2cd2346g2-isu\\/sl_firmware",
+   "ds-2cd2347g2-l\\(u\\)",
+   "ds-2cd2347g2-l\\(u\\)_firmware",
+   "ds-2cd2347g2-lsu\\/sl",
+   "ds-2cd2347g2-lsu\\/sl_firmware",
+   "ds-2cd2363g2-i\\(u\\)",
+   "ds-2cd2363g2-i\\(u\\)_firmware",
+   "ds-2cd2366g2-i\\(u\\)",
+   "ds-2cd2366g2-i\\(u\\)_firmware",
+   "ds-2cd2366g2-isu\\/sl",
+   "ds-2cd2366g2-isu\\/sl_firmware",
+   "ds-2cd2383g2-i\\(u\\)",
+   "ds-2cd2383g2-i\\(u\\)_firmware",
+   "ds-2cd2386g2-i\\(u\\)",
+   "ds-2cd2386g2-i\\(u\\)_firmware",
+   "ds-2cd2386g2-isu\\/sl",
+   "ds-2cd2386g2-isu\\/sl_firmware",
+   "ds-2cd2387g2-l\\(u\\)",
+   "ds-2cd2387g2-l\\(u\\)_firmware",
+   "ds-2cd2421g0-i\\(d\\)\\(w\\)",
+   "ds-2cd2421g0-i\\(d\\)\\(w\\)_firmware",
+   "ds-2cd2421g0-i\\(d\\)w",
+   "ds-2cd2421g0-i\\(d\\)w_firmware",
+   "ds-2cd2426g2-i",
+   "ds-2cd2426g2-i_firmware",
+   "ds-2cd2446g2-i",
+   "ds-2cd2446g2-i_firmware",
+   "ds-2cd2523g2-i\\(s\\)",
+   "ds-2cd2523g2-i\\(s\\)_firmware",
+   "ds-2cd2523g2-i\\(u\\)",
+   "ds-2cd2523g2-i\\(u\\)_firmware",
+   "ds-2cd2526g2-i\\(s\\)",
+   "ds-2cd2526g2-i\\(s\\)_firmware",
+   "ds-2cd2526g2-is",
+   "ds-2cd2526g2-is_firmware",
+   "ds-2cd2527g2-ls",
+   "ds-2cd2527g2-ls_firmware",
+   "ds-2cd2543g2-i\\(ws\\)",
+   "ds-2cd2543g2-i\\(ws\\)_firmware",
+   "ds-2cd2546g2-i\\(s\\)",
+   "ds-2cd2546g2-i\\(s\\)_firmware",
+   "ds-2cd2547g2-ls",
+   "ds-2cd2547g2-ls_firmware",
+   "ds-2cd2547g2-lzs",
+   "ds-2cd2547g2-lzs_firmware",
+   "ds-2cd2563g2-i\\(s\\)",
+   "ds-2cd2563g2-i\\(s\\)_firmware",
+   "ds-2cd2566g2-i\\(s\\)",
+   "ds-2cd2566g2-i\\(s\\)_firmware",
+   "ds-2cd2583g2-i\\(s\\)",
+   "ds-2cd2583g2-i\\(s\\)_firmware",
+   "ds-2cd2586g2-i\\(s\\)",
+   "ds-2cd2586g2-i\\(s\\)_firmware",
+   "ds-2cd2621g0-i\\(z\\)\\(s\\)",
+   "ds-2cd2621g0-i\\(z\\)\\(s\\)_firmware",
+   "ds-2cd2623g2-izs",
+   "ds-2cd2623g2-izs_firmware",
+   "ds-2cd2626g2-izsu\\/sl",
+   "ds-2cd2626g2-izsu\\/sl_firmware",
+   "ds-2cd2643g2-izs",
+   "ds-2cd2643g2-izs_firmware",
+   "ds-2cd2646g2-izsu\\/sl",
+   "ds-2cd2646g2-izsu\\/sl_firmware",
+   "ds-2cd2663g2-izs",
+   "ds-2cd2663g2-izs_firmware",
+   "ds-2cd2666g2-izs",
+   "ds-2cd2666g2-izs_firmware",
+   "ds-2cd2666g2-izsu\\/sl",
+   "ds-2cd2666g2-izsu\\/sl_firmware",
+   "ds-2cd2683g2-izs",
+   "ds-2cd2683g2-izs_firmware",
+   "ds-2cd2686g2-izs",
+   "ds-2cd2686g2-izs_firmware",
+   "ds-2cd2686g2-izsu\\/sl",
+   "ds-2cd2686g2-izsu\\/sl_firmware",
+   "ds-2cd2721g0-i\\(z\\)\\(s\\)",
+   "ds-2cd2721g0-i\\(z\\)\\(s\\)_firmware",
+   "ds-2cd2723g2-izs",
+   "ds-2cd2723g2-izs_firmware",
+   "ds-2cd2743g2-izs",
+   "ds-2cd2743g2-izs_firmware",
+   "ds-2cd2763g2-izs",
+   "ds-2cd2763g2-izs_firmware",
+   "ds-2cd2766g2-izs",
+   "ds-2cd2766g2-izs_firmware",
+   "ds-2cd2783g2-izs",
+   "ds-2cd2783g2-izs_firmware",
+   "ds-2cd2786g2-izs",
+   "ds-2cd2786g2-izs_firmware",
+   "ds-2cd3023g2-iu",
+   "ds-2cd3023g2-iu_firmware",
+   "ds-2cd3026g2-is",
+   "ds-2cd3026g2-is_firmware",
+   "ds-2cd3026g2-iu\\/sl",
+   "ds-2cd3026g2-iu\\/sl_firmware",
+   "ds-2cd3043g2-iu",
+   "ds-2cd3043g2-iu_firmware",
+   "ds-2cd3047g2-ls",
+   "ds-2cd3047g2-ls_firmware",
+   "ds-2cd3056g2-is",
+   "ds-2cd3056g2-is_firmware",
+   "ds-2cd3056g2-iu\\/sl",
+   "ds-2cd3056g2-iu\\/sl_firmware",
+   "ds-2cd3056g2iu\\/sl",
+   "ds-2cd3056g2iu\\/sl_firmware",
+   "ds-2cd3063g2-iu",
+   "ds-2cd3063g2-iu_firmware",
+   "ds-2cd3086g2-is",
+   "ds-2cd3086g2-is_firmware",
+   "ds-2cd3123g2-i\\(s\\)u",
+   "ds-2cd3123g2-i\\(s\\)u_firmware",
+   "ds-2cd3126g2-is",
+   "ds-2cd3126g2-is\\(u\\)",
+   "ds-2cd3126g2-is\\(u\\)_firmware",
+   "ds-2cd3126g2-is_firmware",
+   "ds-2cd3143g2-i\\(s\\)u",
+   "ds-2cd3143g2-i\\(s\\)u_firmware",
+   "ds-2cd3156g2-is",
+   "ds-2cd3156g2-is\\(u\\)",
+   "ds-2cd3156g2-is\\(u\\)_firmware",
+   "ds-2cd3156g2-is_firmware",
+   "ds-2cd3163g2-i\\(s\\)u",
+   "ds-2cd3163g2-i\\(s\\)u_firmware",
+   "ds-2cd3186g2-is\\(u\\)",
+   "ds-2cd3186g2-is\\(u\\)_firmware",
+   "ds-2cd3323g2-iu",
+   "ds-2cd3323g2-iu_firmware",
+   "ds-2cd3326g2-isu\\/sl",
+   "ds-2cd3326g2-isu\\/sl_firmware",
+   "ds-2cd3343g2-iu",
+   "ds-2cd3343g2-iu_firmware",
+   "ds-2cd3347g2-ls\\(u\\)",
+   "ds-2cd3347g2-ls\\(u\\)_firmware",
+   "ds-2cd3356g2-is",
+   "ds-2cd3356g2-is\\(u\\)",
+   "ds-2cd3356g2-is\\(u\\)_firmware",
+   "ds-2cd3356g2-is_firmware",
+   "ds-2cd3356g2-isu\\/sl",
+   "ds-2cd3356g2-isu\\/sl_firmware",
+   "ds-2cd3363g2-iu",
+   "ds-2cd3363g2-iu_firmware",
+   "ds-2cd3386g2-is",
+   "ds-2cd3386g2-is\\(u\\)",
+   "ds-2cd3386g2-is\\(u\\)_firmware",
+   "ds-2cd3386g2-is_firmware",
+   "ds-2cd3523g2-is",
+   "ds-2cd3523g2-is_firmware",
+   "ds-2cd3526g2-is",
+   "ds-2cd3526g2-is_firmware",
+   "ds-2cd3543g2-is",
+   "ds-2cd3543g2-is_firmware",
+   "ds-2cd3547g2-ls",
+   "ds-2cd3547g2-ls_firmware",
+   "ds-2cd3556g2-is",
+   "ds-2cd3556g2-is_firmware",
+   "ds-2cd3563g2-is",
+   "ds-2cd3563g2-is_firmware",
+   "ds-2cd3586g2-is",
+   "ds-2cd3586g2-is_firmware",
+   "ds-2cd3623g2-izs",
+   "ds-2cd3623g2-izs_firmware",
+   "ds-2cd3626g2-izs",
+   "ds-2cd3626g2-izs_firmware",
+   "ds-2cd3643g2-izs",
+   "ds-2cd3643g2-izs_firmware",
+   "ds-2cd3656g2-izs",
+   "ds-2cd3656g2-izs_firmware",
+   "ds-2cd3663g2-izs",
+   "ds-2cd3663g2-izs_firmware",
+   "ds-2cd3686g2-izs",
+   "ds-2cd3686g2-izs_firmware",
+   "ds-2cd3723g2-izs",
+   "ds-2cd3723g2-izs_firmware",
+   "ds-2cd3726g2-izs",
+   "ds-2cd3726g2-izs_firmware",
+   "ds-2cd3743g2-izs",
+   "ds-2cd3743g2-izs_firmware",
+   "ds-2cd3756g2-izs",
+   "ds-2cd3756g2-izs_firmware",
+   "ds-2cd3763g2-izs",
+   "ds-2cd3763g2-izs_firmware",
+   "ds-2cd3786g2-izs",
+   "ds-2cd3786g2-izs_firmware",
+   "ds-2df5225x-ae3\\(t3\\)",
+   "ds-2df5225x-ae3\\(t3\\)_firmware",
+   "ds-2df5225x-ael\\(t3\\)",
+   "ds-2df5225x-ael\\(t3\\)_firmware",
+   "ds-2df5232x-ae3\\)t3\\)",
+   "ds-2df5232x-ae3\\)t3\\)_firmware",
+   "ds-2df5232x-ael\\(t3\\)",
+   "ds-2df5232x-ael\\(t3\\)_firmware",
+   "ds-2df6a225x-ael\\)t3\\)",
+   "ds-2df6a225x-ael\\)t3\\)_firmware",
+   "ds-2df6a236x-ael\\(t3\\)",
+   "ds-2df6a236x-ael\\(t3\\)_firmware",
+   "ds-2df6a425x-ael\\(t3\\)",
+   "ds-2df6a425x-ael\\(t3\\)_firmware",
+   "ds-2df6a436x-ael\\(t3\\)",
+   "ds-2df6a436x-ael\\(t3\\)_firmware",
+   "ds-2df6a436x-ael\\(t5\\)",
+   "ds-2df6a436x-ael\\(t5\\)_firmware",
+   "ds-2df6a436x-aely\\(t5\\)",
+   "ds-2df6a436x-aely\\(t5\\)_firmware",
+   "ds-2df6a825x-ael",
+   "ds-2df6a825x-ael_firmware",
+   "ds-2df6a836x-ael\\(t5\\)",
+   "ds-2df6a836x-ael\\(t5\\)_firmware",
+   "ds-2df7225ix-ael\\(t3\\)",
+   "ds-2df7225ix-ael\\(t3\\)_firmware",
+   "ds-2df7225ix-aelw\\(t3\\)",
+   "ds-2df7225ix-aelw\\(t3\\)_firmware",
+   "ds-2df7232ix-ael\\(t3\\)",
+   "ds-2df7232ix-ael\\(t3\\)_firmware",
+   "ds-2df7232ix-aelw\\(t3\\)",
+   "ds-2df7232ix-aelw\\(t3\\)_firmware",
+   "ds-2df8225ih-ael",
+   "ds-2df8225ih-ael\\(w\\)",
+   "ds-2df8225ih-ael\\(w\\)_firmware",
+   "ds-2df8225ih-ael_firmware",
+   "ds-2df8225ix-ael\\(t3\\)",
+   "ds-2df8225ix-ael\\(t3\\)_firmware",
+   "ds-2df8225ix-ael\\(t5\\)",
+   "ds-2df8225ix-ael\\(t5\\)_firmware",
+   "ds-2df8225ix-aelw\\(t3\\)",
+   "ds-2df8225ix-aelw\\(t3\\)_firmware",
+   "ds-2df8225ix-aelw\\(t5\\)",
+   "ds-2df8225ix-aelw\\(t5\\)_firmware",
+   "ds-2df8236i5x-aelw",
+   "ds-2df8236i5x-aelw_firmware",
+   "ds-2df8242i5x-ael\\(t3\\)",
+   "ds-2df8242i5x-ael\\(t3\\)_firmware",
+   "ds-2df8242i5x-aelw\\(t3\\)",
+   "ds-2df8242i5x-aelw\\(t3\\)_firmware",
+   "ds-2df8242i5x-aelw\\(t5\\)",
+   "ds-2df8242i5x-aelw\\(t5\\)_firmware",
+   "ds-2df8242ix-ael\\(t5\\)",
+   "ds-2df8242ix-ael\\(t5\\)_firmware",
+   "ds-2df8242ix-aelw\\(t3\\)",
+   "ds-2df8242ix-aelw\\(t3\\)_firmware",
+   "ds-2df8242ix-aely\\(t3\\)",
+   "ds-2df8242ix-aely\\(t3\\)_firmware",
+   "ds-2df8250i8x-ael\\(t3\\)",
+   "ds-2df8250i8x-ael\\(t3\\)_firmware",
+   "ds-2df8425ix-ael\\(t3\\)",
+   "ds-2df8425ix-ael\\(t3\\)_firmware",
+   "ds-2df8425ix-ael\\(t5\\)",
+   "ds-2df8425ix-ael\\(t5\\)_firmware",
+   "ds-2df8425ix-aelw\\(t3\\)",
+   "ds-2df8425ix-aelw\\(t3\\)_firmware",
+   "ds-2df8425ix-aelw\\(t5\\)",
+   "ds-2df8425ix-aelw\\(t5\\)_firmware",
+   "ds-2df8436i5x-aelw\\(t3\\)",
+   "ds-2df8436i5x-aelw\\(t3\\)_firmware",
+   "ds-2df8442ixs-ael\\(t5\\)",
+   "ds-2df8442ixs-ael\\(t5\\)_firmware",
+   "ds-2df8442ixs-aelw\\(t2\\)",
+   "ds-2df8442ixs-aelw\\(t2\\)_firmware",
+   "ds-2df8442ixs-aelw\\(t5\\)",
+   "ds-2df8442ixs-aelw\\(t5\\)_firmware",
+   "ds-2df8442ixs-aelwy\\(t5\\)",
+   "ds-2df8442ixs-aelwy\\(t5\\)_firmware",
+   "ds-2df8442ixs-aely\\(t5\\)",
+   "ds-2df8442ixs-aely\\(t5\\)_firmware",
+   "ds-2df8a442ixs-ael\\(t2\\)",
+   "ds-2df8a442ixs-ael\\(t2\\)_firmware",
+   "ds-2df8a442ixs-ael\\(t5\\)",
+   "ds-2df8a442ixs-ael\\(t5\\)_firmware",
+   "ds-2df8a442ixs-aely\\(t5\\)",
+   "ds-2df8a442ixs-aely\\(t5\\)_firmware",
+   "ds-2df8a442ixs-af\\/sp\\(t5\\)",
+   "ds-2df8a442ixs-af\\/sp\\(t5\\)_firmware",
+   "ds-2df8a442nxs-ael\\(t5\\)",
+   "ds-2df8a442nxs-ael\\(t5\\)_firmware",
+   "ds-2df8a842ixs-ael\\(t5\\)",
+   "ds-2df8a842ixs-ael\\(t5\\)_firmware",
+   "ds-2dy9236i8x-a",
+   "ds-2dy9236i8x-a\\(t3\\)",
+   "ds-2dy9236i8x-a\\(t3\\)_firmware",
+   "ds-2dy9236i8x-a_firmware",
+   "ds-2dy9236ix-a\\(t3\\)",
+   "ds-2dy9236ix-a\\(t3\\)_firmware",
+   "ds-2dy9236x-a\\(t3\\)",
+   "ds-2dy9236x-a\\(t3\\)_firmware",
+   "ds-2dy9240ix-a\\(t5\\)",
+   "ds-2dy9240ix-a\\(t5\\)_firmware",
+   "ds-2dy92500x-a\\(t5\\)",
+   "ds-2dy92500x-a\\(t5\\)_firmware",
+   "ds-2dy9250izs-a\\(t5\\)",
+   "ds-2dy9250izs-a\\(t5\\)_firmware",
+   "ds-2dyh2a0ixs-d\\(t2\\)",
+   "ds-2dyh2a0ixs-d\\(t2\\)_firmware",
+   "ds-2td1117-2\\/pa",
+   "ds-2td1117-2\\/pa_firmware",
+   "ds-2td1117-3\\/pa",
+   "ds-2td1117-3\\/pa_firmware",
+   "ds-2td1117-6\\/pa",
+   "ds-2td1117-6\\/pa_firmware",
+   "ds-2td1217b-3\\/pa",
+   "ds-2td1217b-3\\/pa_firmware",
+   "ds-2td1217b-6\\/pa",
+   "ds-2td1217b-6\\/pa_firmware",
+   "ds-2td4136t-9",
+   "ds-2td4136t-9_firmware",
+   "ds-2td4137-25\\/w",
+   "ds-2td4137-25\\/w_firmware",
+   "ds-2td4137-50\\/w",
+   "ds-2td4137-50\\/w_firmware",
+   "ds-2td4166t-9",
+   "ds-2td4166t-9_firmware",
+   "ds-2td4167-25\\/w",
+   "ds-2td4167-25\\/w_firmware",
+   "ds-2td4167-50\\/w",
+   "ds-2td4167-50\\/w_firmware",
+   "ds-2td6236t-50h2l",
+   "ds-2td6236t-50h2l_firmware",
+   "ds-2td6237-50h4l\\/w",
+   "ds-2td6237-50h4l\\/w_firmware",
+   "ds-2td6237-75c4l\\/w",
+   "ds-2td6237-75c4l\\/w_firmware",
+   "ds-2td6266t-25h2l",
+   "ds-2td6266t-25h2l_firmware",
+   "ds-2td6266t-50h2l",
+   "ds-2td6266t-50h2l_firmware",
+   "ds-2td6267-100c4l\\/w",
+   "ds-2td6267-100c4l\\/w_firmware",
+   "ds-2td6267-100c4l\\/wy",
+   "ds-2td6267-100c4l\\/wy_firmware",
+   "ds-2td6267-50h4l\\/w",
+   "ds-2td6267-50h4l\\/w_firmware",
+   "ds-2td6267-75c4l\\/w",
+   "ds-2td6267-75c4l\\/w_firmware",
+   "ds-2td6267-75c4l\\/wy",
+   "ds-2td6267-75c4l\\/wy_firmware",
+   "ds-2td8166-100c2f\\/v2",
+   "ds-2td8166-100c2f\\/v2_firmware",
+   "ds-2td8166-150ze2f\\/v2",
+   "ds-2td8166-150ze2f\\/v2_firmware",
+   "ds-2td8166-150zh2f\\/v2",
+   "ds-2td8166-150zh2f\\/v2_firmware",
+   "ds-2td8166-180ze2f\\/v2",
+   "ds-2td8166-180ze2f\\/v2_firmware",
+   "ds-2td8166-75c2f\\/v2",
+   "ds-2td8166-75c2f\\/v2_firmware",
+   "ds-2td8167-150zc4f\\/w",
+   "ds-2td8167-150zc4f\\/w_firmware",
+   "ds-2td8167-190ze2f\\/w",
+   "ds-2td8167-190ze2f\\/w_firmware",
+   "ds-2td8167-190ze2f\\/wy",
+   "ds-2td8167-190ze2f\\/wy_firmware",
+   "ds-2td8167-230zg2f\\/w",
+   "ds-2td8167-230zg2f\\/w_firmware",
+   "ds-2td8167-230zg2f\\/wy",
+   "ds-2td8167-230zg2f\\/wy_firmware",
+   "ds-2xe6242f-is\\/316l\\(b\\)",
+   "ds-2xe6242f-is\\/316l\\(b\\)_firmware",
+   "ds-2xe6422fwd-izhrs",
+   "ds-2xe6422fwd-izhrs_firmware",
+   "ds-2xe6442f-izhrs\\(b\\)",
+   "ds-2xe6442f-izhrs\\(b\\)_firmware",
+   "ds-2xe6452f-izh\\(r\\)s",
+   "ds-2xe6452f-izh\\(r\\)s_firmware",
+   "ds-2xe6482f-izhrs",
+   "ds-2xe6482f-izhrs_firmware",
+   "ds-7104ni-q1",
+   "ds-7104ni-q1\\/4p",
+   "ds-7104ni-q1\\/4p\\/m",
+   "ds-7104ni-q1\\/4p\\/m_firmware",
+   "ds-7104ni-q1\\/4p_firmware",
+   "ds-7104ni-q1\\/m",
+   "ds-7104ni-q1\\/m_firmware",
+   "ds-7104ni-q1_firmware",
+   "ds-7108ni-q1",
+   "ds-7108ni-q1\\/8p",
+   "ds-7108ni-q1\\/8p\\/m",
+   "ds-7108ni-q1\\/8p\\/m_firmware",
+   "ds-7108ni-q1\\/8p_firmware",
+   "ds-7108ni-q1\\/m",
+   "ds-7108ni-q1\\/m_firmware",
+   "ds-7108ni-q1_firmware",
+   "ds-7604ni-k1",
+   "ds-7604ni-k1\\/4p\\/4g",
+   "ds-7604ni-k1\\/4p\\/4g_firmware",
+   "ds-7604ni-k1_firmware",
+   "ds-7604ni-q1",
+   "ds-7604ni-q1\\/4p",
+   "ds-7604ni-q1\\/4p_firmware",
+   "ds-7604ni-q1_firmware",
+   "ds-7608ni-k1",
+   "ds-7608ni-k1\\/4g",
+   "ds-7608ni-k1\\/4g_firmware",
+   "ds-7608ni-k1\\/8p",
+   "ds-7608ni-k1\\/8p\\/4g",
+   "ds-7608ni-k1\\/8p\\/4g_firmware",
+   "ds-7608ni-k1\\/8p_firmware",
+   "ds-7608ni-k1_firmware",
+   "ds-7608ni-q1",
+   "ds-7608ni-q1\\/8p",
+   "ds-7608ni-q1\\/8p_firmware",
+   "ds-7608ni-q1_firmware",
+   "ds-7608ni-q2",
+   "ds-7608ni-q2\\/8p",
+   "ds-7608ni-q2\\/8p_firmware",
+   "ds-7608ni-q2_firmware",
+   "ds-760ni-k1\\/4p",
+   "ds-760ni-k1\\/4p_firmware",
+   "ds-7616ni-k1",
+   "ds-7616ni-k1_firmware",
+   "ds-7616ni-q1",
+   "ds-7616ni-q1_firmware",
+   "ds-7616ni-q2",
+   "ds-7616ni-q2\\/16p",
+   "ds-7616ni-q2\\/16p_firmware",
+   "ds-7616ni-q2_firmware",
+   "ids-2pt9a144mxs-d\\/t2",
+   "ids-2pt9a144mxs-d\\/t2_firmware",
+   "ids-2sk718mxs-d",
+   "ids-2sk718mxs-d_firmware",
+   "ids-2sk8144ixs-d\\/j",
+   "ids-2sk8144ixs-d\\/j_firmware",
+   "ids-2vs435-f840-ey",
+   "ids-2vs435-f840-ey\\(t3\\)",
+   "ids-2vs435-f840-ey\\(t3\\)_firmware",
+   "ids-2vs435-f840-ey_firmware",
+   "ptz-n2204i-de3",
+   "ptz-n2204i-de3_firmware",
+   "ptz-n2404i-de3",
+   "ptz-n2404i-de3_firmware",
+   "ptz-n4215-de3",
+   "ptz-n4215-de3_firmware",
+   "ptz-n4215i-de",
+   "ptz-n4215i-de_firmware",
+   "ptz-n4225i-de",
+   "ptz-n4225i-de_firmware",
+   "ptz-n5225i-a",
+   "ptz-n5225i-a_firmware"
+  ]
+ },
+ "CVE-2021-41615": {
+  "cve_id": "CVE-2021-41615",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-331"
+  ],
+  "description": "websda.c in GoAhead WebServer 2.1.8 has insufficient nonce entropy because the nonce calculation relies on the hardcoded onceuponatimeinparadise value, which does not follow the secret-data guideline for HTTP Digest Access Authentication in RFC 7616 section 3.3 (or RFC 2617 section 3.2.1). NOTE: 2.1",
+  "exploit_available": false,
+  "published": "2022-08-08",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "goahead"
+  ]
+ },
+ "CVE-2021-42342": {
+  "cve_id": "CVE-2021-42342",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-434"
+  ],
+  "description": "An issue was discovered in GoAhead 4.x and 5.x before 5.1.5. In the file upload filter, user form variables can be passed to CGI scripts without being prefixed with the CGI prefix. This permits tunneling untrusted environment variables into vulnerable CGI scripts.",
+  "exploit_available": false,
+  "published": "2021-10-14",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "goahead"
+  ]
+ },
+ "CVE-2021-44127": {
+  "cve_id": "CVE-2021-44127",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [],
+  "description": "In DLink DAP-1360 F1 firmware version <=v6.10 in the \"webupg\" binary, an attacker can use the \"file\" parameter to execute arbitrary system commands when the parameter is \"name=deleteFile\" after being authorized.",
+  "exploit_available": true,
+  "published": "2022-03-27",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dap-1360",
+   "dap-1360f1_firmware"
+  ]
+ },
+ "CVE-2021-44228": {
+  "cve_id": "CVE-2021-44228",
+  "cvss_score": 10.0,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-20",
+   "CWE-400",
+   "CWE-502",
+   "CWE-917"
+  ],
+  "description": "Apache Log4j2 2.0-beta9 through 2.15.0 (excluding security releases 2.12.2, 2.12.3, and 2.3.1) JNDI features used in configuration, log messages, and parameters do not protect against attacker controlled LDAP and other JNDI related endpoints. An attacker who can control log messages or log message p",
+  "exploit_available": true,
+  "published": "2021-12-10",
+  "cpe_parts": [
+   "a",
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "6bk1602-0aa12-0tp0",
+   "6bk1602-0aa12-0tp0_firmware",
+   "6bk1602-0aa22-0tp0",
+   "6bk1602-0aa22-0tp0_firmware",
+   "6bk1602-0aa32-0tp0",
+   "6bk1602-0aa32-0tp0_firmware",
+   "6bk1602-0aa42-0tp0",
+   "6bk1602-0aa42-0tp0_firmware",
+   "6bk1602-0aa52-0tp0",
+   "6bk1602-0aa52-0tp0_firmware",
+   "active_iq_unified_manager",
+   "advanced_malware_protection_virtual_private_cloud_appliance",
+   "automated_subsea_tuning",
+   "broadworks",
+   "brocade_san_navigator",
+   "business_process_automation",
+   "capital",
+   "cloud_connect",
+   "cloud_insights",
+   "cloud_manager",
+   "cloud_secure_agent",
+   "cloudcenter",
+   "cloudcenter_cost_optimizer",
+   "cloudcenter_suite",
+   "cloudcenter_suite_admin",
+   "cloudcenter_workload_manager",
+   "common_services_platform_collector",
+   "comos",
+   "computer_vision_annotation_tool",
+   "connected_mobile_experiences",
+   "contact_center_domain_manager",
+   "contact_center_management_portal",
+   "crosswork_data_gateway",
+   "crosswork_network_automation",
+   "crosswork_network_controller",
+   "crosswork_optimization_engine",
+   "crosswork_platform_infrastructure",
+   "crosswork_zero_touch_provisioning",
+   "customer_experience_cloud_agent",
+   "cx_cloud_agent",
+   "cyber_vision",
+   "cyber_vision_sensor_management_extension",
+   "data_center_network_manager",
+   "datacenter_manager",
+   "debian_linux",
+   "desigo_cc_advanced_reports",
+   "desigo_cc_info_center",
+   "dna_center",
+   "dna_spaces",
+   "dna_spaces\\",
+   "dna_spaces_connector",
+   "e-car_operation_center",
+   "email_security",
+   "emergency_responder",
+   "energy_engage",
+   "energyip",
+   "energyip_prepay",
+   "enterprise_chat_and_email",
+   "evolved_programmable_network_manager",
+   "fedora",
+   "finesse",
+   "firepower_1010",
+   "firepower_1120",
+   "firepower_1140",
+   "firepower_1150",
+   "firepower_2110",
+   "firepower_2120",
+   "firepower_2130",
+   "firepower_2140",
+   "firepower_4110",
+   "firepower_4112",
+   "firepower_4115",
+   "firepower_4120",
+   "firepower_4125",
+   "firepower_4140",
+   "firepower_4145",
+   "firepower_4150",
+   "firepower_9300",
+   "fog_director",
+   "fxos",
+   "genomics_kernel_library",
+   "gma-manager",
+   "head-end_system_universal_device_integration_system",
+   "identity_services_engine",
+   "industrial_edge_management",
+   "industrial_edge_management_hub",
+   "integrated_management_controller_supervisor",
+   "intersight_virtual_appliance",
+   "iot_operations_dashboard",
+   "log4j",
+   "logo\\!_soft_comfort",
+   "mendix",
+   "mindsphere",
+   "mobility_services_engine",
+   "navigator",
+   "network_assurance_engine",
+   "network_dashboard_fabric_controller",
+   "network_insights_for_data_center",
+   "network_services_orchestrator",
+   "nexus_dashboard",
+   "nexus_insights",
+   "nx",
+   "oncommand_insight",
+   "oneapi_sample_browser",
+   "ontap_tools",
+   "opcenter_intelligence",
+   "operation_scheduler",
+   "optical_network_controller",
+   "packaged_contact_center_enterprise",
+   "paging_server",
+   "prime_service_catalog",
+   "rhythmyx",
+   "sd-wan_vmanage",
+   "secure_device_onboard",
+   "secure_firewall_threat_defense",
+   "sentron_powermanager",
+   "siguard_dsa",
+   "sipass_integrated",
+   "siveillance_command",
+   "siveillance_control_pro",
+   "siveillance_identity",
+   "siveillance_vantage",
+   "siveillance_viewpoint",
+   "smart_phy",
+   "snapcenter",
+   "snow_commander",
+   "solid_edge_cam_pro",
+   "solid_edge_harness_design",
+   "solidfire_\\&_hci_storage_node",
+   "solidfire_enterprise_sds",
+   "spectrum_power_4",
+   "spectrum_power_7",
+   "sppa-t3000_ses3000",
+   "sppa-t3000_ses3000_firmware",
+   "synchro",
+   "synchro_4d",
+   "system_studio",
+   "teamcenter",
+   "ucs_central",
+   "ucs_central_software",
+   "ucs_director",
+   "unified_communications_manager",
+   "unified_communications_manager_im_\\&_presence_service",
+   "unified_communications_manager_im_and_presence_service",
+   "unified_computing_system",
+   "unified_contact_center_enterprise",
+   "unified_contact_center_express",
+   "unified_contact_center_management_portal",
+   "unified_customer_voice_portal",
+   "unified_intelligence_center",
+   "unified_sip_proxy",
+   "unified_workforce_optimization",
+   "unity_connection",
+   "vesys",
+   "video_surveillance_manager",
+   "video_surveillance_operations_manager",
+   "virtual_topology_system",
+   "virtualized_infrastructure_manager",
+   "virtualized_voice_browser",
+   "vm_access_proxy",
+   "wan_automation_engine",
+   "webex_meetings_server",
+   "workload_optimization_manager",
+   "xcode",
+   "xpedition_enterprise",
+   "xpedition_package_integrator"
+  ]
+ },
+ "CVE-2021-45382": {
+  "cve_id": "CVE-2021-45382",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78",
+   "CWE-78"
+  ],
+  "description": "A Remote Command Execution (RCE) vulnerability exists in all series H/W revisions D-link DIR-810L, DIR-820L/LW, DIR-826L, DIR-830L, and DIR-836L routers via the DDNS function in ncc2 binary file. Note: DIR-810L, DIR-820L, DIR-830L, DIR-826L, DIR-836L, all hardware revisions, have reached their End o",
+  "exploit_available": true,
+  "published": "2022-02-17",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dir-810l",
+   "dir-810l_firmware",
+   "dir-820l",
+   "dir-820l_firmware",
+   "dir-820lw",
+   "dir-820lw_firmware",
+   "dir-826l",
+   "dir-826l_firmware",
+   "dir-830l",
+   "dir-830l_firmware",
+   "dir-836l",
+   "dir-836l_firmware"
+  ]
+ },
+ "CVE-2021-46378": {
+  "cve_id": "CVE-2021-46378",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-425"
+  ],
+  "description": "DLink DIR850 ET850-1.08TRb03 is affected by an incorrect access control vulnerability through an unauthenticated remote configuration download.",
+  "exploit_available": true,
+  "published": "2022-03-04",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dir-850l",
+   "dir-850l_firmware"
+  ]
+ },
+ "CVE-2021-46422": {
+  "cve_id": "CVE-2021-46422",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "Telesquare SDT-CW3B1 1.1.0 is affected by an OS command injection vulnerability that allows a remote attacker to execute OS commands without any authentication.",
+  "exploit_available": true,
+  "published": "2022-04-27",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "sdt-cs3b1",
+   "sdt-cs3b1_firmware"
+  ]
+ },
+ "CVE-2022-22707": {
+  "cve_id": "CVE-2022-22707",
+  "cvss_score": 5.9,
+  "cvss_severity": "MEDIUM",
+  "cwes": [
+   "CWE-787"
+  ],
+  "description": "In lighttpd 1.4.46 through 1.4.63, the mod_extforward_Forwarded function of the mod_extforward plugin has a stack-based buffer overflow (4 bytes representing -1), as demonstrated by remote denial of service (daemon crash) in a non-default configuration. The non-default configuration requires handlin",
+  "exploit_available": true,
+  "published": "2022-01-06",
+  "cpe_parts": [
+   "a",
+   "o"
+  ],
+  "cpe_products": [
+   "debian_linux",
+   "lighttpd"
+  ]
+ },
+ "CVE-2022-28171": {
+  "cve_id": "CVE-2022-28171",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-78",
+   "CWE-77"
+  ],
+  "description": "The web module in some Hikvision Hybrid SAN/Cluster Storage products have the following security vulnerability. Due to the insufficient input validation, attacker can exploit the vulnerability to execute restricted commands by sending messages with malicious commands to the affected device.",
+  "exploit_available": true,
+  "published": "2022-06-27",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ds-a71024",
+   "ds-a71024_firmware",
+   "ds-a71048",
+   "ds-a71048_firmware",
+   "ds-a71048r-cvs",
+   "ds-a71048r-cvs_firmware",
+   "ds-a71072r",
+   "ds-a71072r_firmware",
+   "ds-a72024",
+   "ds-a72024_firmware",
+   "ds-a72048r-cvs",
+   "ds-a72048r-cvs_firmware",
+   "ds-a72072r",
+   "ds-a72072r_firmware",
+   "ds-a80316s",
+   "ds-a80316s_firmware",
+   "ds-a80624s",
+   "ds-a80624s_firmware",
+   "ds-a81016s",
+   "ds-a81016s_firmware",
+   "ds-a82024d",
+   "ds-a82024d_firmware"
+  ]
+ },
+ "CVE-2022-28172": {
+  "cve_id": "CVE-2022-28172",
+  "cvss_score": 6.5,
+  "cvss_severity": "MEDIUM",
+  "cwes": [
+   "CWE-79",
+   "CWE-79"
+  ],
+  "description": "The web module in some Hikvision Hybrid SAN/Cluster Storage products have the following security vulnerability. Due to the insufficient input validation, attacker can exploit the vulnerability to XSS attack by sending messages with malicious commands to the affected device.",
+  "exploit_available": false,
+  "published": "2022-06-27",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ds-a71024",
+   "ds-a71024_firmware",
+   "ds-a71048",
+   "ds-a71048_firmware",
+   "ds-a71048r-cvs",
+   "ds-a71048r-cvs_firmware",
+   "ds-a71072r",
+   "ds-a71072r_firmware",
+   "ds-a72024",
+   "ds-a72024_firmware",
+   "ds-a72048r-cvs",
+   "ds-a72048r-cvs_firmware",
+   "ds-a72072r",
+   "ds-a72072r_firmware",
+   "ds-a80316s",
+   "ds-a80316s_firmware",
+   "ds-a80624s",
+   "ds-a80624s_firmware",
+   "ds-a81016s",
+   "ds-a81016s_firmware",
+   "ds-a82024d",
+   "ds-a82024d_firmware"
+  ]
+ },
+ "CVE-2022-28173": {
+  "cve_id": "CVE-2022-28173",
+  "cvss_score": 9.1,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-284"
+  ],
+  "description": "The web server of some Hikvision wireless bridge products have an access control vulnerability which can be used to obtain the admin permission. The attacker can exploit the vulnerability by sending crafted messages to the affected devices.",
+  "exploit_available": false,
+  "published": "2022-12-19",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ds-3wf01c-2n\\/o",
+   "ds-3wf01c-2n\\/o_firmware",
+   "ds-3wf0ac-2nt",
+   "ds-3wf0ac-2nt_firmware"
+  ]
+ },
+ "CVE-2022-29477": {
+  "cve_id": "CVE-2022-29477",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-798"
+  ],
+  "description": "An authentication bypass vulnerability exists in the web interface /action/factory* functionality of Abode Systems, Inc. iota All-In-One Security Kit 6.9X and 6.9Z. A specially-crafted HTTP header can lead to authentication bypass. An attacker can send an HTTP request to trigger this vulnerability.",
+  "exploit_available": true,
+  "published": "2022-10-25",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "iota_all-in-one_security_kit",
+   "iota_all-in-one_security_kit_firmware"
+  ]
+ },
+ "CVE-2022-30525": {
+  "cve_id": "CVE-2022-30525",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78",
+   "CWE-78"
+  ],
+  "description": "A OS command injection vulnerability in the CGI program of Zyxel USG FLEX 100(W) firmware versions 5.00 through 5.21 Patch 1, USG FLEX 200 firmware versions 5.00 through 5.21 Patch 1, USG FLEX 500 firmware versions 5.00 through 5.21 Patch 1, USG FLEX 700 firmware versions 5.00 through 5.21 Patch 1, ",
+  "exploit_available": true,
+  "published": "2022-05-12",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "atp100",
+   "atp100_firmware",
+   "atp100w",
+   "atp100w_firmware",
+   "atp200",
+   "atp200_firmware",
+   "atp500",
+   "atp500_firmware",
+   "atp700",
+   "atp700_firmware",
+   "atp800",
+   "atp800_firmware",
+   "usg20w-vpn",
+   "usg20w-vpn_firmware",
+   "usg_flex_100w",
+   "usg_flex_100w_firmware",
+   "usg_flex_200",
+   "usg_flex_200_firmware",
+   "usg_flex_500",
+   "usg_flex_500_firmware",
+   "usg_flex_50w",
+   "usg_flex_50w_firmware",
+   "usg_flex_700",
+   "usg_flex_700_firmware",
+   "vpn100",
+   "vpn1000",
+   "vpn1000_firmware",
+   "vpn100_firmware",
+   "vpn300",
+   "vpn300_firmware",
+   "vpn50",
+   "vpn50_firmware"
+  ]
+ },
+ "CVE-2022-30526": {
+  "cve_id": "CVE-2022-30526",
+  "cvss_score": 7.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-269",
+   "CWE-269"
+  ],
+  "description": "A privilege escalation vulnerability was identified in the CLI command of Zyxel USG FLEX 100(W) firmware versions 4.50 through 5.30, USG FLEX 200 firmware versions 4.50 through 5.30, USG FLEX 500 firmware versions 4.50 through 5.30, USG FLEX 700 firmware versions 4.50 through 5.30, USG FLEX 50(W) fi",
+  "exploit_available": true,
+  "published": "2022-07-19",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "atp100",
+   "atp100_firmware",
+   "atp100w",
+   "atp100w_firmware",
+   "atp200",
+   "atp200_firmware",
+   "atp500",
+   "atp500_firmware",
+   "atp700",
+   "atp700_firmware",
+   "atp800",
+   "atp800_firmware",
+   "usg20-vpn",
+   "usg20-vpn_firmware",
+   "usg20w-vpn",
+   "usg20w-vpn_firmware",
+   "usg40",
+   "usg40_firmware",
+   "usg40w",
+   "usg40w_firmware",
+   "usg60",
+   "usg60_firmware",
+   "usg60w",
+   "usg60w_firmware",
+   "usg_2200-vpn",
+   "usg_2200-vpn_firmware",
+   "usg_flex_100w",
+   "usg_flex_100w_firmware",
+   "usg_flex_200",
+   "usg_flex_200_firmware",
+   "usg_flex_500",
+   "usg_flex_500_firmware",
+   "usg_flex_50w",
+   "usg_flex_50w_firmware",
+   "usg_flex_700",
+   "usg_flex_700_firmware",
+   "vpn100",
+   "vpn1000",
+   "vpn1000_firmware",
+   "vpn100_firmware",
+   "vpn300",
+   "vpn300_firmware",
+   "vpn50",
+   "vpn50_firmware",
+   "zywall_110",
+   "zywall_1100",
+   "zywall_1100_firmware",
+   "zywall_110_firmware",
+   "zywall_310",
+   "zywall_310_firmware"
+  ]
+ },
+ "CVE-2022-36786": {
+  "cve_id": "CVE-2022-36786",
+  "cvss_score": 9.9,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-77",
+   "CWE-77"
+  ],
+  "description": "DLINK - DSL-224 Post-auth RCE.\nDLINK router version 3.0.8 has an interface where you can configure NTP servers (Network Time Protocol) via jsonrpc API.\nIt is possible to inject a command through this interface that will run with ROOT permissions on the router.\n\n",
+  "exploit_available": false,
+  "published": "2022-11-17",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dsl-224",
+   "dsl-224_firmware"
+  ]
+ },
+ "CVE-2023-28769": {
+  "cve_id": "CVE-2023-28769",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-120",
+   "CWE-120"
+  ],
+  "description": "The buffer overflow vulnerability in the library \u201clibclinkc.so\u201d of the web server \u201czhttpd\u201d in Zyxel DX5401-B0 firmware versions prior to V5.17(ABYO.1)C0 could allow a remote unauthenticated attacker to execute some OS commands or to cause denial-of-service (DoS) conditions on a vulnerable device.",
+  "exploit_available": false,
+  "published": "2023-04-27",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dx5401-b0",
+   "dx5401-b0_firmware"
+  ]
+ },
+ "CVE-2023-28770": {
+  "cve_id": "CVE-2023-28770",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-200",
+   "CWE-203"
+  ],
+  "description": "The sensitive information exposure vulnerability in the CGI \u201cExport_Log\u201d and the binary \u201czcmd\u201d in Zyxel DX5401-B0 firmware versions prior to V5.17(ABYO.1)C0 could allow a remote unauthenticated attacker to read the system files and to retrieve the password of the supervisor from the encrypted file.",
+  "exploit_available": false,
+  "published": "2023-04-27",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dx5401-b0",
+   "dx5401-b0_firmware"
+  ]
+ },
+ "CVE-2023-28771": {
+  "cve_id": "CVE-2023-28771",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78",
+   "CWE-78"
+  ],
+  "description": "Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.60 through 4.73, VPN series firmware versions 4.60 through 5.35, USG FLEX series firmware versions 4.60 through 5.35, and ATP series firmware versions 4.60 through 5.35, which could allow an unauthenticated attacker to ex",
+  "exploit_available": true,
+  "published": "2023-04-25",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "atp100",
+   "atp100_firmware",
+   "atp100w",
+   "atp100w_firmware",
+   "atp200",
+   "atp200_firmware",
+   "atp500",
+   "atp500_firmware",
+   "atp700",
+   "atp700_firmware",
+   "atp800",
+   "atp800_firmware",
+   "usg_flex_100",
+   "usg_flex_100_firmware",
+   "usg_flex_100w",
+   "usg_flex_100w_firmware",
+   "usg_flex_200",
+   "usg_flex_200_firmware",
+   "usg_flex_50",
+   "usg_flex_500",
+   "usg_flex_500_firmware",
+   "usg_flex_50_firmware",
+   "usg_flex_50w",
+   "usg_flex_50w_firmware",
+   "usg_flex_700",
+   "usg_flex_700_firmware",
+   "vpn100",
+   "vpn1000",
+   "vpn1000_firmware",
+   "vpn100_firmware",
+   "vpn300",
+   "vpn300_firmware",
+   "vpn50",
+   "vpn50_firmware",
+   "zywall_usg_100",
+   "zywall_usg_100_firmware",
+   "zywall_usg_310",
+   "zywall_usg_310_firmware"
+  ]
+ },
+ "CVE-2023-28808": {
+  "cve_id": "CVE-2023-28808",
+  "cvss_score": 9.1,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-284"
+  ],
+  "description": "Some Hikvision Hybrid SAN/Cluster Storage products have an access control vulnerability which can be used to obtain the admin permission. The attacker can exploit the vulnerability by sending crafted messages to the affected devices.",
+  "exploit_available": false,
+  "published": "2023-04-11",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ds-a71024",
+   "ds-a71024_firmware",
+   "ds-a71048",
+   "ds-a71048_firmware",
+   "ds-a71048r-cvs",
+   "ds-a71048r-cvs_firmware",
+   "ds-a71072r",
+   "ds-a71072r_firmware",
+   "ds-a72024",
+   "ds-a72024_firmware",
+   "ds-a72072r",
+   "ds-a72072r_firmware",
+   "ds-a80316s",
+   "ds-a80316s_firmware",
+   "ds-a80624s",
+   "ds-a80624s_firmware",
+   "ds-a81016s",
+   "ds-a81016s_firmware",
+   "ds-a82024d",
+   "ds-a82024d_firmware"
+  ]
+ },
+ "CVE-2023-28811": {
+  "cve_id": "CVE-2023-28811",
+  "cvss_score": 7.4,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-120"
+  ],
+  "description": "There is a buffer overflow in the password recovery feature of Hikvision NVR/DVR models. If exploited, an attacker on the same local area network (LAN) could cause the device to malfunction by sending specially crafted packets to an unpatched device.",
+  "exploit_available": false,
+  "published": "2023-11-23",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "ds-7104ni-q1\\(c\\)",
+   "ds-7104ni-q1\\(c\\)_firmware",
+   "ds-7104ni-q1\\(d\\)",
+   "ds-7104ni-q1\\(d\\)_firmware",
+   "ds-7108ni-q1\\(c\\)",
+   "ds-7108ni-q1\\(c\\)_firmware",
+   "ds-7108ni-q1\\(d\\)",
+   "ds-7108ni-q1\\(d\\)_firmware",
+   "ds-7604ni-k1\\(c\\)",
+   "ds-7604ni-k1\\(c\\)_firmware",
+   "ds-7604ni-k1\\/4p\\/4g\\(c\\)",
+   "ds-7604ni-k1\\/4p\\/4g\\(c\\)_firmware",
+   "ds-7604ni-q1\\(c\\)",
+   "ds-7604ni-q1\\(c\\)_firmware",
+   "ds-7604ni-q1\\/4p\\(c\\)",
+   "ds-7604ni-q1\\/4p\\(c\\)_firmware",
+   "ds-7608ni-k1\\/8p\\(c\\)",
+   "ds-7608ni-k1\\/8p\\(c\\)_firmware",
+   "ds-7608ni-k1\\/8p\\/4g\\(c\\)",
+   "ds-7608ni-k1\\/8p\\/4g\\(c\\)_firmware",
+   "ds-7608ni-q1\\(c\\)",
+   "ds-7608ni-q1\\(c\\)_firmware",
+   "ds-7608ni-q1\\/8p\\(c\\)",
+   "ds-7608ni-q1\\/8p\\(c\\)_firmware",
+   "ds-7608ni-q2\\(c\\)",
+   "ds-7608ni-q2\\(c\\)_firmware",
+   "ds-7608ni-q2\\/8p\\(c\\)",
+   "ds-7608ni-q2\\/8p\\(c\\)_firmware",
+   "ds-7616ni-k1\\(c\\)",
+   "ds-7616ni-k1\\(c\\)_firmware",
+   "ds-7616ni-q1\\(c\\)",
+   "ds-7616ni-q1\\(c\\)_firmware",
+   "ds-7616ni-q2\\(c\\)",
+   "ds-7616ni-q2\\(c\\)_firmware",
+   "ds-7616ni-q2\\/16p\\(c\\)",
+   "ds-7616ni-q2\\/16p\\(c\\)_firmware",
+   "dvr_firmware",
+   "nvr-104mh-c\\(c\\)",
+   "nvr-104mh-c\\(c\\)_firmware",
+   "nvr-104mh-c\\(d\\)",
+   "nvr-104mh-c\\(d\\)_firmware",
+   "nvr-104mh-c\\/4p\\(d\\)",
+   "nvr-104mh-c\\/4p\\(d\\)_firmware",
+   "nvr-104mh-d\\(c\\)",
+   "nvr-104mh-d\\(c\\)_firmware",
+   "nvr-104mh-d\\(d\\)",
+   "nvr-104mh-d\\(d\\)_firmware",
+   "nvr-104mh-d\\/4p\\(c\\)",
+   "nvr-104mh-d\\/4p\\(c\\)_firmware",
+   "nvr-108h-d\\(c\\)",
+   "nvr-108h-d\\(c\\)_firmware",
+   "nvr-108h-d\\/8p\\(c\\)",
+   "nvr-108h-d\\/8p\\(c\\)_firmware",
+   "nvr-108h-d\\/8p\\(d\\)",
+   "nvr-108h-d\\/8p\\(d\\)_firmware",
+   "nvr-108mh-c\\(c\\)",
+   "nvr-108mh-c\\(c\\)_firmware",
+   "nvr-108mh-c\\(d\\)",
+   "nvr-108mh-c\\(d\\)_firmware",
+   "nvr-108mh-c\\/8p\\(c\\)",
+   "nvr-108mh-c\\/8p\\(c\\)_firmware",
+   "nvr-108mh-d\\(c\\)",
+   "nvr-108mh-d\\(c\\)_firmware",
+   "nvr-108mh-d\\(d\\)",
+   "nvr-108mh-d\\(d\\)_firmware",
+   "nvr-108mh-d\\/8p\\(c\\)",
+   "nvr-108mh-d\\/8p\\(c\\)_firmware",
+   "nvr-116mh-c\\(c\\)",
+   "nvr-116mh-c\\(c\\)_firmware",
+   "nvr-116mh-c\\(d\\)",
+   "nvr-116mh-c\\(d\\)_firmware",
+   "nvr-208mh-c\\(c\\)",
+   "nvr-208mh-c\\(c\\)_firmware",
+   "nvr-208mh-c\\/8p\\(d\\)",
+   "nvr-208mh-c\\/8p\\(d\\)_firmware",
+   "nvr-216mh-c\\(d\\)",
+   "nvr-216mh-c\\(d\\)_firmware",
+   "nvr-216mh-c\\/16p\\(d\\)",
+   "nvr-216mh-c\\/16p\\(d\\)_firmware"
+  ]
+ },
+ "CVE-2023-33012": {
+  "cve_id": "CVE-2023-33012",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-78",
+   "CWE-78"
+  ],
+  "description": "A command injection vulnerability in the configuration parser of the Zyxel ATP series firmware versions 5.10 through 5.36 Patch 2, USG FLEX series firmware versions 5.00 through 5.36 Patch 2,  USG FLEX 50(W) series firmware versions 5.10 through 5.36 Patch 2, USG20(W)-VPN series firmware versions 5.",
+  "exploit_available": false,
+  "published": "2023-07-17",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "usg_20w-vpn",
+   "usg_20w-vpn_firmware",
+   "usg_2200-vpn",
+   "usg_2200-vpn_firmware",
+   "usg_flex_100",
+   "usg_flex_100_firmware",
+   "usg_flex_100w",
+   "usg_flex_100w_firmware",
+   "usg_flex_200",
+   "usg_flex_200_firmware",
+   "usg_flex_50",
+   "usg_flex_500",
+   "usg_flex_500_firmware",
+   "usg_flex_50_firmware",
+   "usg_flex_50w",
+   "usg_flex_50w_firmware",
+   "usg_flex_700",
+   "usg_flex_700_firmware",
+   "zywall_atp100",
+   "zywall_atp100_firmware",
+   "zywall_atp100w",
+   "zywall_atp100w_firmware",
+   "zywall_atp200",
+   "zywall_atp200_firmware",
+   "zywall_atp500",
+   "zywall_atp500_firmware",
+   "zywall_atp700",
+   "zywall_atp700_firmware",
+   "zywall_atp800",
+   "zywall_atp800_firmware",
+   "zywall_vpn100",
+   "zywall_vpn100_firmware",
+   "zywall_vpn2s",
+   "zywall_vpn2s_firmware",
+   "zywall_vpn300",
+   "zywall_vpn300_firmware",
+   "zywall_vpn50",
+   "zywall_vpn50_firmware",
+   "zywall_vpn_100",
+   "zywall_vpn_100_firmware",
+   "zywall_vpn_300",
+   "zywall_vpn_300_firmware",
+   "zywall_vpn_50",
+   "zywall_vpn_50_firmware"
+  ]
+ },
+ "CVE-2023-38907": {
+  "cve_id": "CVE-2023-38907",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [],
+  "description": "An issue in TPLink Smart Bulb Tapo series L530 before 1.2.4, L510E before 1.1.0, L630 before 1.0.4, P100 before 1.5.0, and Tapo Application 2.8.14 allows a remote attacker to replay old messages encrypted with a still valid session key.",
+  "exploit_available": false,
+  "published": "2023-09-25",
+  "cpe_parts": [
+   "a",
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "tapo",
+   "tapo_l530e",
+   "tapo_l530e_firmware"
+  ]
+ },
+ "CVE-2023-43137": {
+  "cve_id": "CVE-2023-43137",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-77"
+  ],
+  "description": "TPLINK TL-ER5120G 4.0 2.0.0 Build 210817 Rel.80868n has a command injection vulnerability, when an attacker adds ACL rules after authentication, and the rule name parameter has injection points.",
+  "exploit_available": true,
+  "published": "2023-09-20",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "tl-er5120g",
+   "tl-er5120g_firmware"
+  ]
+ },
+ "CVE-2023-43138": {
+  "cve_id": "CVE-2023-43138",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-77"
+  ],
+  "description": "TPLINK TL-ER5120G 4.0 2.0.0 Build 210817 Rel.80868n has a command injection vulnerability, when an attacker adds NAPT rules after authentication, and the rule name has an injection point.",
+  "exploit_available": true,
+  "published": "2023-09-20",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "tl-er5120g",
+   "tl-er5120g_firmware"
+  ]
+ },
+ "CVE-2023-43960": {
+  "cve_id": "CVE-2023-43960",
+  "cvss_score": 8.8,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-269"
+  ],
+  "description": "An issue in DLINK DPH-400SE FRU 2.2.15.8 allows a remote attacker to escalate privileges via the User Modify function in the Maintenance/Access function component.",
+  "exploit_available": true,
+  "published": "2023-10-11",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dph-400se",
+   "dph-400se_firmware"
+  ]
+ },
+ "CVE-2024-12847": {
+  "cve_id": "CVE-2024-12847",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-78",
+   "CWE-306",
+   "CWE-306"
+  ],
+  "description": "NETGEAR DGN1000 before 1.1.00.48 is vulnerable to an authentication bypass vulnerability. A remote and unauthenticated attacker can execute arbitrary operating system commands as root by sending crafted HTTP requests to the setup.cgi endpoint. This vulnerability has been observed to be exploited in ",
+  "exploit_available": true,
+  "published": "2025-01-10",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dgn1000",
+   "dgn1000_firmware"
+  ]
+ },
+ "CVE-2024-24321": {
+  "cve_id": "CVE-2024-24321",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-77",
+   "CWE-77"
+  ],
+  "description": "An issue in Dlink DIR-816A2 v.1.10CNB05 allows a remote attacker to execute arbitrary code via the wizardstep4_ssid_2 parameter in the sub_42DA54 function.",
+  "exploit_available": true,
+  "published": "2024-02-08",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dir-816",
+   "dir-816_firmware"
+  ]
+ },
+ "CVE-2024-25039": {
+  "cve_id": "CVE-2024-25039",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-400"
+  ],
+  "description": "IBM Engineering Requirements Management DOORS and DOORS Web Access 9.7.2.1 through 9.7.2.11, and 9.6.1.1 through 9.6.1.13 do not limit the length of a connection which could allow for a Slowloris HTTP denial of service attack to take place. This can cause the web server to become unresponsive.",
+  "exploit_available": false,
+  "published": "2026-07-30",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "engineering_requirements_management_doors_web_access"
+  ]
+ },
+ "CVE-2024-27619": {
+  "cve_id": "CVE-2024-27619",
+  "cvss_score": 7.3,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-120"
+  ],
+  "description": "Dlink Dir-3040us A1 1.20b03a hotfix is vulnerable to Buffer Overflow. Any user having read/write access to ftp server can write directly to ram causing buffer overflow if file or files uploaded are greater than available ram. Ftp server allows change of directory to root which is one level up than r",
+  "exploit_available": false,
+  "published": "2024-03-29",
+  "cpe_parts": [],
+  "cpe_products": []
+ },
+ "CVE-2024-28726": {
+  "cve_id": "CVE-2024-28726",
+  "cvss_score": 8.0,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-77"
+  ],
+  "description": "An issue in DLink DWR 2000M 5G CPE With Wifi 6 Ax1800 and Dlink DWR 5G CPE DWR-2000M_1.34ME allows a local attacker to execute arbitrary code via a crafted payload to the Diagnostics function.",
+  "exploit_available": false,
+  "published": "2024-11-12",
+  "cpe_parts": [],
+  "cpe_products": []
+ },
+ "CVE-2024-28729": {
+  "cve_id": "CVE-2024-28729",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-77"
+  ],
+  "description": "An issue in DLink DWR 2000M 5G CPE With Wifi 6 Ax1800 and Dlink DWR 5G CPE DWR-2000M_1.34ME allows a local attacker to execute arbitrary code via a crafted request.",
+  "exploit_available": false,
+  "published": "2024-11-12",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "dwr-2000m",
+   "dwr-2000m_firmware"
+  ]
+ },
+ "CVE-2024-57357": {
+  "cve_id": "CVE-2024-57357",
+  "cvss_score": 8.0,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "An issue in TPLINK TL-WPA 8630 TL-WPA8630(US)_V2_2.0.4 Build 20230427 allows a remote attacker to execute arbitrary code via function sub_4256CC, which allows command injection by injecting 'devpwd'.",
+  "exploit_available": false,
+  "published": "2025-02-07",
+  "cpe_parts": [
+   "h",
+   "o"
+  ],
+  "cpe_products": [
+   "tl-wpa8630",
+   "tl-wpa8630_firmware"
+  ]
+ },
+ "CVE-2024-7490": {
+  "cve_id": "CVE-2024-7490",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-120",
+   "CWE-120"
+  ],
+  "description": "Improper Input Validation vulnerability in Microchip Techology Advanced Software Framework example DHCP server can cause remote code execution through a buffer overflow.\n This vulnerability is associated with program files tinydhcpserver.C and program routines lwip_dhcp_find_option.\n\nThis issue affe",
+  "exploit_available": false,
+  "published": "2024-08-08",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "advanced_software_framework"
+  ]
+ },
+ "CVE-2025-34125": {
+  "cve_id": "CVE-2025-34125",
+  "cvss_score": 0.0,
+  "cvss_severity": "UNKNOWN",
+  "cwes": [
+   "CWE-78"
+  ],
+  "description": "An unauthenticated command injection vulnerability exists in the cookie handling process of the lighttpd web server on D-Link DSP-W110A1 firmware version 1.05B01. This occurs when specially crafted cookie values are processed, allowing remote attackers to execute arbitrary commands on the underlying",
+  "exploit_available": true,
+  "published": "2025-07-16",
+  "cpe_parts": [],
+  "cpe_products": []
+ },
+ "CVE-2025-63561": {
+  "cve_id": "CVE-2025-63561",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-400"
+  ],
+  "description": "Summer Pearl Group Vacation Rental Management Platform prior to 1.0.2 is susceptible to a Slowloris-style Denial-of-Service (DoS) condition in the HTTP connection handling layer, where an attacker that opens and maintains many slow or partially-completed HTTP connections can exhaust the server\u2019s con",
+  "exploit_available": true,
+  "published": "2025-10-31",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "vacation_rental_management_platform"
+  ]
+ },
+ "CVE-2026-27630": {
+  "cve_id": "CVE-2026-27630",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-400",
+   "CWE-770"
+  ],
+  "description": "TinyWeb is a web server (HTTP, HTTPS) written in Delphi for Win32. Versions prior to version 2.02 are vulnerable to a Denial of Service (DoS) attack known as Slowloris. The server spawns a new OS thread for every incoming connection without enforcing a maximum concurrency limit or an appropriate req",
+  "exploit_available": false,
+  "published": "2026-02-26",
+  "cpe_parts": [
+   "a"
+  ],
+  "cpe_products": [
+   "tinyweb"
+  ]
+ },
+ "CVE-2026-52880": {
+  "cve_id": "CVE-2026-52880",
+  "cvss_score": 7.5,
+  "cvss_severity": "HIGH",
+  "cwes": [
+   "CWE-400",
+   "CWE-770"
+  ],
+  "description": "Klever-Go is the Go implementation of the Klever blockchain protocol. Versions from 1.7.14 through 1.7.17 are vulnerable to a remotely triggerable denial of service. Both REST APIs are started with the Gin Engine.Run convenience method, which serves requests through Go's default HTTP server with no ",
+  "exploit_available": false,
+  "published": "2026-08-07",
+  "cpe_parts": [],
+  "cpe_products": []
+ },
+ "CVE-2026-8836": {
+  "cve_id": "CVE-2026-8836",
+  "cvss_score": 9.8,
+  "cvss_severity": "CRITICAL",
+  "cwes": [
+   "CWE-119",
+   "CWE-121"
+  ],
+  "description": "A vulnerability was found in lwIP up to 2.2.1. Affected is the function snmp_parse_inbound_frame of the file src/apps/snmp/snmp_msg.c of the component snmpv3 USM Handler. Performing a manipulation of the argument msgAuthenticationParameters results in stack-based buffer overflow. The attack may be i",
+  "exploit_available": false,
+  "published": "2026-05-18",
+  "cpe_parts": [],
+  "cpe_products": []
+ }
+}

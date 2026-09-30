@@ -1,0 +1,1669 @@
+{
+ "missing_total": 182,
+ "reasons": {
+  "source_not_cisa": 181,
+  "cisa_source_but_no_icsma_reference": 1
+ },
+ "other_sources": {
+  "cve@mitre.org": 72,
+  "secure@microsoft.com": 24,
+  "secalert_us@oracle.com": 1,
+  "secalert@redhat.com": 3,
+  "vultures@jpcert.or.jp": 2,
+  "cret@cert.org": 12,
+  "talos-cna@cisco.com": 9,
+  "security@medtronic.com": 4,
+  "security@apache.org": 3,
+  "security@ubuntu.com": 1,
+  "security@debian.org": 2,
+  "psirt@us.ibm.com": 1,
+  "20705f08-db8b-4497-8f94-7eea62317651": 3,
+  "emo@eclipse.org": 1,
+  "cybersecurity@bd.com": 22,
+  "productsecurity@baxter.com": 18,
+  "productsecurity@bbraun.com": 1,
+  "171caf72-b841-4e04-a68e-93493aff2b94": 1,
+  "b7efe717-a805-47cf-8e9a-921fca0ce0ce": 1
+ },
+ "non_cisa_source_but_icsma_referenced": 85,
+ "per_cve": {
+  "CVE-1999-0103": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "1996-02-08",
+   "in_our_industrial_set": false
+  },
+  "CVE-2001-1594": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2002-2446": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2003-1603": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2004-2761": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2009-01-05",
+   "in_our_industrial_set": false
+  },
+  "CVE-2004-2777": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2005-1794": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2005-06-01",
+   "in_our_industrial_set": false
+  },
+  "CVE-2007-6757": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2008-4250": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Analyzed",
+   "published": "2008-10-23",
+   "in_our_industrial_set": false
+  },
+  "CVE-2009-5143": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2010-5306": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2010-5307": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2010-5309": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2010-5310": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2011-3389": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2011-09-06",
+   "in_our_industrial_set": false
+  },
+  "CVE-2011-5322": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2012-1708": {
+   "reason": "source_not_cisa",
+   "source": "secalert_us@oracle.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2012-05-03",
+   "in_our_industrial_set": false
+  },
+  "CVE-2012-6660": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2012-6693": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2012-6694": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2012-6695": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2013-7404": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2013-7442": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2014-0114": {
+   "reason": "source_not_cisa",
+   "source": "secalert@redhat.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2014-04-30",
+   "in_our_industrial_set": false
+  },
+  "CVE-2014-3566": {
+   "reason": "source_not_cisa",
+   "source": "secalert@redhat.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2014-10-15",
+   "in_our_industrial_set": false
+  },
+  "CVE-2014-7232": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2014-7233": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-08-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2014-9222": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2014-12-24",
+   "in_our_industrial_set": false
+  },
+  "CVE-2015-1497": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-02-16",
+   "in_our_industrial_set": false
+  },
+  "CVE-2015-1635": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Analyzed",
+   "published": "2015-04-14",
+   "in_our_industrial_set": false
+  },
+  "CVE-2015-7860": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-10-19",
+   "in_our_industrial_set": false
+  },
+  "CVE-2015-7861": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2015-10-19",
+   "in_our_industrial_set": false
+  },
+  "CVE-2015-9251": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": true,
+   "status": "Modified",
+   "published": "2018-01-18",
+   "in_our_industrial_set": false
+  },
+  "CVE-2016-1181": {
+   "reason": "source_not_cisa",
+   "source": "vultures@jpcert.or.jp",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2016-07-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2016-1182": {
+   "reason": "source_not_cisa",
+   "source": "vultures@jpcert.or.jp",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2016-07-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2016-2183": {
+   "reason": "source_not_cisa",
+   "source": "secalert@redhat.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2016-09-01",
+   "in_our_industrial_set": false
+  },
+  "CVE-2016-5084": {
+   "reason": "source_not_cisa",
+   "source": "cret@cert.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2016-10-05",
+   "in_our_industrial_set": false
+  },
+  "CVE-2016-5085": {
+   "reason": "source_not_cisa",
+   "source": "cret@cert.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2016-10-05",
+   "in_our_industrial_set": false
+  },
+  "CVE-2016-5086": {
+   "reason": "source_not_cisa",
+   "source": "cret@cert.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2016-10-05",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0143": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Analyzed",
+   "published": "2017-03-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0144": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Analyzed",
+   "published": "2017-03-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0145": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Analyzed",
+   "published": "2017-03-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0146": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Analyzed",
+   "published": "2017-03-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0147": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Analyzed",
+   "published": "2017-03-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0148": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Analyzed",
+   "published": "2017-03-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0199": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Analyzed",
+   "published": "2017-04-12",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0267": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-05-12",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0268": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-05-12",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0269": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-05-12",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0270": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-05-12",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0271": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-05-12",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0272": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-05-12",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0273": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-05-12",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0274": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-05-12",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0275": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-05-12",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0276": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-05-12",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0277": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-05-12",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0278": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-05-12",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0279": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-05-12",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-0280": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-05-12",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-13077": {
+   "reason": "source_not_cisa",
+   "source": "cret@cert.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-10-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-13078": {
+   "reason": "source_not_cisa",
+   "source": "cret@cert.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-10-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-13079": {
+   "reason": "source_not_cisa",
+   "source": "cret@cert.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-10-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-13080": {
+   "reason": "source_not_cisa",
+   "source": "cret@cert.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-10-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-13081": {
+   "reason": "source_not_cisa",
+   "source": "cret@cert.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-10-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-13082": {
+   "reason": "source_not_cisa",
+   "source": "cret@cert.org",
+   "icsma_ref": false,
+   "icsa_ref": true,
+   "status": "Modified",
+   "published": "2017-10-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-13086": {
+   "reason": "source_not_cisa",
+   "source": "cret@cert.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-10-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-13087": {
+   "reason": "source_not_cisa",
+   "source": "cret@cert.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-10-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-13088": {
+   "reason": "source_not_cisa",
+   "source": "cret@cert.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-10-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-14111": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2017-11-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-2852": {
+   "reason": "source_not_cisa",
+   "source": "talos-cna@cisco.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-06-01",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-2853": {
+   "reason": "source_not_cisa",
+   "source": "talos-cna@cisco.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-04-05",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-2858": {
+   "reason": "source_not_cisa",
+   "source": "talos-cna@cisco.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-06-01",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-2860": {
+   "reason": "source_not_cisa",
+   "source": "talos-cna@cisco.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-06-01",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-2861": {
+   "reason": "source_not_cisa",
+   "source": "talos-cna@cisco.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-04-05",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-2867": {
+   "reason": "source_not_cisa",
+   "source": "talos-cna@cisco.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-04-05",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-2868": {
+   "reason": "source_not_cisa",
+   "source": "talos-cna@cisco.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-04-05",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-2869": {
+   "reason": "source_not_cisa",
+   "source": "talos-cna@cisco.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-04-05",
+   "in_our_industrial_set": false
+  },
+  "CVE-2017-7269": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Analyzed",
+   "published": "2017-03-27",
+   "in_our_industrial_set": false
+  },
+  "CVE-2018-10115": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-05-02",
+   "in_our_industrial_set": false
+  },
+  "CVE-2018-10622": {
+   "reason": "source_not_cisa",
+   "source": "security@medtronic.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-08-10",
+   "in_our_industrial_set": false
+  },
+  "CVE-2018-10624": {
+   "reason": "cisa_source_but_no_icsma_reference",
+   "source": "ics-cert@hq.dhs.gov",
+   "icsma_ref": false,
+   "icsa_ref": true,
+   "status": "Modified",
+   "published": "2018-08-01",
+   "in_our_industrial_set": true
+  },
+  "CVE-2018-11218": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-06-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2018-12326": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-06-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2018-1285": {
+   "reason": "source_not_cisa",
+   "source": "security@apache.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2020-05-11",
+   "in_our_industrial_set": false
+  },
+  "CVE-2018-18561": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-11-20",
+   "in_our_industrial_set": false
+  },
+  "CVE-2018-18562": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-11-20",
+   "in_our_industrial_set": false
+  },
+  "CVE-2018-18563": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-11-20",
+   "in_our_industrial_set": false
+  },
+  "CVE-2018-18564": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-11-20",
+   "in_our_industrial_set": false
+  },
+  "CVE-2018-18565": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-11-20",
+   "in_our_industrial_set": false
+  },
+  "CVE-2018-18630": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2019-09-06",
+   "in_our_industrial_set": false
+  },
+  "CVE-2018-6020": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-05-09",
+   "in_our_industrial_set": false
+  },
+  "CVE-2018-6021": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-05-09",
+   "in_our_industrial_set": false
+  },
+  "CVE-2018-8014": {
+   "reason": "source_not_cisa",
+   "source": "security@apache.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2018-05-16",
+   "in_our_industrial_set": false
+  },
+  "CVE-2019-0708": {
+   "reason": "source_not_cisa",
+   "source": "secure@microsoft.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Analyzed",
+   "published": "2019-05-16",
+   "in_our_industrial_set": false
+  },
+  "CVE-2019-11479": {
+   "reason": "source_not_cisa",
+   "source": "security@ubuntu.com",
+   "icsma_ref": true,
+   "icsa_ref": true,
+   "status": "Modified",
+   "published": "2019-06-19",
+   "in_our_industrial_set": false
+  },
+  "CVE-2019-12255": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2019-08-09",
+   "in_our_industrial_set": false
+  },
+  "CVE-2019-12256": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2019-08-09",
+   "in_our_industrial_set": false
+  },
+  "CVE-2019-12257": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2019-08-09",
+   "in_our_industrial_set": false
+  },
+  "CVE-2019-12258": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2019-08-09",
+   "in_our_industrial_set": false
+  },
+  "CVE-2019-12259": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2019-08-09",
+   "in_our_industrial_set": false
+  },
+  "CVE-2019-12260": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2019-08-09",
+   "in_our_industrial_set": false
+  },
+  "CVE-2019-12261": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2019-08-09",
+   "in_our_industrial_set": false
+  },
+  "CVE-2019-12262": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2019-08-14",
+   "in_our_industrial_set": false
+  },
+  "CVE-2019-12263": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2019-08-09",
+   "in_our_industrial_set": false
+  },
+  "CVE-2019-12264": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2019-08-05",
+   "in_our_industrial_set": false
+  },
+  "CVE-2019-12265": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2019-08-09",
+   "in_our_industrial_set": false
+  },
+  "CVE-2019-3463": {
+   "reason": "source_not_cisa",
+   "source": "security@debian.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2019-02-06",
+   "in_our_industrial_set": false
+  },
+  "CVE-2019-3464": {
+   "reason": "source_not_cisa",
+   "source": "security@debian.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2019-02-06",
+   "in_our_industrial_set": false
+  },
+  "CVE-2019-5024": {
+   "reason": "source_not_cisa",
+   "source": "talos-cna@cisco.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2019-04-11",
+   "in_our_industrial_set": false
+  },
+  "CVE-2019-9636": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2019-03-08",
+   "in_our_industrial_set": false
+  },
+  "CVE-2020-1938": {
+   "reason": "source_not_cisa",
+   "source": "security@apache.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Analyzed",
+   "published": "2020-02-24",
+   "in_our_industrial_set": false
+  },
+  "CVE-2020-35340": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-09-15",
+   "in_our_industrial_set": false
+  },
+  "CVE-2020-4670": {
+   "reason": "source_not_cisa",
+   "source": "psirt@us.ibm.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-05-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2020-8004": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2020-04-06",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-26248": {
+   "reason": "source_not_cisa",
+   "source": "20705f08-db8b-4497-8f94-7eea62317651",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-11-19",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-26262": {
+   "reason": "source_not_cisa",
+   "source": "20705f08-db8b-4497-8f94-7eea62317651",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-11-19",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-28165": {
+   "reason": "source_not_cisa",
+   "source": "emo@eclipse.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-04-01",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-33882": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-08-25",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-33883": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-08-25",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-33884": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-08-25",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-33885": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-08-25",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-33886": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-08-25",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-37160": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-08-02",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-37161": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-08-02",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-37162": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-08-02",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-37163": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-08-02",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-37164": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-08-02",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-37165": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-08-02",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-37166": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-08-02",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-37167": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-08-02",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-39369": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2022-12-26",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-39375": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-08-24",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-39376": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-08-24",
+   "in_our_industrial_set": false
+  },
+  "CVE-2021-42744": {
+   "reason": "source_not_cisa",
+   "source": "20705f08-db8b-4497-8f94-7eea62317651",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2021-11-19",
+   "in_our_industrial_set": false
+  },
+  "CVE-2022-22765": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2022-02-12",
+   "in_our_industrial_set": false
+  },
+  "CVE-2022-22766": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2022-02-11",
+   "in_our_industrial_set": false
+  },
+  "CVE-2022-22767": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2022-06-02",
+   "in_our_industrial_set": false
+  },
+  "CVE-2022-26388": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Deferred",
+   "published": "2025-02-07",
+   "in_our_industrial_set": false
+  },
+  "CVE-2022-26389": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Deferred",
+   "published": "2025-02-07",
+   "in_our_industrial_set": false
+  },
+  "CVE-2022-26390": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2022-09-09",
+   "in_our_industrial_set": false
+  },
+  "CVE-2022-26392": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2022-09-09",
+   "in_our_industrial_set": false
+  },
+  "CVE-2022-26393": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2022-09-09",
+   "in_our_industrial_set": false
+  },
+  "CVE-2022-26394": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2022-09-09",
+   "in_our_industrial_set": false
+  },
+  "CVE-2022-30277": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2022-06-02",
+   "in_our_industrial_set": false
+  },
+  "CVE-2022-32537": {
+   "reason": "source_not_cisa",
+   "source": "security@medtronic.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2022-12-12",
+   "in_our_industrial_set": false
+  },
+  "CVE-2022-40263": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2022-11-04",
+   "in_our_industrial_set": false
+  },
+  "CVE-2022-43557": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2022-12-05",
+   "in_our_industrial_set": false
+  },
+  "CVE-2022-47376": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-06-13",
+   "in_our_industrial_set": false
+  },
+  "CVE-2023-0888": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@bbraun.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-03-13",
+   "in_our_industrial_set": false
+  },
+  "CVE-2023-25931": {
+   "reason": "source_not_cisa",
+   "source": "security@medtronic.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-03-01",
+   "in_our_industrial_set": false
+  },
+  "CVE-2023-29060": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-11-28",
+   "in_our_industrial_set": false
+  },
+  "CVE-2023-29061": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-11-28",
+   "in_our_industrial_set": false
+  },
+  "CVE-2023-29062": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-11-28",
+   "in_our_industrial_set": false
+  },
+  "CVE-2023-29063": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-11-28",
+   "in_our_industrial_set": false
+  },
+  "CVE-2023-29064": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-11-28",
+   "in_our_industrial_set": false
+  },
+  "CVE-2023-29065": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-11-28",
+   "in_our_industrial_set": false
+  },
+  "CVE-2023-29066": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-11-28",
+   "in_our_industrial_set": false
+  },
+  "CVE-2023-30559": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-07-13",
+   "in_our_industrial_set": false
+  },
+  "CVE-2023-30560": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-07-13",
+   "in_our_industrial_set": false
+  },
+  "CVE-2023-30561": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-07-13",
+   "in_our_industrial_set": false
+  },
+  "CVE-2023-30562": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-07-13",
+   "in_our_industrial_set": false
+  },
+  "CVE-2023-30563": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-07-13",
+   "in_our_industrial_set": false
+  },
+  "CVE-2023-30564": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-07-13",
+   "in_our_industrial_set": false
+  },
+  "CVE-2023-30565": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-07-13",
+   "in_our_industrial_set": false
+  },
+  "CVE-2023-31222": {
+   "reason": "source_not_cisa",
+   "source": "security@medtronic.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Modified",
+   "published": "2023-06-29",
+   "in_our_industrial_set": false
+  },
+  "CVE-2024-10476": {
+   "reason": "source_not_cisa",
+   "source": "cybersecurity@bd.com",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Deferred",
+   "published": "2024-12-17",
+   "in_our_industrial_set": false
+  },
+  "CVE-2024-1275": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Deferred",
+   "published": "2024-05-31",
+   "in_our_industrial_set": false
+  },
+  "CVE-2024-1486": {
+   "reason": "source_not_cisa",
+   "source": "171caf72-b841-4e04-a68e-93493aff2b94",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Deferred",
+   "published": "2024-05-14",
+   "in_our_industrial_set": false
+  },
+  "CVE-2024-34463": {
+   "reason": "source_not_cisa",
+   "source": "cve@mitre.org",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Deferred",
+   "published": "2024-09-03",
+   "in_our_industrial_set": false
+  },
+  "CVE-2024-48966": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Deferred",
+   "published": "2024-11-14",
+   "in_our_industrial_set": false
+  },
+  "CVE-2024-48967": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Deferred",
+   "published": "2024-11-14",
+   "in_our_industrial_set": false
+  },
+  "CVE-2024-48970": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Deferred",
+   "published": "2024-11-14",
+   "in_our_industrial_set": false
+  },
+  "CVE-2024-48971": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Deferred",
+   "published": "2024-11-14",
+   "in_our_industrial_set": false
+  },
+  "CVE-2024-48973": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Deferred",
+   "published": "2024-11-14",
+   "in_our_industrial_set": false
+  },
+  "CVE-2024-48974": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Deferred",
+   "published": "2024-11-14",
+   "in_our_industrial_set": false
+  },
+  "CVE-2024-5176": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Deferred",
+   "published": "2024-05-31",
+   "in_our_industrial_set": false
+  },
+  "CVE-2024-6795": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Analyzed",
+   "published": "2024-09-09",
+   "in_our_industrial_set": false
+  },
+  "CVE-2024-6796": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Analyzed",
+   "published": "2024-09-09",
+   "in_our_industrial_set": false
+  },
+  "CVE-2024-9832": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Deferred",
+   "published": "2024-11-14",
+   "in_our_industrial_set": false
+  },
+  "CVE-2024-9834": {
+   "reason": "source_not_cisa",
+   "source": "productsecurity@baxter.com",
+   "icsma_ref": true,
+   "icsa_ref": false,
+   "status": "Deferred",
+   "published": "2024-11-14",
+   "in_our_industrial_set": false
+  },
+  "CVE-2025-1024": {
+   "reason": "source_not_cisa",
+   "source": "b7efe717-a805-47cf-8e9a-921fca0ce0ce",
+   "icsma_ref": false,
+   "icsa_ref": false,
+   "status": "Analyzed",
+   "published": "2025-02-19",
+   "in_our_industrial_set": false
+  }
+ }
+}

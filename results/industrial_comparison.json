@@ -102,10 +102,19 @@
     "pct": 21,
     "pct_of_network_reachable": 24
    },
-   "plausible_module_targets": {
+   "network_non_design": {
     "n": 1845,
     "pct": 54,
     "excluding_crypto": 1794
+   },
+   "network_implementation": {
+    "n": 907,
+    "pct": 26
+   },
+   "missing_data": {
+    "no_cwe": 75,
+    "no_cvss_score": 87,
+    "no_attack_vector": 87
    },
    "high_or_critical": {
     "n": 2418,
@@ -205,10 +214,19 @@
     "pct": 39,
     "pct_of_network_reachable": 40
    },
-   "plausible_module_targets": {
+   "network_non_design": {
     "n": 102,
     "pct": 30,
     "excluding_crypto": 92
+   },
+   "network_implementation": {
+    "n": 33,
+    "pct": 10
+   },
+   "missing_data": {
+    "no_cwe": 1,
+    "no_cvss_score": 1,
+    "no_attack_vector": 1
    },
    "high_or_critical": {
     "n": 170,

@@ -1,8 +1,8 @@
 # Are medical-device vulnerabilities weaponised?
 
-Artifact for the paper. It asks every public exploitation signal the same
-question about the same medical CVEs, and finds that none of them sees these
-devices at all.
+Artifact for the paper. It asks four public exploitation signals the same
+question about the same medical CVEs, and finds all four silent — then tests how
+much of that silence is a property of the signals rather than of the devices.
 
 **The four signals, on 341 CVEs that CISA has published a medical advisory for**
 
@@ -10,11 +10,18 @@ devices at all.
 |---|---|---|
 | Metasploit module | public exploit code exists | **0 of 341** |
 | CISA KEV | exploitation observed in the wild | **0 of 341** |
-| NVD `Exploit` reference tag | NVD links exploit material | **0 of 341** |
+| NVD `Exploit` reference tag | NVD *tags* a reference as exploit material | **0 of 341** |
 | EPSS | predicted exploitation probability | median **0.005**, max 0.128 |
 
-For comparison, 26% of consumer-IoT CVEs have a Metasploit module on the same
-pipeline, and the 15 medical CVEs that do have one score a median EPSS of 0.90.
+The tag is not the same as the link. Scanning the reference URLs themselves,
+**one** of the 341 records cites Exploit-DB — a working proof-of-concept against
+an infusion pump — which NVD tags "Third Party Advisory, VDB Entry" instead. So
+the zero is a fact about the tag, not about the records.
+
+For comparison, 1.4% of the 3,429 industrial ICS CVEs from the same advisory
+extraction have a module, and 26% of a consumer-IoT set selected by an automated
+relevance scorer do. The consumer figure carries selection caveats the industrial
+one does not; see `scorer_sensitivity.json`.
 
 **This is not evidence that the devices are safe.** KEV requires exploitation to
 be detected, attributed and reported, which rarely happens for hospital
@@ -22,12 +29,16 @@ equipment, and EPSS is trained on signals a niche device flaw cannot produce.
 Agreement between the signals shows the ecosystem has no visibility into these
 devices — which is why triage for them cannot be driven by any of these signals.
 
-**Why the gap exists.** Medical CVEs are 3.0x more likely than consumer-IoT ones
-to be a credential or design failure (38.8% vs 13.0%), and consumer CVEs 3.2x
-more likely to be an implementation bug (51.5% vs 16.2%) — which is what an
-exploit module encodes. Only 50% of the curated set is network-reachable, and
-excluding credential and design failures leaves 102 CVEs (30%) a module could
-plausibly target.
+**How the populations differ.** Medical CVEs are 3.0x more likely than
+consumer-IoT ones to carry a credential or access-control weakness (38.8% vs
+13.0%), and consumer CVEs 3.2x more likely to carry one of the implementation
+weaknesses an exploit module encodes (51.5% vs 16.2%); the same direction holds
+against the industrial set (21.7% and 38.2%), which is the comparison that does
+not depend on a relevance scorer. Half the curated set carries a network attack
+vector, and removing credential and access-control weaknesses leaves a residual
+of 102 — an upper bound, not a count of implementation bugs, since only **33**
+of the 102 carry an implementation-family weakness. This is an association across
+populations that differ in more than device type, not a demonstrated cause.
 
 ## Verify the paper in one command
 
@@ -35,7 +46,7 @@ No API key, no network, no Metasploit install:
 
 ```bash
 pip install -r requirements.txt
-python run/verify_paper_numbers.py        # expect: PASS 99   FAIL 0
+python run/verify_paper_numbers.py        # expect: PASS 133   FAIL 0
 ```
 
 Every number in the paper is re-derived from `results/` and checked against what
@@ -72,6 +83,11 @@ run/                     thin entry points: read, call, write, print
   make_signal_figure.py    the signal-agreement Venn                  (offline)
   analyse_signals.py       KEV, EPSS and NVD exploit tags             (network)
   industrial_comparison.py is the blind spot medical or CPS-wide?     (network)
+  reconcile_prior_work.py  compare against prior work's dataset      (network)
+  audit_exclusions.py      why each of their 182 CVEs is absent       (network)
+  audit_exploit_references.py  exploit-hosting links, tag aside       (network)
+  scorer_sensitivity.py    does the scorer's exploit feature bias     (offline)
+                           consumer coverage?
   fetch_ground_truth.py    rebuild the ground truth from NVD          (network)
   build_profile.py         rebuild the exploitability profile         (network)
   verify_live.py           re-check coverage against running Metasploit
@@ -91,16 +107,29 @@ results/
   industrial_comparison.json          the third population: 3,429 industrial ICS
                                       CVEs measured the same way
   cisa_industrial_cves.json           their profiles, from the same CISA extraction
+  prior_work_reconciliation.json      overlap with Bracciale et al.'s published
+                                      470-CVE dataset, and their threat classes
+  prior_work_dataset.csv              their dataset as downloaded
+  exclusion_audit.json                per-record reason each of their 182 CVEs
+                                      falls outside our extraction: 181 by source
+                                      attribution, 1 by a missing ICSMA reference
+  exploit_reference_audit.json        exploit-hosting links in the 341 records.
+                                      NVD tags none Exploit; one cites Exploit-DB
+  scorer_sensitivity.json             consumer coverage with the scorer's exploit
+                                      feature removed: 26.0% -> 28.0%
   denominator_check.json              CVEs with a module that were still excluded
                                       as irrelevant, so neither coverage rate is
                                       inflated by the quantity it measures
   coverage.json                       written by run/check_coverage.py
 
 data/msf/modules_metadata_base.json   Metasploit 6.5.3 module index (11 MB)
+data/nvd/ground_truth_records.json    the 341 NVD records, as fetched
+data/consumer/                        consumer NVD details and the 33
+                                      groundings, for the sensitivity check
 figures/                              written by the two figure runners
 ```
 
-## Three measurement details that change the answer
+## Four measurement details that change the answer
 
 **Metasploit's `cve:` search matches substrings.** Searching `cve:2022-2069`
 also returns the module for CVE-2022-20699, and search results carry no
@@ -112,8 +141,18 @@ value adds three spurious matches.
 error. `nvd.page_query` reads `totalResults` and pages to exhaustion.
 
 **The advisory identifier encodes its own date.** `ICSMA-19-190-01` is day 190
-of 2019, so the publication lag against NVD is computable for every CVE without
-scraping CISA. CISA publishes first in 286 of 341 cases; NVD never does.
+of 2019, so the difference against NVD's publication date is computable for every
+CVE without scraping CISA. The advisory date is earlier in 286 of 341 cases and
+later in none, median 6 days, and 266 differ by no more than 30 days. Advisories
+are revised, so a CVE added later inherits the original date: these are
+record-date differences, not verified disclosure order.
+
+**The source filter, not the advisory reference, is what limits the ground
+truth.** Auditing the 182 CVEs in prior work's dataset that we miss,
+`audit_exclusions.py` finds 181 excluded because NVD attributes the record to
+another CNA (MITRE, Microsoft, device vendors) and only 1 for a missing ICSMA
+reference — and 85 of those 181 do cite an ICSMA advisory. Keying on the
+reference instead of the source would recover them.
 
 ## Reproducing from scratch
 

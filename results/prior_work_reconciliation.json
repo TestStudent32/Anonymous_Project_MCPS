@@ -1,0 +1,43 @@
+{
+ "theirs": 470,
+ "ours": 341,
+ "shared": 288,
+ "only_theirs": 182,
+ "only_ours": 53,
+ "only_ours_2025_or_later": 51,
+ "their_classes_all": {
+  "U": 437,
+  "P": 22,
+  "A": 11
+ },
+ "their_classes_shared": {
+  "U": 285,
+  "P": 3
+ },
+ "shared_with_exploit_material": [
+  {
+   "cve": "CVE-2017-12718",
+   "their_class": "P",
+   "their_epss": "0.34755",
+   "our_epss": 0.12785,
+   "in_kev": false,
+   "product": "['Medfusion 4000 Wireless Syringe Infusion Pump: Version 1.1', 'Medfus"
+  },
+  {
+   "cve": "CVE-2020-27252",
+   "their_class": "P",
+   "their_epss": "0.00417",
+   "our_epss": 0.0384,
+   "in_kev": false,
+   "product": "['Smart Model 25000 Patient Reader: all versions']"
+  },
+  {
+   "cve": "CVE-2023-5059",
+   "their_class": "P",
+   "their_epss": "0.0035",
+   "our_epss": 0.00201,
+   "in_kev": false,
+   "product": "Santesoft Fft imaging [Application]"
+  }
+ ]
+}

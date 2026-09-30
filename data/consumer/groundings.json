@@ -1,0 +1,1255 @@
+{
+ "DDOS-ACK-001": {
+  "attack_id": "DDOS-ACK-001",
+  "cic_label": "ACK Fragmentation",
+  "cic_category": "DDoS",
+  "attack_behavior": "Multiple sources send fragmented TCP ACK packets to overwhelm target reassembly",
+  "protocol": "TCP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1498.001",
+  "attck_technique_name": "Network DoS: Direct Network Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "Target cannot handle volume of fragmented ACKs; exhausts reassembly buffers",
+  "cve_search_keywords": [
+   "TCP fragmentation denial of service IoT"
+  ],
+  "cve_search_cwes": [
+   "CWE-400",
+   "CWE-770"
+  ],
+  "cve_relevant_products": [
+   "lwip",
+   "vxworks",
+   "freertos_tcp"
+  ],
+  "pcap_indicators": {
+   "tcp_flags": "A",
+   "ip_frag": true,
+   "multi_source": true
+  },
+  "tools_used": "hping3",
+  "grounding_quality": "moderate",
+  "grounding_notes": ""
+ },
+ "DDOS-UDP-001": {
+  "attack_id": "DDOS-UDP-001",
+  "cic_label": "UDP Flood",
+  "cic_category": "DDoS",
+  "attack_behavior": "Multiple sources flood target with high-volume UDP packets",
+  "protocol": "UDP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1498.001",
+  "attck_technique_name": "Network DoS: Direct Network Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "Target overwhelmed by UDP volume; cannot process legitimate traffic",
+  "cve_search_keywords": [
+   "UDP flood IoT denial of service"
+  ],
+  "cve_search_cwes": [
+   "CWE-400"
+  ],
+  "cve_relevant_products": [
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "protocol": "UDP",
+   "high_rate": true,
+   "multi_source": true
+  },
+  "tools_used": "hping3",
+  "grounding_quality": "moderate",
+  "grounding_notes": ""
+ },
+ "DDOS-SLOW-001": {
+  "attack_id": "DDOS-SLOW-001",
+  "cic_label": "SlowLoris",
+  "cic_category": "DDoS",
+  "attack_behavior": "Hold HTTP connections open with partial headers to exhaust server connection pool",
+  "protocol": "TCP/HTTP",
+  "target_service": "web_admin:80",
+  "target_device_types": [
+   "camera",
+   "hub",
+   "plug"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1499.002",
+  "attck_technique_name": "Endpoint DoS: Service Exhaustion Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "Web server has limited connection pool; SlowLoris exhausts all slots",
+  "cve_search_keywords": [
+   "SlowLoris IoT web server",
+   "HTTP slow connection"
+  ],
+  "cve_search_cwes": [
+   "CWE-400"
+  ],
+  "cve_relevant_products": [
+   "lighttpd",
+   "boa",
+   "mini_httpd",
+   "goahead"
+  ],
+  "pcap_indicators": {
+   "protocol": "HTTP",
+   "partial_headers": true,
+   "long_connections": true,
+   "pattern": "X-a: header keepalive"
+  },
+  "tools_used": "slowloris.py",
+  "grounding_quality": "strong",
+  "grounding_notes": "Many IoT cameras run lightweight HTTP servers vulnerable to connection exhaustion"
+ },
+ "DDOS-ICMP-001": {
+  "attack_id": "DDOS-ICMP-001",
+  "cic_label": "ICMP Flood",
+  "cic_category": "DDoS",
+  "attack_behavior": "Flood target with ICMP echo requests from multiple sources",
+  "protocol": "ICMP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1498.001",
+  "attck_technique_name": "Network DoS: Direct Network Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "Target must process each ICMP packet; overwhelms CPU/bandwidth",
+  "cve_search_keywords": [
+   "ICMP flood IoT embedded"
+  ],
+  "cve_search_cwes": [
+   "CWE-400"
+  ],
+  "cve_relevant_products": [
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "protocol": "ICMP",
+   "type": 8,
+   "high_rate": true
+  },
+  "tools_used": "hping3",
+  "grounding_quality": "moderate",
+  "grounding_notes": ""
+ },
+ "DDOS-IFRAG-001": {
+  "attack_id": "DDOS-IFRAG-001",
+  "cic_label": "ICMP Fragmentation",
+  "cic_category": "DDoS",
+  "attack_behavior": "Send fragmented ICMP packets from multiple sources to exhaust IP reassembly buffers",
+  "protocol": "ICMP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1498.001",
+  "attck_technique_name": "Network DoS: Direct Network Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "Fragmented ICMP forces reassembly on constrained IoT stacks (lwIP/VxWorks)",
+  "cve_search_keywords": [
+   "ICMP fragmentation IoT denial of service",
+   "IP reassembly denial of service embedded"
+  ],
+  "cve_search_cwes": [
+   "CWE-400",
+   "CWE-770"
+  ],
+  "cve_relevant_products": [
+   "lwip",
+   "vxworks",
+   "freertos_tcp"
+  ],
+  "pcap_indicators": {
+   "protocol": "ICMP",
+   "ip_frag": true,
+   "multi_source": true,
+   "dataset_protocol_mean": {
+    "ICMP": 0.94
+   }
+  },
+  "tools_used": "hping3",
+  "grounding_quality": "moderate",
+  "grounding_notes": "Present in CICIoT2023 CSV (DDoS-ICMP_Fragmentation, 20 files) but was missing from the original 32-class grounding table. CSV protocol mix confirms ICMP\u22480.94."
+ },
+ "DDOS-RST-001": {
+  "attack_id": "DDOS-RST-001",
+  "cic_label": "RST-FIN Flood",
+  "cic_category": "DDoS",
+  "attack_behavior": "Flood target with TCP RST and FIN packets to disrupt connections",
+  "protocol": "TCP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1498.001",
+  "attck_technique_name": "Network DoS: Direct Network Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "RST/FIN processing consumes state table resources",
+  "cve_search_keywords": [
+   "TCP RST flood IoT"
+  ],
+  "cve_search_cwes": [
+   "CWE-400"
+  ],
+  "cve_relevant_products": [
+   "lwip",
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "tcp_flags": "R|F",
+   "high_rate": true,
+   "multi_source": true
+  },
+  "tools_used": "hping3",
+  "grounding_quality": "moderate",
+  "grounding_notes": ""
+ },
+ "DDOS-PSH-001": {
+  "attack_id": "DDOS-PSH-001",
+  "cic_label": "PSH-ACK Flood",
+  "cic_category": "DDoS",
+  "attack_behavior": "Flood with TCP PSH-ACK packets forcing immediate data processing",
+  "protocol": "TCP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1498.001",
+  "attck_technique_name": "Network DoS: Direct Network Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "PSH flag forces immediate buffer flush; overwhelms application layer",
+  "cve_search_keywords": [
+   "TCP PSH ACK flood"
+  ],
+  "cve_search_cwes": [
+   "CWE-400"
+  ],
+  "cve_relevant_products": [
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "tcp_flags": "PA",
+   "high_rate": true,
+   "multi_source": true
+  },
+  "tools_used": "hping3",
+  "grounding_quality": "moderate",
+  "grounding_notes": ""
+ },
+ "DDOS-HTTP-001": {
+  "attack_id": "DDOS-HTTP-001",
+  "cic_label": "HTTP Flood",
+  "cic_category": "DDoS",
+  "attack_behavior": "Send high volume of valid HTTP requests to exhaust web server",
+  "protocol": "HTTP",
+  "target_service": "web_admin:80",
+  "target_device_types": [
+   "camera",
+   "hub",
+   "plug"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1499.002",
+  "attck_technique_name": "Endpoint DoS: Service Exhaustion Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "IoT web servers have limited request handling capacity",
+  "cve_search_keywords": [
+   "HTTP flood IoT web server denial of service"
+  ],
+  "cve_search_cwes": [
+   "CWE-400"
+  ],
+  "cve_relevant_products": [
+   "lighttpd",
+   "boa",
+   "goahead"
+  ],
+  "pcap_indicators": {
+   "protocol": "HTTP",
+   "method": "GET|POST",
+   "high_rate": true
+  },
+  "tools_used": "LOIC/HOIC variant",
+  "grounding_quality": "strong",
+  "grounding_notes": ""
+ },
+ "DDOS-UFRAG-001": {
+  "attack_id": "DDOS-UFRAG-001",
+  "cic_label": "UDP Fragmentation",
+  "cic_category": "DDoS",
+  "attack_behavior": "Send oversized/fragmented UDP packets to exhaust reassembly resources",
+  "protocol": "UDP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1498.001",
+  "attck_technique_name": "Network DoS: Direct Network Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "Fragment reassembly buffers exhausted on resource-constrained IoT",
+  "cve_search_keywords": [
+   "UDP fragmentation IoT denial of service"
+  ],
+  "cve_search_cwes": [
+   "CWE-400",
+   "CWE-770"
+  ],
+  "cve_relevant_products": [
+   "lwip",
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "protocol": "UDP",
+   "ip_frag": true,
+   "multi_source": true
+  },
+  "tools_used": "hping3",
+  "grounding_quality": "moderate",
+  "grounding_notes": ""
+ },
+ "DDOS-TCP-001": {
+  "attack_id": "DDOS-TCP-001",
+  "cic_label": "TCP Flood",
+  "cic_category": "DDoS",
+  "attack_behavior": "Flood target with high volume of TCP packets",
+  "protocol": "TCP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1498.001",
+  "attck_technique_name": "Network DoS: Direct Network Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "Generic TCP volume exceeds processing capacity",
+  "cve_search_keywords": [
+   "TCP flood denial of service IoT"
+  ],
+  "cve_search_cwes": [
+   "CWE-400"
+  ],
+  "cve_relevant_products": [
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "protocol": "TCP",
+   "high_rate": true,
+   "multi_source": true
+  },
+  "tools_used": "hping3",
+  "grounding_quality": "moderate",
+  "grounding_notes": ""
+ },
+ "DDOS-SYN-001": {
+  "attack_id": "DDOS-SYN-001",
+  "cic_label": "SYN Flood",
+  "cic_category": "DDoS",
+  "attack_behavior": "Flood target with TCP SYN packets to exhaust connection state table",
+  "protocol": "TCP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1498.001",
+  "attck_technique_name": "Network DoS: Direct Network Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "Half-open connections exhaust SYN backlog; classic amplification on IoT",
+  "cve_search_keywords": [
+   "SYN flood IoT TCP stack"
+  ],
+  "cve_search_cwes": [
+   "CWE-400"
+  ],
+  "cve_relevant_products": [
+   "lwip",
+   "vxworks",
+   "freertos_tcp"
+  ],
+  "pcap_indicators": {
+   "tcp_flags": "S",
+   "no_ack": true,
+   "high_rate": true,
+   "spoofed_src": true
+  },
+  "tools_used": "hping3",
+  "grounding_quality": "strong",
+  "grounding_notes": "IoT TCP stacks (lwIP, etc.) often lack SYN cookies, making them highly vulnerable"
+ },
+ "DDOS-SIP-001": {
+  "attack_id": "DDOS-SIP-001",
+  "cic_label": "SynonymousIP Flood",
+  "cic_category": "DDoS",
+  "attack_behavior": "Flood from many IPs that resolve to same origin (amplification)",
+  "protocol": "TCP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1498.001",
+  "attck_technique_name": "Network DoS: Direct Network Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "IP aliasing amplifies apparent source diversity",
+  "cve_search_keywords": [
+   "IP flood amplification IoT"
+  ],
+  "cve_search_cwes": [
+   "CWE-400"
+  ],
+  "cve_relevant_products": [
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "multi_source": true,
+   "high_rate": true,
+   "similar_payload": true
+  },
+  "tools_used": "custom script",
+  "grounding_quality": "moderate",
+  "grounding_notes": ""
+ },
+ "DOS-TCP-001": {
+  "attack_id": "DOS-TCP-001",
+  "cic_label": "TCP Flood",
+  "cic_category": "DoS",
+  "attack_behavior": "Single source TCP flood to overwhelm target",
+  "protocol": "TCP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1499.001",
+  "attck_technique_name": "Endpoint DoS: OS Exhaustion Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "Single-source flood; IoT devices vulnerable due to limited resources",
+  "cve_search_keywords": [
+   "TCP flood IoT single source"
+  ],
+  "cve_search_cwes": [
+   "CWE-400"
+  ],
+  "cve_relevant_products": [
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "protocol": "TCP",
+   "single_source": true,
+   "high_rate": true
+  },
+  "tools_used": "hping3",
+  "grounding_quality": "moderate",
+  "grounding_notes": ""
+ },
+ "DOS-HTTP-001": {
+  "attack_id": "DOS-HTTP-001",
+  "cic_label": "HTTP Flood",
+  "cic_category": "DoS",
+  "attack_behavior": "Single source HTTP request flood",
+  "protocol": "HTTP",
+  "target_service": "web_admin:80",
+  "target_device_types": [
+   "camera",
+   "hub",
+   "plug"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1499.002",
+  "attck_technique_name": "Endpoint DoS: Service Exhaustion Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "Single source can exhaust IoT web server with limited workers",
+  "cve_search_keywords": [
+   "HTTP denial service IoT camera web interface"
+  ],
+  "cve_search_cwes": [
+   "CWE-400"
+  ],
+  "cve_relevant_products": [
+   "lighttpd",
+   "boa",
+   "goahead",
+   "mini_httpd"
+  ],
+  "pcap_indicators": {
+   "protocol": "HTTP",
+   "single_source": true,
+   "high_rate": true
+  },
+  "tools_used": "custom script",
+  "grounding_quality": "strong",
+  "grounding_notes": ""
+ },
+ "DOS-SYN-001": {
+  "attack_id": "DOS-SYN-001",
+  "cic_label": "SYN Flood",
+  "cic_category": "DoS",
+  "attack_behavior": "Single source SYN flood",
+  "protocol": "TCP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1499.001",
+  "attck_technique_name": "Endpoint DoS: OS Exhaustion Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "Even single-source SYN floods can overwhelm IoT TCP stacks",
+  "cve_search_keywords": [
+   "SYN flood embedded IoT"
+  ],
+  "cve_search_cwes": [
+   "CWE-400"
+  ],
+  "cve_relevant_products": [
+   "lwip",
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "tcp_flags": "S",
+   "single_source": true,
+   "high_rate": true
+  },
+  "tools_used": "hping3",
+  "grounding_quality": "strong",
+  "grounding_notes": ""
+ },
+ "DOS-UDP-001": {
+  "attack_id": "DOS-UDP-001",
+  "cic_label": "UDP Flood",
+  "cic_category": "DoS",
+  "attack_behavior": "Single source UDP flood",
+  "protocol": "UDP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1499.001",
+  "attck_technique_name": "Endpoint DoS: OS Exhaustion Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "UDP volume exceeds IoT device processing capacity",
+  "cve_search_keywords": [
+   "UDP flood IoT"
+  ],
+  "cve_search_cwes": [
+   "CWE-400"
+  ],
+  "cve_relevant_products": [
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "protocol": "UDP",
+   "single_source": true,
+   "high_rate": true
+  },
+  "tools_used": "hping3",
+  "grounding_quality": "moderate",
+  "grounding_notes": ""
+ },
+ "RECON-PING-001": {
+  "attack_id": "RECON-PING-001",
+  "cic_label": "Ping Sweep",
+  "cic_category": "Recon",
+  "attack_behavior": "ICMP echo requests to discover live hosts on network",
+  "protocol": "ICMP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Discovery",
+  "attck_technique_id": "T1018",
+  "attck_technique_name": "Remote System Discovery",
+  "cwe_id": "CWE-200",
+  "cwe_name": "Exposure of Sensitive Information",
+  "cwe_rationale": "Devices respond to ICMP revealing their presence on the network",
+  "cve_search_keywords": [
+   "ICMP information disclosure IoT"
+  ],
+  "cve_search_cwes": [
+   "CWE-200"
+  ],
+  "cve_relevant_products": [
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "protocol": "ICMP",
+   "type": 8,
+   "sequential_dst": true
+  },
+  "tools_used": "nmap -sn",
+  "grounding_quality": "weak",
+  "grounding_notes": "Protocol-level; no device-specific CVE expected"
+ },
+ "RECON-OS-001": {
+  "attack_id": "RECON-OS-001",
+  "cic_label": "OS Scan",
+  "cic_category": "Recon",
+  "attack_behavior": "TCP/IP stack fingerprinting to identify target operating system",
+  "protocol": "TCP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Discovery",
+  "attck_technique_id": "T1082",
+  "attck_technique_name": "System Information Discovery",
+  "cwe_id": "CWE-200",
+  "cwe_name": "Exposure of Sensitive Information",
+  "cwe_rationale": "TCP/IP stack responds with OS-identifying characteristics",
+  "cve_search_keywords": [
+   "OS fingerprinting IoT information leak"
+  ],
+  "cve_search_cwes": [
+   "CWE-200"
+  ],
+  "cve_relevant_products": [
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "protocol": "TCP",
+   "unusual_flags": true,
+   "varied_ttl": true
+  },
+  "tools_used": "nmap -O",
+  "grounding_quality": "weak",
+  "grounding_notes": ""
+ },
+ "RECON-VULN-001": {
+  "attack_id": "RECON-VULN-001",
+  "cic_label": "Vulnerability Scan",
+  "cic_category": "Recon",
+  "attack_behavior": "Probe known vulnerability endpoints on target services",
+  "protocol": "TCP/HTTP",
+  "target_service": "web_admin:80",
+  "target_device_types": [
+   "camera",
+   "hub",
+   "plug"
+  ],
+  "attck_tactic": "Discovery",
+  "attck_technique_id": "T1046",
+  "attck_technique_name": "Network Service Scanning",
+  "cwe_id": "CWE-200",
+  "cwe_name": "Exposure of Sensitive Information",
+  "cwe_rationale": "Services reveal vulnerability indicators to scanner probes",
+  "cve_search_keywords": [
+   "vulnerability scan IoT web interface"
+  ],
+  "cve_search_cwes": [
+   "CWE-200"
+  ],
+  "cve_relevant_products": [
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "protocol": "HTTP",
+   "known_vuln_paths": true,
+   "sequential_probes": true
+  },
+  "tools_used": "nmap --script vuln / Nessus",
+  "grounding_quality": "moderate",
+  "grounding_notes": ""
+ },
+ "RECON-PORT-001": {
+  "attack_id": "RECON-PORT-001",
+  "cic_label": "Port Scan",
+  "cic_category": "Recon",
+  "attack_behavior": "Systematically probe TCP/UDP ports to discover services",
+  "protocol": "TCP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Discovery",
+  "attck_technique_id": "T1046",
+  "attck_technique_name": "Network Service Scanning",
+  "cwe_id": "CWE-200",
+  "cwe_name": "Exposure of Sensitive Information",
+  "cwe_rationale": "Open ports reveal running services and potential attack surface",
+  "cve_search_keywords": [
+   "port scan IoT service discovery"
+  ],
+  "cve_search_cwes": [
+   "CWE-200"
+  ],
+  "cve_relevant_products": [
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "protocol": "TCP",
+   "sequential_ports": true,
+   "syn_only": true
+  },
+  "tools_used": "nmap -sS/-sT",
+  "grounding_quality": "weak",
+  "grounding_notes": ""
+ },
+ "RECON-HOST-001": {
+  "attack_id": "RECON-HOST-001",
+  "cic_label": "Host Discovery",
+  "cic_category": "Recon",
+  "attack_behavior": "ARP/ICMP/TCP probes to enumerate live hosts",
+  "protocol": "ARP/ICMP/TCP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Discovery",
+  "attck_technique_id": "T1018",
+  "attck_technique_name": "Remote System Discovery",
+  "cwe_id": "CWE-200",
+  "cwe_name": "Exposure of Sensitive Information",
+  "cwe_rationale": "Network protocols inherently respond to discovery probes",
+  "cve_search_keywords": [
+   "host discovery IoT network"
+  ],
+  "cve_search_cwes": [
+   "CWE-200"
+  ],
+  "cve_relevant_products": [
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "protocol": "ARP|ICMP",
+   "broadcast": true,
+   "sequential": true
+  },
+  "tools_used": "nmap -sn",
+  "grounding_quality": "weak",
+  "grounding_notes": ""
+ },
+ "BF-DICT-001": {
+  "attack_id": "BF-DICT-001",
+  "cic_label": "Dictionary Brute Force",
+  "cic_category": "Brute Force",
+  "attack_behavior": "Systematically try username/password combinations against login services",
+  "protocol": "TCP",
+  "target_service": "ssh:22|telnet:23|web_admin:80",
+  "target_device_types": [
+   "camera",
+   "hub",
+   "plug",
+   "speaker"
+  ],
+  "attck_tactic": "Credential Access",
+  "attck_technique_id": "T1110.001",
+  "attck_technique_name": "Brute Force: Password Guessing",
+  "cwe_id": "CWE-307",
+  "cwe_name": "Improper Restriction of Excessive Authentication Attempts",
+  "cwe_rationale": "IoT devices lack account lockout; allow unlimited login attempts",
+  "cve_search_keywords": [
+   "brute force IoT default credentials",
+   "authentication bypass IoT"
+  ],
+  "cve_search_cwes": [
+   "CWE-307",
+   "CWE-521",
+   "CWE-798"
+  ],
+  "cve_relevant_products": [
+   "dlink_camera",
+   "tplink",
+   "hikvision",
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "protocol": "TCP",
+   "dst_port": [
+    22,
+    23,
+    80
+   ],
+   "repeated_auth": true,
+   "failed_logins": true,
+   "dataset_protocol_mean": {
+    "TCP": 0.72,
+    "HTTPS": 0.38,
+    "SSH": 0.17
+   }
+  },
+  "tools_used": "Hydra / Medusa",
+  "grounding_quality": "strong",
+  "grounding_notes": "IoT devices commonly have no rate limiting or lockout on auth. CICIoT2023 CSV mix shows SSH\u22480.17 (unique among classes), supporting ssh:22 as a real target in this capture."
+ },
+ "SPOOF-ARP-001": {
+  "attack_id": "SPOOF-ARP-001",
+  "cic_label": "ARP Spoofing",
+  "cic_category": "Spoofing",
+  "attack_behavior": "Send forged ARP replies to poison victim ARP cache, enabling MITM",
+  "protocol": "ARP",
+  "target_service": "layer2",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Credential Access",
+  "attck_technique_id": "T1557.002",
+  "attck_technique_name": "Adversary-in-the-Middle: ARP Cache Poisoning",
+  "cwe_id": "CWE-345",
+  "cwe_name": "Insufficient Verification of Data Authenticity",
+  "cwe_rationale": "ARP protocol has no authentication; all replies are trusted",
+  "cve_search_keywords": [
+   "ARP spoofing IoT"
+  ],
+  "cve_search_cwes": [
+   "CWE-345"
+  ],
+  "cve_relevant_products": [
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "protocol": "ARP",
+   "op": 2,
+   "duplicate_ip": true,
+   "gratuitous": true
+  },
+  "tools_used": "arpspoof / Ettercap",
+  "grounding_quality": "strong",
+  "grounding_notes": "Protocol-level weakness; no device-specific CVE. This is a FINDING."
+ },
+ "SPOOF-DNS-001": {
+  "attack_id": "SPOOF-DNS-001",
+  "cic_label": "DNS Spoofing",
+  "cic_category": "Spoofing",
+  "attack_behavior": "Forge DNS responses to redirect victim to attacker-controlled addresses",
+  "protocol": "DNS/UDP",
+  "target_service": "dns:53",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Credential Access",
+  "attck_technique_id": "T1557.004",
+  "attck_technique_name": "Adversary-in-the-Middle: DNS Spoofing",
+  "cwe_id": "CWE-350",
+  "cwe_name": "Reliance on Reverse DNS Resolution for Security",
+  "cwe_rationale": "IoT devices trust DNS responses without validation (no DNSSEC)",
+  "cve_search_keywords": [
+   "DNS spoofing IoT",
+   "DNS cache poisoning embedded"
+  ],
+  "cve_search_cwes": [
+   "CWE-350"
+  ],
+  "cve_relevant_products": [
+   "generic_iot"
+  ],
+  "pcap_indicators": {
+   "protocol": "DNS",
+   "response": true,
+   "mismatched_ip": true
+  },
+  "tools_used": "dnsspoof / Ettercap",
+  "grounding_quality": "moderate",
+  "grounding_notes": ""
+ },
+ "WEB-SQLI-001": {
+  "attack_id": "WEB-SQLI-001",
+  "cic_label": "SQL Injection",
+  "cic_category": "Web-based",
+  "attack_behavior": "Inject SQL commands via web interface input fields",
+  "protocol": "HTTP",
+  "target_service": "web_admin:80",
+  "target_device_types": [
+   "camera",
+   "hub"
+  ],
+  "attck_tactic": "Initial Access",
+  "attck_technique_id": "T1190",
+  "attck_technique_name": "Exploit Public-Facing Application",
+  "cwe_id": "CWE-89",
+  "cwe_name": "Improper Neutralization of Special Elements in SQL Command",
+  "cwe_rationale": "IoT web interfaces pass user input to backend DB queries unsanitized",
+  "cve_search_keywords": [
+   "SQL injection IoT camera web interface",
+   "SQL injection IP camera admin"
+  ],
+  "cve_search_cwes": [
+   "CWE-89"
+  ],
+  "cve_relevant_products": [
+   "dlink_dcs",
+   "hikvision",
+   "provision_isr",
+   "tplink_tapo",
+   "goahead_webserver"
+  ],
+  "pcap_indicators": {
+   "protocol": "HTTP",
+   "method": "GET|POST",
+   "payload_patterns": [
+    "' OR ",
+    "UNION SELECT",
+    "1=1",
+    "DROP TABLE",
+    "information_schema"
+   ]
+  },
+  "tools_used": "sqlmap",
+  "grounding_quality": "strong",
+  "grounding_notes": "Web-based attacks have the strongest CVE grounding potential"
+ },
+ "WEB-CMDI-001": {
+  "attack_id": "WEB-CMDI-001",
+  "cic_label": "Command Injection",
+  "cic_category": "Web-based",
+  "attack_behavior": "Inject OS commands via web interface parameters",
+  "protocol": "HTTP",
+  "target_service": "web_admin:80",
+  "target_device_types": [
+   "camera",
+   "hub",
+   "plug"
+  ],
+  "attck_tactic": "Execution",
+  "attck_technique_id": "T1059.004",
+  "attck_technique_name": "Command and Scripting Interpreter: Unix Shell",
+  "cwe_id": "CWE-78",
+  "cwe_name": "Improper Neutralization of Special Elements in OS Command",
+  "cwe_rationale": "IoT CGI scripts pass parameters to shell commands without sanitization",
+  "cve_search_keywords": [
+   "command injection IoT camera firmware",
+   "OS command injection IP camera CGI"
+  ],
+  "cve_search_cwes": [
+   "CWE-78"
+  ],
+  "cve_relevant_products": [
+   "dlink_dcs",
+   "hikvision",
+   "tplink",
+   "netgear",
+   "provision_isr"
+  ],
+  "pcap_indicators": {
+   "protocol": "HTTP",
+   "method": "GET|POST",
+   "payload_patterns": [
+    "; cat ",
+    "| ls",
+    "`whoami`",
+    "$(id)",
+    "; wget ",
+    "/bin/sh"
+   ]
+  },
+  "tools_used": "commix / manual",
+  "grounding_quality": "strong",
+  "grounding_notes": ""
+ },
+ "WEB-BACK-001": {
+  "attack_id": "WEB-BACK-001",
+  "cic_label": "Backdoor Malware",
+  "cic_category": "Web-based",
+  "attack_behavior": "Upload or inject persistent backdoor into device web server",
+  "protocol": "HTTP",
+  "target_service": "web_admin:80",
+  "target_device_types": [
+   "camera",
+   "hub"
+  ],
+  "attck_tactic": "Persistence",
+  "attck_technique_id": "T1505.003",
+  "attck_technique_name": "Server Software Component: Web Shell",
+  "cwe_id": "CWE-506",
+  "cwe_name": "Embedded Malicious Code",
+  "cwe_rationale": "Backdoor achieves persistence on IoT device via web shell",
+  "cve_search_keywords": [
+   "backdoor IoT firmware web shell",
+   "persistent backdoor IP camera"
+  ],
+  "cve_search_cwes": [
+   "CWE-506",
+   "CWE-912"
+  ],
+  "cve_relevant_products": [
+   "dlink_dcs",
+   "hikvision",
+   "generic_camera"
+  ],
+  "pcap_indicators": {
+   "protocol": "HTTP",
+   "method": "POST",
+   "payload_patterns": [
+    "eval(",
+    "system(",
+    "exec(",
+    "php",
+    "shell_exec"
+   ]
+  },
+  "tools_used": "custom payload",
+  "grounding_quality": "strong",
+  "grounding_notes": ""
+ },
+ "WEB-UPLOAD-001": {
+  "attack_id": "WEB-UPLOAD-001",
+  "cic_label": "Uploading Attack",
+  "cic_category": "Web-based",
+  "attack_behavior": "Upload malicious file via web interface file upload functionality",
+  "protocol": "HTTP",
+  "target_service": "web_admin:80",
+  "target_device_types": [
+   "camera",
+   "hub"
+  ],
+  "attck_tactic": "Execution",
+  "attck_technique_id": "T1190",
+  "attck_technique_name": "Exploit Public-Facing Application",
+  "cwe_id": "CWE-434",
+  "cwe_name": "Unrestricted Upload of File with Dangerous Type",
+  "cwe_rationale": "IoT web interfaces allow file uploads without type/content validation",
+  "cve_search_keywords": [
+   "file upload vulnerability IoT camera",
+   "unrestricted upload IP camera firmware"
+  ],
+  "cve_search_cwes": [
+   "CWE-434"
+  ],
+  "cve_relevant_products": [
+   "dlink_dcs",
+   "hikvision",
+   "provision_isr"
+  ],
+  "pcap_indicators": {
+   "protocol": "HTTP",
+   "method": "POST",
+   "content_type": "multipart/form-data",
+   "payload_patterns": [
+    ".php",
+    ".sh",
+    ".elf",
+    "#!/"
+   ]
+  },
+  "tools_used": "curl / custom uploader",
+  "grounding_quality": "strong",
+  "grounding_notes": ""
+ },
+ "WEB-XSS-001": {
+  "attack_id": "WEB-XSS-001",
+  "cic_label": "XSS",
+  "cic_category": "Web-based",
+  "attack_behavior": "Inject JavaScript into web interface pages",
+  "protocol": "HTTP",
+  "target_service": "web_admin:80",
+  "target_device_types": [
+   "camera",
+   "hub",
+   "plug"
+  ],
+  "attck_tactic": "Initial Access",
+  "attck_technique_id": "T1189",
+  "attck_technique_name": "Drive-by Compromise",
+  "cwe_id": "CWE-79",
+  "cwe_name": "Improper Neutralization of Input During Web Page Generation",
+  "cwe_rationale": "IoT web interfaces render user input without output encoding",
+  "cve_search_keywords": [
+   "XSS IoT camera web interface",
+   "cross-site scripting IP camera admin"
+  ],
+  "cve_search_cwes": [
+   "CWE-79"
+  ],
+  "cve_relevant_products": [
+   "dlink_dcs",
+   "hikvision",
+   "tplink",
+   "provision_isr"
+  ],
+  "pcap_indicators": {
+   "protocol": "HTTP",
+   "payload_patterns": [
+    "<script>",
+    "javascript:",
+    "onerror=",
+    "alert("
+   ]
+  },
+  "tools_used": "XSSer / manual",
+  "grounding_quality": "strong",
+  "grounding_notes": ""
+ },
+ "WEB-HIJACK-001": {
+  "attack_id": "WEB-HIJACK-001",
+  "cic_label": "Browser Hijacking",
+  "cic_category": "Web-based",
+  "attack_behavior": "Redirect browser via injected content to attacker-controlled site",
+  "protocol": "HTTP",
+  "target_service": "web_admin:80",
+  "target_device_types": [
+   "camera",
+   "hub"
+  ],
+  "attck_tactic": "Initial Access",
+  "attck_technique_id": "T1189",
+  "attck_technique_name": "Drive-by Compromise",
+  "cwe_id": "CWE-601",
+  "cwe_name": "URL Redirection to Untrusted Site",
+  "cwe_rationale": "IoT admin pages allow open redirects via URL parameters",
+  "cve_search_keywords": [
+   "browser hijacking IoT",
+   "open redirect IoT camera"
+  ],
+  "cve_search_cwes": [
+   "CWE-601"
+  ],
+  "cve_relevant_products": [
+   "dlink_dcs",
+   "generic_camera"
+  ],
+  "pcap_indicators": {
+   "protocol": "HTTP",
+   "status_code": [
+    301,
+    302
+   ],
+   "redirect_to_external": true
+  },
+  "tools_used": "manual injection",
+  "grounding_quality": "moderate",
+  "grounding_notes": ""
+ },
+ "MIRAI-GREIP-001": {
+  "attack_id": "MIRAI-GREIP-001",
+  "cic_label": "GREIP Flood",
+  "cic_category": "Mirai",
+  "attack_behavior": "Mirai-infected bots flood target using GRE-encapsulated IP packets",
+  "protocol": "GRE/IP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1498.001",
+  "attck_technique_name": "Network DoS: Direct Network Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "GRE encapsulation bypasses simple filters; volume overwhelms target",
+  "cve_search_keywords": [
+   "Mirai botnet GRE flood",
+   "Mirai IoT default credentials"
+  ],
+  "cve_search_cwes": [
+   "CWE-798",
+   "CWE-400"
+  ],
+  "cve_relevant_products": [
+   "mirai_target_devices",
+   "dlink",
+   "huawei_hg532",
+   "zyxel",
+   "realtek_sdk"
+  ],
+  "pcap_indicators": {
+   "protocol": "GRE",
+   "encapsulated_ip": true,
+   "high_rate": true,
+   "bot_behavior": true
+  },
+  "tools_used": "Mirai variant",
+  "grounding_quality": "strong",
+  "grounding_notes": "Initial compromise via CWE-798 (default creds); flood is CWE-400. Map BOTH weaknesses."
+ },
+ "MIRAI-GREETH-001": {
+  "attack_id": "MIRAI-GREETH-001",
+  "cic_label": "Greeth Flood",
+  "cic_category": "Mirai",
+  "attack_behavior": "Mirai bots flood target with GRE-encapsulated Ethernet frames",
+  "protocol": "GRE/Ethernet",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1498.001",
+  "attck_technique_name": "Network DoS: Direct Network Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "GRE-Ethernet floods consume bandwidth and switch resources",
+  "cve_search_keywords": [
+   "Mirai GRE Ethernet flood",
+   "Mirai botnet variant"
+  ],
+  "cve_search_cwes": [
+   "CWE-798",
+   "CWE-400"
+  ],
+  "cve_relevant_products": [
+   "mirai_target_devices"
+  ],
+  "pcap_indicators": {
+   "protocol": "GRE",
+   "inner_ethernet": true,
+   "high_rate": true
+  },
+  "tools_used": "Mirai variant",
+  "grounding_quality": "strong",
+  "grounding_notes": ""
+ },
+ "MIRAI-UDP-001": {
+  "attack_id": "MIRAI-UDP-001",
+  "cic_label": "UDPPlain",
+  "cic_category": "Mirai",
+  "attack_behavior": "Mirai bots perform simple UDP flood with random payload",
+  "protocol": "UDP",
+  "target_service": "any",
+  "target_device_types": [
+   "all_ip_devices"
+  ],
+  "attck_tactic": "Impact",
+  "attck_technique_id": "T1498.001",
+  "attck_technique_name": "Network DoS: Direct Network Flood",
+  "cwe_id": "CWE-400",
+  "cwe_name": "Uncontrolled Resource Consumption",
+  "cwe_rationale": "Simplest Mirai flood; raw UDP volume",
+  "cve_search_keywords": [
+   "Mirai UDP flood plain",
+   "Mirai botnet IoT"
+  ],
+  "cve_search_cwes": [
+   "CWE-798",
+   "CWE-400"
+  ],
+  "cve_relevant_products": [
+   "mirai_target_devices"
+  ],
+  "pcap_indicators": {
+   "protocol": "UDP",
+   "random_payload": true,
+   "high_rate": true,
+   "bot_behavior": true
+  },
+  "tools_used": "Mirai variant",
+  "grounding_quality": "strong",
+  "grounding_notes": ""
+ }
+}

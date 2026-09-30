@@ -1,0 +1,44 @@
+{
+ "threshold": 0.4,
+ "exploit_weight": 0.15,
+ "as_published": {
+  "cves": 208,
+  "with_module": 54,
+  "coverage_pct": 26.0
+ },
+ "exploit_feature_removed": {
+  "cves": 182,
+  "with_module": 51,
+  "coverage_pct": 28.0
+ },
+ "admitted_only_by_exploit_feature": 26,
+ "of_those_with_module": 3,
+ "dropped_cves": [
+  "CVE-2000-0920",
+  "CVE-2001-0385",
+  "CVE-2001-0647",
+  "CVE-2008-1270",
+  "CVE-2009-4496",
+  "CVE-2010-0295",
+  "CVE-2011-4362",
+  "CVE-2013-7389",
+  "CVE-2014-125117",
+  "CVE-2016-10372",
+  "CVE-2017-17106",
+  "CVE-2018-10088",
+  "CVE-2018-14559",
+  "CVE-2018-16523",
+  "CVE-2018-16525",
+  "CVE-2018-16526",
+  "CVE-2018-16601",
+  "CVE-2018-18708",
+  "CVE-2019-6971",
+  "CVE-2020-11896",
+  "CVE-2020-11898",
+  "CVE-2020-11900",
+  "CVE-2020-11901",
+  "CVE-2020-8423",
+  "CVE-2021-31251",
+  "CVE-2022-22707"
+ ]
+}
